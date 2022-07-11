@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/layoutcolor"
+    tools:context=".watchParty.PartyPrivacyActivity"
+    tools:ignore="Overdraw">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/bold"
+        android:text="@string/privacy"
+        android:textColor="@color/colorPrimary"
+        android:textSize="43sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/bold_roboto"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/set_watch_party_privacy"
+        android:textColor="#596C84"
+        android:layout_marginStart="24dp"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+       tools:ignore="ContentDescription" />
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+        <LinearLayout
+            android:backgroundTint="?attr/layoutcolor"
+            android:background="@drawable/privacy_bg"
+            android:elevation="2dp"
+            android:layout_margin="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <RadioButton
+                android:id="@+id/privateP"
+                android:buttonTint="?attr/textcolor"
+                android:textSize="16sp"
+                android:text="@string/private_watch_party"
+                android:fontFamily="@font/bold_roboto"
+                android:textColor="?attr/textcolor"
+                android:layout_marginStart="16dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:backgroundTint="?attr/layoutcolor"
+            android:background="@drawable/privacy_bg"
+            android:elevation="2dp"
+            android:layout_margin="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <RadioButton
+                android:id="@+id/publicP"
+                android:buttonTint="?attr/textcolor"
+                android:checked="true"
+                android:textSize="16sp"
+                android:text="@string/public_watch_party"
+                android:fontFamily="@font/bold_roboto"
+                android:textColor="?attr/textcolor"
+                android:layout_marginStart="16dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/createWeb"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/btn_round"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/next"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:stateListAnimator="@null"
+        android:fontFamily="@font/bold_roboto"
+        android:gravity="center"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout"
+        tools:ignore="UnusedAttribute" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

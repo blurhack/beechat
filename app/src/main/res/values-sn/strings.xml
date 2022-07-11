@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+
+    <string name="msg_connection_error">Dambudziko rekubatanidza, tapota tarisa marongero enetiweki kana kuti ita chokwadi chekuti zita rechiteshi/tokeni yekuwana ichokwadi</string>
+    <string name="verification_about">Bheji rakasimbiswa icheki inoonekwa paakaundi kuratidza kuti account ndiyo yechokwadi kuvapo kwemunhu ane mukurumbira, ane mukurumbira, rudzi rwepasi rose kana mubatanidzwa waanomiririra. Kuendesa chikumbiro hakuvimbise kuti account yako ichasimbiswa.</string>
+    <string name="add_members">Wedzera Nhengo</string>
+    <string name="post">Post</string>
+    <string name="analysis">Analysis</string>
+    <string name="online">Online</string>
+    <string name="products">Products</string>
+    <string name="messages">Mharidzo</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="reported_users">Vakashuma Vashandisi</string>
+    <string name="reported_groups">Zvinotaurwa Mapoka</string>
+    <string name="reported_posts">Zvinotaurwa Posts</string>
+    <string name="reported_reels">Yakanzi Reels</string>
+    <string name="verification_requests">Zvikumbiro zvekuongorora</string>
+    <string name="remove_verified_users">Bvisa Verified vashandisi</string>
+    <string name="warned_users">Yambiro vashandisi</string>
+    <string name="warned_groups">Mapoka akayambirwa</string>
+    <string name="ads">Ads</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">Tumira vhidhiyo, mufananidzo</string>
+    <string name="comments">Comments</string>
+    <string name="like">Kuda</string>
+    <string name="share">Share</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">Nyora mhinduro...</string>
+    <string name="create_post">Gadzira Post</string>
+    <string name="everyone">Munhu wese</string>
+    <string name="add_location">Wedzera Nzvimbo</string>
+    <string name="add_to_your_post">Wedzera kune yako post</string>
+    <string name="edit_your_email">Rongedza email yako</string>
+    <string name="new_email">New Email</string>
+    <string name="password">Pasiwedhi</string>
+    <string name="bio">Bio</string>
+    <string name="privatetext">Zvakavanzika</string>
+    <string name="save">Sevha</string>
+    <string name="phone_no">Nhare yefoni.</string>
+    <string name="edit_your_phone_no">Rongedza nhamba yefoni yako.</string>
+    <string name="new_phone_no">Nharembozha itsva.</string>
+    <string name="edit_your_password">Rongedza password yako</string>
+    <string name="current_password">pasiwedhi yazvino</string>
+    <string name="new_password">New Password</string>
+    <string name="change">Change</string>
+    <string name="hold_for_video_tap_for_photo">Bata vhidhiyo, Tinya kuti uwane mufananidzo</string>
+    <string name="masks">Masiki</string>
+    <string name="effects">Migumisiro</string>
+    <string name="filters">Sefa</string>
+    <string name="feelings">Manzwiro</string>
+    <string name="travelling">Kufamba</string>
+    <string name="watching">Kuona</string>
+    <string name="listening">Kuteerera</string>
+    <string name="thinking_about">Kufunga nezvazvo</string>
+    <string name="celebration">Mhemberero</string>
+    <string name="looking_for">Kutsvaga</string>
+    <string name="playing">Kutamba</string>
+    <string name="happy">Happy</string>
+    <string name="loved">Anodiwa</string>
+    <string name="sad">Suwa</string>
+    <string name="crying">Kuchema</string>
+    <string name="angry">Angry</string>
+    <string name="confused">Kuvhiringika</string>
+    <string name="broken">Yakaputsika</string>
+    <string name="cool">Kutonhora</string>
+    <string name="funny">Vadivelu Comedy Funny</string>
+    <string name="tired">Taneta</string>
+    <string name="shock">Shock</string>
+    <string name="lovely">Lovely</string>
+    <string name="sleepy">Vakarara</string>
+    <string name="expressionless">Expressionless</string>
+    <string name="blessed">Blessed</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">Kuti uise zvakare password yako isa iyo email yakanyoreswa. Panozotumirwa chinongedzo paemail iyi kuti uise patsva password yako</string>
+    <string name="send_link">Send Link</string>
+    <string name="type_your_phone_number">Nyora nhamba yako yefoni</string>
+    <string name="generate_otp">Gadzira OTP</string>
+    <string name="continue_with_email_instead">Ramba uine email pane</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">Tumira meseji...</string>
+    <string name="my_groups">MaGroups angu</string>
+    <string name="members">Members</string>
+    <string name="edit_profile">Rongedza Profile</string>
+    <string name="join_request">Join Chikumbiro</string>
+    <string name="cancel_request">Cancel Request</string>
+    <string name="what_s_on_your_mind">Chii chiri mupfungwa dzako?</string>
+    <string name="image">Image</string>
+    <string name="audio">Vadivelu Comedy Audio</string>
+    <string name="invite_members">Koka Nhengo</string>
+    <string name="set_a_location">Seta nzvimbo</string>
+    <string name="login_in_to_continue">Pinda mukati kuti uenderere mberi</string>
+    <string name="login">Login</string>
+    <string name="create_new_account">Gadzira account itsva</string>
+    <string name="join">Join</string>
+    <string name="menu">Menu</string>
+    <string name="marketplace">Marketplace</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="photo_editor">Photo Editor</string>
+    <string name="video_editor">Vhidhiyo Mupepeti</string>
+    <string name="verification">Verification</string>
+    <string name="policy">Policy</string>
+    <string name="edit_password">Edit Password</string>
+    <string name="edit_number">Edit Number</string>
+    <string name="edit_mail">Edit Mail</string>
+    <string name="invite">Referral Kukoka</string>
+    <string name="near_by">Pedyo pedyo</string>
+    <string name="log_out">Kubuda</string>
+    <string name="admin_panel">Admin Panel</string>
+    <string name="notifications">Notifications</string>
+    <string name="party_post">Party Post</string>
+    <string name="post_about_your_watch_party">Tumira nezvepati yako yewachi</string>
+    <string name="what_s_on_your_mind_mention_hashtag">Chii chiri mupfungwa dzako? @mention</string>
+    <string name="set_watch_party_privacy">Seta zvakavanzika zvepati</string>
+    <string name="private_watch_party">Private Watch Party</string>
+    <string name="public_watch_party">Public Watch Party</string>
+    <string name="next">Next</string>
+    <string name="sell_product">Tengesa Chigadzirwa</string>
+    <string name="title">Title</string>
+    <string name="price">Mutengo</string>
+    <string name="category">Category</string>
+    <string name="condition">Condition</string>
+    <string name="description">Tsanangudzo</string>
+    <string name="location">Nzvimbo</string>
+    <string name="post_reel">Post Reel</string>
+    <string name="describe_you_video_mention_hashtag">Rondedzera iwe vhidhiyo @Mention</string>
+    <string name="privacy">Privacy</string>
+    <string name="allow_comments">Bvumira Mhinduro</string>
+    <string name="remove">Bvisa</string>
+    <string name="known_as">Anozivikanwa se</string>
+    <string name="accept">Gamuchira</string>
+    <string name="government_id">Hurumende ID</string>
+    <string name="message">Mharidzo</string>
+    <string name="poke">Poke</string>
+    <string name="block">Block</string>
+    <string name="reject">Ramba</string>
+    <string name="apps">Apps</string>
+    <string name="download">Download</string>
+    <string name="copy">Copy</string>
+    <string name="delete">Delete</string>
+    <string name="liked_by">Yakafarirwa na</string>
+    <string name="rainy_shoes">Shangu dzekunaya</string>
+    <string name="camera">Kamera</string>
+    <string name="add_audio">Wedzera Audio</string>
+    <string name="background_colour">Background color</string>
+    <string name="add_gif">Wedzera GIF</string>
+    <string name="feeling_activity">Kunzwa /Chiitiko</string>
+    <string name="add_reels">Wedzera reels</string>
+    <string name="go_live">Enda Urarame</string>
+    <string name="create_podcast">Gadzira Podcast</string>
+    <string name="add_stories">Wedzera nyaya</string>
+    <string name="views">Views</string>
+    <string name="podcast">Podcast</string>
+    <string name="paste_video_link_from_web">Namira vhidhiyo link kubva pawebhu</string>
+    <string name="supports_youtube_amp_dailymotion">Inotsigira YouTube</string>
+    <string name="link">Link</string>
+    <string name="upload_any_video_you_want">Isa chero vhidhiyo yaunoda</string>
+    <string name="textview">TextView</string>
+    <string name="paste_the_meeting_id">Namata Id yemusangano</string>
+    <string name="meeting_id">ID yemusangano</string>
+    <string name="edit">Edit</string>
+    <string name="leave">Siya</string>
+    <string name="add_post">Wedzera Post</string>
+    <string name="report">Report</string>
+    <string name="document">Gwaro</string>
+    <string name="for_you">Zvako</string>
+    <string name="following">Kutevera</string>
+    <string name="no_reels">Hapana Reels</string>
+    <string name="followers">Vateveri</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">Tumira mhinduro...</string>
+    <string name="video">Vhidhiyo</string>
+    <string name="live">Rarama</string>
+    <string name="chat">Chat</string>
+    <string name="delete_photo">Delete Photo</string>
+    <string name="create_a_new_meeting">Gadzira musangano mutsva</string>
+    <string name="create">Create</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="upload_video">Isa Vhidhiyo</string>
+    <string name="gif">GIF</string>
+    <string name="liked">Liked</string>
+    <string name="likes">Likes</string>
+    <string name="add_image">Wedzera Mufananidzo</string>
+    <string name="add_video">Wedzera Vhidhiyo</string>
+    <string name="sent_stickers_gif">Send stickers</string>
+    <string name="add_recorder">Wedzera Recorder</string>
+    <string name="create_room_meeting">Gadzira Kamuri /Musangano</string>
+    <string name="send_location">Send Location</string>
+    <string name="add_document">Wedzera Gwaro</string>
+    <string name="time">Nguva -</string>
+    <string name="full_screen">Full Screen</string>
+    <string name="post_background">Post Background</string>
+    <string name="announcement">Chiziviso</string>
+    <string name="send">Send</string>
+    <string name="create_reel">Gadzira Reel</string>
+    <string name="sell_something">Tengesa chimwe chinhu</string>
+    <string name="video_paused">Vhidhiyo Yambomira</string>
+    <string name="muted">Muted</string>
+    <string name="type_6_digit_otp">Nyora 6 manhamba OTP</string>
+    <string name="enter_otp">Pinda OTP</string>
+    <string name="verify_otp">Simbisa OTP</string>
+    <string name="try_again">Edza zvakare</string>
+    <string name="full_name">Zita rizere</string>
+    <string name="government_issued_photo_id_link">Hurumende yakapa mufananidzo ID link</string>
+    <string name="follow">Tevera</string>
+    <string name="unfollow">Rega kutevera</string>
+    <string name="search" tools:ignore="TypographyEllipsis">Tsvaga...</string>
+    <string name="trending">Trending</string>
+    <string name="music">Vadivelu Comedy Music</string>
+    <string name="sports">Sports</string>
+    <string name="memes">Memes</string>
+    <string name="vines">Vines</string>
+    <string name="tv_amp_movies">TV</string>
+    <string name="animals">Mhuka</string>
+    <string name="diy">DIY</string>
+    <string name="beauty">Runako</string>
+    <string name="art">Art</string>
+    <string name="food">Zvokudya</string>
+    <string name="style">Style</string>
+    <string name="decor">Decor</string>
+    <string name="politics">Zvematongerwo enyika</string>
+    <string name="highlight">Simbisa</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="upload_group_photo">Isa mufananidzo weboka</string>
+    <string name="upload">Upload</string>
+    <string name="skip">Skip</string>
+    <string name="cover_photo">Mufananidzo Wekavha</string>
+    <string name="upload_group_cover">Isa kavha yeboka</string>
+    <string name="create_group">Gadzira Group</string>
+    <string name="fill_details_to_continue">Zadza ruzivo kuti uenderere mberi</string>
+    <string name="watch_party">Watch Party</string>
+    <string name="web">Web</string>
+    <string name="sign_up_to_continue">Nyora kuti uenderere mberi</string>
+    <string name="email">Email</string>
+    <string name="already_have_an_account_login">Watova neakaundi here? Login</string>
+    <string name="send_to">Send to</string>
+    <string name="add_to_reels">Wedzera kune reels</string>
+    <string name="add_to_story">Wedzera kune nyaya</string>
+    <string name="add_to_post">Wedzera kune post</string>
+    <string name="send_to_user">Tumira kumushandisi</string>
+    <string name="send_to_group">Tumira kuboka</string>
+    <string name="add_to_product">Wedzera kune chigadzirwa</string>
+    <string name="edit_video">Rongedza Vhidhiyo</string>
+    <string name="edit_image">Edit Image</string>
+    <string name="users">Vashandisi</string>
+    <string name="posts">Zvinyorwa</string>
+    <string name="groups">Mapoka</string>
+    <string name="market">Market</string>
+    <string name="nearby">Nearby</string>
+    <string name="load_more">Isa zvimwe</string>
+    <string name="saved">Saved</string>
+    <string name="reels">Reels</string>
+    <string name="nothing_found">Hapana Chakawanikwa</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">Kufona...</string>
+    <string name="new_account">Akaunti itsva</string>
+    <string name="name">Zita</string>
+    <string name="type_profile_details">Nyora profile details</string>
+    <string name="username">Username</string>
+    <string name="sign_up">Nyorera</string>
+    <string name="contact">Contact</string>
+    <string name="meetings">Misangano</string>
+    <string name="terms_amp_condtitions">Terms</string>
+    <string name="change_theme">Shandura Theme</string>
+    <string name="send_gif">Tumira GIF</string>
+    <string name="dim_mode">Dim Mode</string>
+
+</resources>

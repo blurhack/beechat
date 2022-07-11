@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+    <string name="msg_connection_error">连接错误，请检查网络设置或确保频道名称/访问令牌有效</string>
+    <string name="verification_about">经过验证的徽章是出现在帐户上的支票，表明该帐户是其所代表的知名公众人物、名人、全球品牌或实体的真实存在。提交请求并不能保证您的帐户将得到验证。</string>
+    <string name="add_members">添加成员</string>
+    <string name="post">邮政</string>
+    <string name="analysis">分析</string>
+    <string name="online">在线的</string>
+    <string name="products">产品</string>
+    <string name="messages">留言</string>
+    <string name="dashboard">仪表板</string>
+    <string name="reported_users">报告用户</string>
+    <string name="reported_groups">报告的组</string>
+    <string name="reported_posts">举报帖子</string>
+    <string name="reported_reels">报告卷轴</string>
+    <string name="verification_requests">验证请求</string>
+    <string name="remove_verified_users">移除已验证用户</string>
+    <string name="warned_users">警告用户</string>
+    <string name="warned_groups">警告组</string>
+    <string name="ads">广告</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">发布视频、图片</string>
+    <string name="comments">评论</string>
+    <string name="like">喜欢</string>
+    <string name="share">分享</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">输入评论...</string>
+    <string name="create_post">创建帖子</string>
+    <string name="everyone">每个人</string>
+    <string name="add_location">添加位置</string>
+    <string name="add_to_your_post">添加到您的帖子</string>
+    <string name="edit_your_email">编辑您的电子邮件</string>
+    <string name="new_email">新邮件</string>
+    <string name="password">密码</string>
+    <string name="bio">生物</string>
+    <string name="privatetext">私人的</string>
+    <string name="save">保存</string>
+    <string name="phone_no">电话号码。</string>
+    <string name="edit_your_phone_no">编辑您的电话号码</string>
+    <string name="new_phone_no">新手机号</string>
+    <string name="edit_your_password">编辑您的密码</string>
+    <string name="current_password">当前密码</string>
+    <string name="new_password">新密码</string>
+    <string name="change">改变</string>
+    <string name="hold_for_video_tap_for_photo">保持视频，点击照片</string>
+    <string name="masks">面具</string>
+    <string name="effects">效果</string>
+    <string name="filters">过滤器</string>
+    <string name="feelings">情怀</string>
+    <string name="travelling">旅行</string>
+    <string name="watching">观看</string>
+    <string name="listening">听力</string>
+    <string name="thinking_about">想着</string>
+    <string name="celebration">庆典</string>
+    <string name="looking_for">寻找</string>
+    <string name="playing">播放</string>
+    <string name="happy">快乐的</string>
+    <string name="loved">喜欢</string>
+    <string name="sad">伤心</string>
+    <string name="crying">哭泣</string>
+    <string name="angry">生气的</string>
+    <string name="confused">使困惑</string>
+    <string name="broken">破碎的</string>
+    <string name="cool">凉爽的</string>
+    <string name="funny">有趣的</string>
+    <string name="tired">疲劳的</string>
+    <string name="shock">震惊</string>
+    <string name="lovely">迷人的</string>
+    <string name="sleepy">困</string>
+    <string name="expressionless">面无表情</string>
+    <string name="blessed">有福了</string>
+    <string name="forgot_password">忘记密码</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">要重置密码，请输入注册的电子邮件。将在此电子邮件中发送一个链接以重置您的密码</string>
+    <string name="send_link">发送链接</string>
+    <string name="type_your_phone_number">输入您的电话号码</string>
+    <string name="generate_otp">生成一次性密码</string>
+    <string name="continue_with_email_instead">继续使用电子邮件</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">发送一个消息...</string>
+    <string name="my_groups">我的群组</string>
+    <string name="members">会员</string>
+    <string name="edit_profile">编辑个人资料</string>
+    <string name="join_request">加入请求</string>
+    <string name="cancel_request">取消请求</string>
+    <string name="what_s_on_your_mind">你在想什么 ？</string>
+    <string name="image">图片</string>
+    <string name="audio">声音的</string>
+    <string name="invite_members">邀请成员</string>
+    <string name="set_a_location">设置位置</string>
+    <string name="login_in_to_continue">登录以继续</string>
+    <string name="login">登录</string>
+    <string name="create_new_account">建立新帐户</string>
+    <string name="join">加入</string>
+    <string name="menu">菜单</string>
+    <string name="marketplace">市场</string>
+    <string name="night_mode">夜间模式</string>
+    <string name="photo_editor">照片编辑器</string>
+    <string name="video_editor">视频编辑</string>
+    <string name="verification">确认</string>
+    <string name="policy">政策</string>
+    <string name="edit_password">编辑密码</string>
+    <string name="edit_number">编辑号码</string>
+    <string name="edit_mail">编辑邮件</string>
+    <string name="invite">推荐邀请</string>
+    <string name="near_by">附近</string>
+    <string name="log_out">登出</string>
+    <string name="admin_panel">管理面板</string>
+    <string name="notifications">通知</string>
+    <string name="party_post">党贴</string>
+    <string name="post_about_your_watch_party">发布有关您的观看派对的信息</string>
+    <string name="what_s_on_your_mind_mention_hashtag">你在想什么 ？ @提到</string>
+    <string name="set_watch_party_privacy">设置观看派对隐私</string>
+    <string name="private_watch_party">私人观看派对</string>
+    <string name="public_watch_party">公众观察派对</string>
+    <string name="next">下一个</string>
+    <string name="sell_product">销售产品</string>
+    <string name="title">标题</string>
+    <string name="price">价格</string>
+    <string name="category">类别</string>
+    <string name="condition">状况</string>
+    <string name="description">描述</string>
+    <string name="location">地点</string>
+    <string name="post_reel">后卷轴</string>
+    <string name="describe_you_video_mention_hashtag">描述你的视频@Mention</string>
+    <string name="privacy">隐私</string>
+    <string name="allow_comments">允许评论</string>
+    <string name="remove">消除</string>
+    <string name="known_as">被称为</string>
+    <string name="accept">接受</string>
+    <string name="government_id">身份证</string>
+    <string name="message">信息</string>
+    <string name="poke">戳</string>
+    <string name="block">堵塞</string>
+    <string name="reject">拒绝</string>
+    <string name="apps">应用</string>
+    <string name="download">下载</string>
+    <string name="copy">复制</string>
+    <string name="delete">删除</string>
+    <string name="liked_by">喜欢的人</string>
+    <string name="rainy_shoes">雨鞋</string>
+    <string name="camera">相机</string>
+    <string name="add_audio">添加音频</string>
+    <string name="background_colour">背景色</string>
+    <string name="add_gif">添加 GIF</string>
+    <string name="feeling_activity">感觉/活动</string>
+    <string name="add_reels">添加卷轴</string>
+    <string name="go_live">上线</string>
+    <string name="create_podcast">创建播客</string>
+    <string name="add_stories">添加故事</string>
+    <string name="views">观看次数</string>
+    <string name="podcast">播客</string>
+    <string name="paste_video_link_from_web">粘贴来自网络的视频链接</string>
+    <string name="supports_youtube_amp_dailymotion">支持 YouTube</string>
+    <string name="link">关联</string>
+    <string name="upload_any_video_you_want">上传您想要的任何视频</string>
+    <string name="textview">文本视图</string>
+    <string name="paste_the_meeting_id">粘贴会议 ID</string>
+    <string name="meeting_id">会议编号</string>
+    <string name="edit">编辑</string>
+    <string name="leave">离开</string>
+    <string name="add_post">添加帖子</string>
+    <string name="report">报告</string>
+    <string name="document">文档</string>
+    <string name="for_you">为你</string>
+    <string name="following">下列的</string>
+    <string name="no_reels">无卷轴</string>
+    <string name="followers">追随者</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">发送评论...</string>
+    <string name="video">视频</string>
+    <string name="live">居住</string>
+    <string name="chat">聊天</string>
+    <string name="delete_photo">删除照片</string>
+    <string name="create_a_new_meeting">创建新会议</string>
+    <string name="create">创建</string>
+    <string name="upload_photo">上传图片</string>
+    <string name="upload_video">上传视频</string>
+    <string name="gif">动图</string>
+    <string name="liked">喜欢</string>
+    <string name="likes">喜欢</string>
+    <string name="add_image">添加图片</string>
+    <string name="add_video">添加视频</string>
+    <string name="sent_stickers_gif">送贴纸</string>
+    <string name="add_recorder">添加录音机</string>
+    <string name="create_room_meeting">创建房间/会议</string>
+    <string name="send_location">发送位置</string>
+    <string name="add_document">添加文档</string>
+    <string name="time">时间 -</string>
+    <string name="full_screen">全屏</string>
+    <string name="post_background">帖子背景</string>
+    <string name="announcement">公告</string>
+    <string name="send">发送</string>
+    <string name="create_reel">创建卷轴</string>
+    <string name="sell_something">卖东西</string>
+    <string name="video_paused">视频已暂停</string>
+    <string name="muted">静音</string>
+    <string name="type_6_digit_otp">输入 6 位 OTP</string>
+    <string name="enter_otp">输入一次性密码</string>
+    <string name="verify_otp">验证一次性密码</string>
+    <string name="try_again">再试一次</string>
+    <string name="full_name">全名</string>
+    <string name="government_issued_photo_id_link">政府颁发的带照片的身份证链接</string>
+    <string name="follow">跟随</string>
+    <string name="unfollow">取消关注</string>
+    <string name="search" tools:ignore="TypographyEllipsis">搜索...</string>
+    <string name="trending">趋势</string>
+    <string name="music">音乐</string>
+    <string name="sports">运动的</string>
+    <string name="memes">模因</string>
+    <string name="vines">葡萄藤</string>
+    <string name="tv_amp_movies">电视</string>
+    <string name="animals">动物</string>
+    <string name="diy">DIY</string>
+    <string name="beauty">美丽</string>
+    <string name="art">艺术</string>
+    <string name="food">食物</string>
+    <string name="style">风格</string>
+    <string name="decor">装饰风格</string>
+    <string name="politics">政治</string>
+    <string name="highlight">强调</string>
+    <string name="profile_photo">头像照片</string>
+    <string name="upload_group_photo">上传合影</string>
+    <string name="upload">上传</string>
+    <string name="skip">跳过</string>
+    <string name="cover_photo">封面照片</string>
+    <string name="upload_group_cover">上传群组封面</string>
+    <string name="create_group">创建组</string>
+    <string name="fill_details_to_continue">填写详细信息以继续</string>
+    <string name="watch_party">看派对</string>
+    <string name="web">网络</string>
+    <string name="sign_up_to_continue">注册以继续</string>
+    <string name="email">电子邮件</string>
+    <string name="already_have_an_account_login">已经有一个帐户？登录</string>
+    <string name="send_to">发送至</string>
+    <string name="add_to_reels">添加到卷轴</string>
+    <string name="add_to_story">添加到故事</string>
+    <string name="add_to_post">添加到帖子</string>
+    <string name="send_to_user">发送给用户</string>
+    <string name="send_to_group">发送到群组</string>
+    <string name="add_to_product">添加到产品</string>
+    <string name="edit_video">编辑视频</string>
+    <string name="edit_image">编辑图像</string>
+    <string name="users">用户</string>
+    <string name="posts">帖子</string>
+    <string name="groups">团体</string>
+    <string name="market">市场</string>
+    <string name="nearby">附近</string>
+    <string name="load_more">装载更多</string>
+    <string name="saved">已保存</string>
+    <string name="reels">卷轴</string>
+    <string name="nothing_found">什么都没找到</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">打电话...</string>
+    <string name="new_account">新账户</string>
+    <string name="name">名称</string>
+    <string name="type_profile_details">键入配置文件详细信息</string>
+    <string name="username">用户名</string>
+    <string name="sign_up">注册</string>
+    <string name="contact">接触</string>
+    <string name="meetings">会议</string>
+    <string name="terms_amp_condtitions">条款</string>
+    <string name="change_theme">更改主题</string>
+    <string name="send_gif">发送 GIF</string>
+    <string name="dim_mode">昏暗模式</string>
+
+</resources>

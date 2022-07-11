@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title=""
+        android:icon="@drawable/ic_home" />
+    <item
+        android:id="@+id/nav_reels"
+        android:title=""
+        android:icon="@drawable/ic_reel" />
+    <item
+        android:id="@+id/nav_add"
+        android:title=""
+        android:icon="@drawable/ic_plus_circle_white" />
+    <item
+        android:id="@+id/nav_chat"
+        android:title=""
+        android:icon="@drawable/ic_message" />
+    <item
+        android:id="@+id/nav_user"
+        android:title=""
+        android:icon="@drawable/ic_user" />
+</menu>

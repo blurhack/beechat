@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@android:color/transparent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="40dp"
+        android:id="@+id/dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/avatar"
+        android:layout_height="40dp"/>
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        android:layout_toEndOf="@+id/dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UseCompoundDrawables">
+            <TextView
+                android:text="@string/username"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-black"
+                android:id="@+id/username"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               tools:ignore="ContentDescription" />
+            <ImageView
+                android:src="@drawable/ic_verify"
+                android:layout_gravity="center_vertical"
+                android:layout_width="15dp"
+                android:visibility="gone"
+                android:id="@+id/verify"
+                android:layout_marginStart="5dp"
+                android:layout_height="15dp"
+                app:tint="#fff"
+
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/message"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:id="@+id/msg"
+            android:fontFamily="sans-serif-medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</RelativeLayout>

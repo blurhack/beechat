@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1877F2</color>
+    <color name="colorAccent">#094a9f</color>
+    <!-- Intro -->
+    <color name="indicator">#1877F2</color>
+    <color name="indicator_def">#62a3f6</color>
+    <!-- Call -->
+    <color name="localBackground">#020001</color>
+    <color name="remoteBackground">#0f0f0f</color>
+</resources>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="?attr/backgroundcolor"
+    android:layout_height="match_parent"
+    tools:context=".search.TrendingActivity"
+    tools:ignore="Overdraw">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?attr/layoutcolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back"
+                android:padding="5dp"
+                android:background="@drawable/circle"
+                android:backgroundTint="?attr/backgroundcolor"
+                android:src="@drawable/ic_back"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                app:tint="#596C84"
+
+               tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:id="@+id/search"
+                android:background="@drawable/btn_round"
+                android:backgroundTint="?attr/backgroundcolor"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="35dp">
+
+                <ImageView
+                    android:padding="9dp"
+                    android:src="@drawable/ic_search"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    app:tint="#596C84"
+
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:textColor="?attr/texttwocolor"
+                    android:text="@string/search"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="Autofill" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <HorizontalScrollView
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="UselessParent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_margin="8dp"
+                        android:textSize="12sp"
+                        android:textColor="?attr/texttwocolor"
+                        android:fontFamily="@font/bold_roboto"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:id="@+id/trending"
+                        android:paddingBottom="8dp"
+                        android:text="@string/trending"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:textColor="?attr/texttwocolor"
+                        android:layout_margin="8dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/bold_roboto"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="@string/music"
+                        android:id="@+id/music"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:textColor="?attr/texttwocolor"
+                        android:layout_margin="8dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/bold_roboto"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="@string/sports"
+                        android:id="@+id/sports"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:textColor="?attr/texttwocolor"
+                        android:layout_margin="8dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/bold_roboto"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="@string/memes"
+                        android:id="@+id/memes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:textColor="?attr/texttwocolor"
+                        android:layout_margin="8dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/bold_roboto"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="@string/vines"
+                        android:id="@+id/vines"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:textColor="?attr/texttwocolor"
+                        android:layout_margin="8dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/bold_roboto"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:id="@+id/tv"
+                        android:text="@string/tv_amp_movies"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:textColor="?attr/texttwocolor"
+                        android:layout_margin="8dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/bold_roboto"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:id="@+id/animals"
+                        android:text="@string/animals"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:textColor="?attr/texttwocolor"
+                        android:layout_margin="8dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/bold_roboto"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:id="@+id/diy"
+                        android:text="@string/diy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:textColor="?attr/texttwocolor"
+                        android:layout_margin="8dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/bold_roboto"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="@string/beauty"
+                        android:id="@+id/beauty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:textColor="?attr/texttwocolor"
+                        android:layout_margin="8dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/bold_roboto"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="@string/art"
+                        android:id="@+id/art"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:textColor="?attr/texttwocolor"
+                        android:layout_margin="8dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/bold_roboto"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:id="@+id/food"
+                        android:text="@string/food"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:textColor="?attr/texttwocolor"
+                        android:layout_margin="8dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/bold_roboto"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="@string/style"
+                        android:id="@+id/style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:textColor="?attr/texttwocolor"
+                        android:layout_margin="8dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/bold_roboto"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="@string/decor"
+                        android:id="@+id/decor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:textColor="?attr/texttwocolor"
+                        android:layout_margin="8dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/bold_roboto"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="@string/politics"
+                        android:id="@+id/politics"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       tools:ignore="ContentDescription" />
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/progressBar"
+        app:trackColor="#FF7CB6FF"
+        app:indicatorColor="#1877F2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:trackThickness="2dp"
+        app:trackCornerRadius="2dp"
+        android:indeterminate="true" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/postView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <Button
+                android:stateListAnimator="@null"
+                android:background="@drawable/btn_round"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/load_more"
+                android:fontFamily="@font/black"
+                android:textColor="#fff"
+                android:visibility="gone"
+                android:id="@+id/more"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+               tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:textSize="20sp"
+                android:textColor="?attr/texttwocolor"
+                android:alpha="0.5"
+                android:id="@+id/nothing"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/bold_roboto"
+                android:gravity="center"
+                android:text="@string/nothing_found"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

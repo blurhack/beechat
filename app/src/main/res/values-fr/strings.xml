@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+    <string name="msg_connection_error">Erreur de connexion, veuillez vérifier les paramètres réseau ou assurez-vous que le nom du canal/le jeton d\'accès sont valides</string>
+    <string name="verification_about">Un badge vérifié est un chèque qui apparaît sur un compte pour indiquer que le compte est la présence authentique d\'une personnalité publique notable, d\'une célébrité, d\'une marque mondiale ou d\'une entité qu\'il représente. Soumettre une demande ne garantit pas que votre compte sera vérifié.</string>
+    <string name="add_members">Ajouter des membres</string>
+    <string name="post">Poster</string>
+    <string name="analysis">Analyse</string>
+    <string name="online">En ligne</string>
+    <string name="products">Des produits</string>
+    <string name="messages">messages</string>
+    <string name="dashboard">Tableau de bord</string>
+    <string name="reported_users">Utilisateurs signalés</string>
+    <string name="reported_groups">Groupes signalés</string>
+    <string name="reported_posts">Messages signalés</string>
+    <string name="reported_reels">Bobines signalées</string>
+    <string name="verification_requests">Demandes de vérification</string>
+    <string name="remove_verified_users">Supprimer les utilisateurs vérifiés</string>
+    <string name="warned_users">Utilisateurs avertis</string>
+    <string name="warned_groups">Groupes avertis</string>
+    <string name="ads">Les publicités</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">Publier une vidéo, une image</string>
+    <string name="comments">commentaires</string>
+    <string name="like">Comme</string>
+    <string name="share">Partager</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">Tapez un commentaire...</string>
+    <string name="create_post">Créer un article</string>
+    <string name="everyone">Toutes les personnes</string>
+    <string name="add_location">Ajouter un emplacement</string>
+    <string name="add_to_your_post">Ajouter à votre message</string>
+    <string name="edit_your_email">Modifier votre e-mail</string>
+    <string name="new_email">nouveau courriel</string>
+    <string name="password">Mot de passe</string>
+    <string name="bio">Biographie</string>
+    <string name="privatetext">Privé</string>
+    <string name="save">Sauvegarder</string>
+    <string name="phone_no">Pas de téléphone.</string>
+    <string name="edit_your_phone_no">Modifiez votre numéro de téléphone.</string>
+    <string name="new_phone_no">Nouveau numéro de téléphone</string>
+    <string name="edit_your_password">Modifier votre mot de passe</string>
+    <string name="current_password">Mot de passe actuel</string>
+    <string name="new_password">nouveau mot de passe</string>
+    <string name="change">Changer</string>
+    <string name="hold_for_video_tap_for_photo">Maintenez pour la vidéo, appuyez pour la photo</string>
+    <string name="masks">Masques</string>
+    <string name="effects">Effets</string>
+    <string name="filters">Filtres</string>
+    <string name="feelings">Sentiments</string>
+    <string name="travelling">En voyageant</string>
+    <string name="watching">En train de regarder</string>
+    <string name="listening">Écoute</string>
+    <string name="thinking_about">Penser à</string>
+    <string name="celebration">Fête</string>
+    <string name="looking_for">À la recherche de</string>
+    <string name="playing">En jouant</string>
+    <string name="happy">Content</string>
+    <string name="loved">Aimé</string>
+    <string name="sad">Triste</string>
+    <string name="crying">Pleurs</string>
+    <string name="angry">En colère</string>
+    <string name="confused">Embrouillé</string>
+    <string name="broken">Cassé</string>
+    <string name="cool">Cool</string>
+    <string name="funny">Marrant</string>
+    <string name="tired">Fatigué</string>
+    <string name="shock">Choc</string>
+    <string name="lovely">Beau</string>
+    <string name="sleepy">Somnolent</string>
+    <string name="expressionless">Sans expression</string>
+    <string name="blessed">Béni</string>
+    <string name="forgot_password">Mot de passe oublié</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">Pour réinitialiser votre mot de passe, entrez l\'e-mail enregistré. Un lien sera envoyé sur cet email pour réinitialiser votre mot de passe</string>
+    <string name="send_link">Envoyer un lien</string>
+    <string name="type_your_phone_number">Tapez votre numéro de téléphone</string>
+    <string name="generate_otp">Générer OTP</string>
+    <string name="continue_with_email_instead">Continuer avec l\'e-mail à la place</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">Envoyer un message...</string>
+    <string name="my_groups">Mes groupes</string>
+    <string name="members">Membres</string>
+    <string name="edit_profile">Editer le profil</string>
+    <string name="join_request">Demande d\'adhésion</string>
+    <string name="cancel_request">Demande d\'annulation</string>
+    <string name="what_s_on_your_mind">Qu\'est-ce qui préoccupe votre esprit ?</string>
+    <string name="image">Image</string>
+    <string name="audio">l\'audio</string>
+    <string name="invite_members">Inviter des membres</string>
+    <string name="set_a_location">Définir un emplacement</string>
+    <string name="login_in_to_continue">Connectez-vous pour continuer</string>
+    <string name="login">Connexion</string>
+    <string name="create_new_account">Créer un nouveau compte</string>
+    <string name="join">Rejoindre</string>
+    <string name="menu">Menu</string>
+    <string name="marketplace">Place du marché</string>
+    <string name="night_mode">Mode nuit</string>
+    <string name="photo_editor">Éditeur de photos</string>
+    <string name="video_editor">Editeur de vidéo</string>
+    <string name="verification">Vérification</string>
+    <string name="policy">Politique</string>
+    <string name="edit_password">Modifier le mot de passe</string>
+    <string name="edit_number">Modifier le numéro</string>
+    <string name="edit_mail">Modifier le courrier</string>
+    <string name="invite">Invitation de parrainage</string>
+    <string name="near_by">À proximité</string>
+    <string name="log_out">Se déconnecter</string>
+    <string name="admin_panel">panneau d\'administration</string>
+    <string name="notifications">Notifications</string>
+    <string name="party_post">Poste de fête</string>
+    <string name="post_about_your_watch_party">Publiez sur votre watch party</string>
+    <string name="what_s_on_your_mind_mention_hashtag">Qu\'est-ce qui préoccupe votre esprit ? @mention</string>
+    <string name="set_watch_party_privacy">Définir la confidentialité des soirées de surveillance</string>
+    <string name="private_watch_party">Soirée de surveillance privée</string>
+    <string name="public_watch_party">Fête de la surveillance publique</string>
+    <string name="next">Suivant</string>
+    <string name="sell_product">Vendre le produit</string>
+    <string name="title">Titre</string>
+    <string name="price">Prix</string>
+    <string name="category">Catégorie</string>
+    <string name="condition">État</string>
+    <string name="description">La description</string>
+    <string name="location">Emplacement</string>
+    <string name="post_reel">Bobine de poteau</string>
+    <string name="describe_you_video_mention_hashtag">Décrivez votre vidéo @Mention</string>
+    <string name="privacy">Vie privée</string>
+    <string name="allow_comments">Autoriser les commentaires</string>
+    <string name="remove">Supprimer</string>
+    <string name="known_as">Connu comme</string>
+    <string name="accept">J\'accepte</string>
+    <string name="government_id">Identifiant du gouvernement</string>
+    <string name="message">Message</string>
+    <string name="poke">Poussée</string>
+    <string name="block">Bloquer</string>
+    <string name="reject">Rejeter</string>
+    <string name="apps">applications</string>
+    <string name="download">Télécharger</string>
+    <string name="copy">Copie</string>
+    <string name="delete">Supprimer</string>
+    <string name="liked_by">Aimé par</string>
+    <string name="rainy_shoes">Chaussures de pluie</string>
+    <string name="camera">Caméra</string>
+    <string name="add_audio">Ajouter du son</string>
+    <string name="background_colour">La couleur de fond</string>
+    <string name="add_gif">Ajouter un GIF</string>
+    <string name="feeling_activity">Sentiment /Activité</string>
+    <string name="add_reels">Ajouter des bobines</string>
+    <string name="go_live">Passer en direct</string>
+    <string name="create_podcast">Créer un podcast</string>
+    <string name="add_stories">Ajouter des histoires</string>
+    <string name="views">Vues</string>
+    <string name="podcast">Podcast</string>
+    <string name="paste_video_link_from_web">Coller le lien vidéo du Web</string>
+    <string name="supports_youtube_amp_dailymotion">Prend en charge YouTube</string>
+    <string name="link">Lien</string>
+    <string name="upload_any_video_you_want">Téléchargez n\'importe quelle vidéo que vous voulez</string>
+    <string name="textview">Affichage</string>
+    <string name="paste_the_meeting_id">Collez l\'identifiant de la réunion</string>
+    <string name="meeting_id">Identifiant de la réunion</string>
+    <string name="edit">Éditer</string>
+    <string name="leave">Laisser</string>
+    <string name="add_post">Ajouter un message</string>
+    <string name="report">Reportage</string>
+    <string name="document">Document</string>
+    <string name="for_you">Pour vous</string>
+    <string name="following">Suivant</string>
+    <string name="no_reels">Pas de bobines</string>
+    <string name="followers">Suiveurs</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">Envoyer un commentaire...</string>
+    <string name="video">Vidéo</string>
+    <string name="live">Habitent</string>
+    <string name="chat">Discuter</string>
+    <string name="delete_photo">Supprimer la photo</string>
+    <string name="create_a_new_meeting">Créer une nouvelle réunion</string>
+    <string name="create">Créer</string>
+    <string name="upload_photo">Envoyer la photo</string>
+    <string name="upload_video">Télécharger une video</string>
+    <string name="gif">GIF</string>
+    <string name="liked">Aimé</string>
+    <string name="likes">Aime</string>
+    <string name="add_image">Ajouter une image</string>
+    <string name="add_video">Ajouter une vidéo</string>
+    <string name="sent_stickers_gif">Autocollants envoyés</string>
+    <string name="add_recorder">Ajouter un enregistreur</string>
+    <string name="create_room_meeting">Créer une salle /réunion</string>
+    <string name="send_location">Envoyer emplacement</string>
+    <string name="add_document">Ajouter un document</string>
+    <string name="time">Temps -</string>
+    <string name="full_screen">Plein écran</string>
+    <string name="post_background">Contexte de la publication</string>
+    <string name="announcement">Annonce</string>
+    <string name="send">Envoyer</string>
+    <string name="create_reel">Créer une bobine</string>
+    <string name="sell_something">Vendre quelque chose</string>
+    <string name="video_paused">Vidéo en pause</string>
+    <string name="muted">En sourdine</string>
+    <string name="type_6_digit_otp">Tapez OTP à 6 chiffres</string>
+    <string name="enter_otp">Entrez OTP</string>
+    <string name="verify_otp">Vérifier OTP</string>
+    <string name="try_again">Essayer à nouveau</string>
+    <string name="full_name">Nom complet</string>
+    <string name="government_issued_photo_id_link">Lien d\'identité avec photo émise par le gouvernement</string>
+    <string name="follow">Suivre</string>
+    <string name="unfollow">Ne plus suivre</string>
+    <string name="search" tools:ignore="TypographyEllipsis">Chercher...</string>
+    <string name="trending">Tendance</string>
+    <string name="music">Musique</string>
+    <string name="sports">Des sports</string>
+    <string name="memes">Mèmes</string>
+    <string name="vines">Vignes</string>
+    <string name="tv_amp_movies">la télé</string>
+    <string name="animals">Animaux</string>
+    <string name="diy">DIY</string>
+    <string name="beauty">Beauté</string>
+    <string name="art">Art</string>
+    <string name="food">Aliments</string>
+    <string name="style">Style</string>
+    <string name="decor">Décor</string>
+    <string name="politics">Politique</string>
+    <string name="highlight">Surligner</string>
+    <string name="profile_photo">Photo de profil</string>
+    <string name="upload_group_photo">Télécharger une photo de groupe</string>
+    <string name="upload">Télécharger</string>
+    <string name="skip">Sauter</string>
+    <string name="cover_photo">Photo de couverture</string>
+    <string name="upload_group_cover">Télécharger la couverture du groupe</string>
+    <string name="create_group">Créer un groupe</string>
+    <string name="fill_details_to_continue">Remplissez les détails pour continuer</string>
+    <string name="watch_party">Regarder la fête</string>
+    <string name="web">la toile</string>
+    <string name="sign_up_to_continue">Inscrivez-vous pour continuer</string>
+    <string name="email">E-mail</string>
+    <string name="already_have_an_account_login">Vous avez déjà un compte ? Connexion</string>
+    <string name="send_to">Envoyer à</string>
+    <string name="add_to_reels">Ajouter aux bobines</string>
+    <string name="add_to_story">Ajouter à l\'histoire</string>
+    <string name="add_to_post">Ajouter au message</string>
+    <string name="send_to_user">Envoyer à l\'utilisateur</string>
+    <string name="send_to_group">Envoyer au groupe</string>
+    <string name="add_to_product">Ajouter au produit</string>
+    <string name="edit_video">Éditer vidéo</string>
+    <string name="edit_image">Éditer l\'image</string>
+    <string name="users">Utilisateurs</string>
+    <string name="posts">Des postes</string>
+    <string name="groups">Groupes</string>
+    <string name="market">Marché</string>
+    <string name="nearby">À proximité</string>
+    <string name="load_more">Charger plus</string>
+    <string name="saved">Enregistré</string>
+    <string name="reels">Bobines</string>
+    <string name="nothing_found">rien n\'a été trouvé</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">Appel...</string>
+    <string name="new_account">Nouveau compte</string>
+    <string name="name">Nom</string>
+    <string name="type_profile_details">Saisissez les détails du profil</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="contact">Contact</string>
+    <string name="meetings">Réunions</string>
+    <string name="terms_amp_condtitions">termes</string>
+    <string name="change_theme">Change le thème</string>
+    <string name="send_gif">Envoyer un GIF</string>
+    <string name="dim_mode">Dim Mode</string>
+
+</resources>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+
+    <string name="msg_connection_error">Connection error, please check the network settings or make sure channel name/access token are valid</string>
+    <string name="verification_about">A verified badge is a check that appears on a account to indicate that the account is the authentic presence of a notable public figure, celebrity, global brand or entity it represents. Submitting a request not guarantee that your account will be verified.</string>
+    <string name="add_members">Add Members</string>
+    <string name="post">Post</string>
+    <string name="analysis">Analysis</string>
+    <string name="online">Online</string>
+    <string name="products">Products</string>
+    <string name="messages">Messages</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="reported_users">Reported Users</string>
+    <string name="reported_groups">Reported Groups</string>
+    <string name="reported_posts">Reported Posts</string>
+    <string name="reported_reels">Reported Reels</string>
+    <string name="verification_requests">Verification requests</string>
+    <string name="remove_verified_users">Remove Verified users</string>
+    <string name="warned_users">Warned users</string>
+    <string name="warned_groups">Warned groups</string>
+    <string name="ads">Ads</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">Post video, image</string>
+    <string name="comments">Comments</string>
+    <string name="like">Like</string>
+    <string name="share">Share</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">Type a comment...</string>
+    <string name="create_post">Create Post</string>
+    <string name="everyone">Everyone</string>
+    <string name="add_location">Add Location</string>
+    <string name="add_to_your_post">Add to your post</string>
+    <string name="edit_your_email">Edit your email</string>
+    <string name="new_email">New Email</string>
+    <string name="password">Password</string>
+    <string name="bio">Bio</string>
+    <string name="privatetext">Private</string>
+    <string name="save">Save</string>
+    <string name="phone_no">Phone no.</string>
+    <string name="edit_your_phone_no">Edit your phone no.</string>
+    <string name="new_phone_no">New phone no.</string>
+    <string name="edit_your_password">Edit your password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="change">Change</string>
+    <string name="hold_for_video_tap_for_photo">Hold for video, Tap for photo</string>
+    <string name="masks">Masks</string>
+    <string name="effects">Effects</string>
+    <string name="filters">Filters</string>
+    <string name="feelings">Feelings</string>
+    <string name="travelling">Travelling</string>
+    <string name="watching">Watching</string>
+    <string name="listening">Listening</string>
+    <string name="thinking_about">Thinking about</string>
+    <string name="celebration">Celebration</string>
+    <string name="looking_for">Looking for</string>
+    <string name="playing">Playing</string>
+    <string name="happy">Happy</string>
+    <string name="loved">Loved</string>
+    <string name="sad">Sad</string>
+    <string name="crying">Crying</string>
+    <string name="angry">Angry</string>
+    <string name="confused">Confused</string>
+    <string name="broken">Broken</string>
+    <string name="cool">Cool</string>
+    <string name="funny">Funny</string>
+    <string name="tired">Tired</string>
+    <string name="shock">Shock</string>
+    <string name="lovely">Lovely</string>
+    <string name="sleepy">Sleepy</string>
+    <string name="expressionless">Expressionless</string>
+    <string name="blessed">Blessed</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">To reset your password enter the registered email. A link will be sent on this email to reset your password</string>
+    <string name="send_link">Send Link</string>
+    <string name="type_your_phone_number">Type your phone number</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="continue_with_email_instead">Continue with email instead</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">Send a message...</string>
+    <string name="my_groups">My Groups</string>
+    <string name="members">Members</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="join_request">Join Request</string>
+    <string name="cancel_request">Cancel Request</string>
+    <string name="what_s_on_your_mind">What\\\'s on your mind ?</string>
+    <string name="image">Image</string>
+    <string name="audio">Audio</string>
+    <string name="invite_members">Invite Members</string>
+    <string name="set_a_location">Set a location</string>
+    <string name="login_in_to_continue">Login in to continue</string>
+    <string name="login">Login</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="join">Join</string>
+    <string name="menu">Menu</string>
+    <string name="marketplace">MarketPlace</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="photo_editor">Photo Editor</string>
+    <string name="video_editor">Video Editor</string>
+    <string name="verification">Verification</string>
+    <string name="policy">Policy</string>
+    <string name="edit_password">Edit Password</string>
+    <string name="edit_number">Edit Number</string>
+    <string name="edit_mail">Edit Mail</string>
+    <string name="invite">Referral Invite</string>
+    <string name="near_by">Near by</string>
+    <string name="log_out">Log Out</string>
+    <string name="admin_panel">Admin Panel</string>
+    <string name="notifications">Notifications</string>
+    <string name="party_post">Party Post</string>
+    <string name="post_about_your_watch_party">Post about your watch party</string>
+    <string name="what_s_on_your_mind_mention_hashtag">What’s on your mind ? @mention</string>
+    <string name="set_watch_party_privacy">Set watch party privacy</string>
+    <string name="private_watch_party">Private Watch Party</string>
+    <string name="public_watch_party">Public Watch Party</string>
+    <string name="next">Next</string>
+    <string name="sell_product">Sell Product</string>
+    <string name="title">Title</string>
+    <string name="price">Price</string>
+    <string name="category">Category</string>
+    <string name="condition">Condition</string>
+    <string name="description">Description</string>
+    <string name="location">Location</string>
+    <string name="post_reel">Post Reel</string>
+    <string name="describe_you_video_mention_hashtag">Describe you video @Mention</string>
+    <string name="privacy">Privacy</string>
+    <string name="allow_comments">Allow Comments</string>
+    <string name="remove">Remove</string>
+    <string name="known_as">Known as</string>
+    <string name="accept">Accept</string>
+    <string name="government_id">Government ID</string>
+    <string name="message">Message</string>
+    <string name="poke">Poke</string>
+    <string name="block">Block</string>
+    <string name="reject">Reject</string>
+    <string name="apps">Apps</string>
+    <string name="download">Download</string>
+    <string name="copy">Copy</string>
+    <string name="delete">Delete</string>
+    <string name="liked_by">Liked by</string>
+    <string name="rainy_shoes">Rainy shoes</string>
+    <string name="camera">Camera</string>
+    <string name="add_audio">Add Audio</string>
+    <string name="background_colour">Background colour</string>
+    <string name="add_gif">Add GIF</string>
+    <string name="feeling_activity">Feeling /Activity</string>
+    <string name="add_reels">Add reels</string>
+    <string name="go_live">Go Live</string>
+    <string name="create_podcast">Create Podcast</string>
+    <string name="add_stories">Add stories</string>
+    <string name="views">Views</string>
+    <string name="podcast">Podcast</string>
+    <string name="paste_video_link_from_web">Paste video link from web</string>
+    <string name="supports_youtube_amp_dailymotion">Supports YouTube</string>
+    <string name="link">Link</string>
+    <string name="upload_any_video_you_want">Upload any video you want</string>
+    <string name="textview">TextView</string>
+    <string name="paste_the_meeting_id">Paste the meeting Id</string>
+    <string name="meeting_id">Meeting ID</string>
+    <string name="edit">Edit</string>
+    <string name="leave">Leave</string>
+    <string name="add_post">Add Post</string>
+    <string name="report">Report</string>
+    <string name="document">Document</string>
+    <string name="for_you">For You</string>
+    <string name="following">Following</string>
+    <string name="no_reels">No Reels</string>
+    <string name="followers">Followers</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">Send a comment...</string>
+    <string name="video">Video</string>
+    <string name="live">Live</string>
+    <string name="chat">Chat</string>
+    <string name="delete_photo">Delete Photo</string>
+    <string name="create_a_new_meeting">Create a new meeting</string>
+    <string name="create">Create</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="upload_video">Upload Video</string>
+    <string name="gif">GIF</string>
+    <string name="liked">Liked</string>
+    <string name="likes">Likes</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_video">Add Video</string>
+    <string name="sent_stickers_gif">Sent stickers</string>
+    <string name="add_recorder">Add Recorder</string>
+    <string name="create_room_meeting">Create Room /Meeting</string>
+    <string name="send_location">Send Location</string>
+    <string name="add_document">Add Document</string>
+    <string name="time">Time -</string>
+    <string name="full_screen">Full Screen</string>
+    <string name="post_background">Post Background</string>
+    <string name="announcement">Announcement</string>
+    <string name="send">Send</string>
+    <string name="create_reel">Create Reel</string>
+    <string name="sell_something">Sell something</string>
+    <string name="video_paused">Video Paused</string>
+    <string name="muted">Muted</string>
+    <string name="type_6_digit_otp">Type 6 digit OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="try_again">Try again</string>
+    <string name="full_name">Full name</string>
+    <string name="government_issued_photo_id_link">Government issued photo ID link</string>
+    <string name="follow">Follow</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="search" tools:ignore="TypographyEllipsis">Search...</string>
+    <string name="trending">Trending</string>
+    <string name="music">Music</string>
+    <string name="sports">Sports</string>
+    <string name="memes">Memes</string>
+    <string name="vines">Vines</string>
+    <string name="tv_amp_movies">TV</string>
+    <string name="animals">Animals</string>
+    <string name="diy">DIY</string>
+    <string name="beauty">Beauty</string>
+    <string name="art">Art</string>
+    <string name="food">Food</string>
+    <string name="style">Style</string>
+    <string name="decor">Decor</string>
+    <string name="politics">Politics</string>
+    <string name="highlight">Highlight</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="upload_group_photo">Upload group photo</string>
+    <string name="upload">Upload</string>
+    <string name="skip">Skip</string>
+    <string name="cover_photo">Cover Photo</string>
+    <string name="upload_group_cover">Upload group cover</string>
+    <string name="create_group">Create Group</string>
+    <string name="fill_details_to_continue">Fill details to continue</string>
+    <string name="watch_party">Watch Party</string>
+    <string name="web">Web</string>
+    <string name="sign_up_to_continue">Sign up to continue</string>
+    <string name="email">Email</string>
+    <string name="already_have_an_account_login">Already have an account ? Login</string>
+    <string name="send_to">Send to</string>
+    <string name="add_to_reels">Add to reels</string>
+    <string name="add_to_story">Add to story</string>
+    <string name="add_to_post">Add to post</string>
+    <string name="send_to_user">Send to user</string>
+    <string name="send_to_group">Send to group</string>
+    <string name="add_to_product">Add to product</string>
+    <string name="edit_video">Edit Video</string>
+    <string name="edit_image">Edit Image</string>
+    <string name="users">Users</string>
+    <string name="posts">Posts</string>
+    <string name="groups">Groups</string>
+    <string name="market">Market</string>
+    <string name="nearby">Nearby</string>
+    <string name="load_more">Load More</string>
+    <string name="saved">Saved</string>
+    <string name="reels">Reels</string>
+    <string name="nothing_found">Nothing Found</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">Calling...</string>
+    <string name="new_account">New account</string>
+    <string name="name">Name</string>
+    <string name="type_profile_details">Type profile details</string>
+    <string name="username">Username</string>
+    <string name="sign_up">Sign up</string>
+    <string name="contact">Contact</string>
+    <string name="meetings">Meetings</string>
+    <string name="terms_amp_condtitions">Terms</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="send_gif">Send GIF</string>
+    <string name="dim_mode">Dim Mode</string>
+
+</resources>

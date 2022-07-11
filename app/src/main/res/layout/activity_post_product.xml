@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="?attr/layoutcolor"
+    tools:context=".marketPlace.PostProductActivity"
+    tools:ignore="Overdraw">
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        app:trackColor="#FF7CB6FF"
+        app:indicatorColor="#1877F2"
+        android:layout_height="wrap_content"
+        app:trackThickness="2dp"
+        app:trackCornerRadius="2dp"
+        android:indeterminate="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="5dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="?attr/backgroundcolor"
+        android:src="@drawable/ic_back"
+        android:tint="#596C84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,UnusedAttribute,UseAppTint" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bold"
+        android:text="@string/sell_product"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+       tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/cover"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/upload_product"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        app:riv_corner_radius="20dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="24dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="24dp"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/cover">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_round"
+                            android:backgroundTint="#F0F2F6"
+                            tools:ignore="UnusedAttribute">
+
+                            <EditText
+                                android:id="@+id/title"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:background="@null"
+                                android:fontFamily="@font/bold_roboto"
+                                android:gravity="center_vertical"
+                                android:hint="@string/title"
+                                android:inputType="text"
+                                android:paddingLeft="20dp"
+                                android:paddingRight="20dp"
+                                android:textColorHint="?attr/texttwocolor"
+                                android:textColor="?attr/textcolor"
+                                android:textSize="18sp"
+                                tools:ignore="Autofill,TextFields" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/btn_round"
+                            android:backgroundTint="#F0F2F6"
+                            tools:ignore="UnusedAttribute">
+
+                            <EditText
+                                android:id="@+id/price"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:background="@null"
+                                android:fontFamily="@font/bold_roboto"
+                                android:gravity="center_vertical"
+                                android:hint="@string/price"
+                                android:inputType="number"
+                                android:paddingLeft="20dp"
+                                android:paddingRight="20dp"
+                                android:textColorHint="?attr/texttwocolor"
+                                android:textColor="?attr/textcolor"
+                                android:textSize="18sp"
+                                tools:ignore="Autofill,TextFields" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/btn_round"
+                            android:backgroundTint="#F0F2F6"
+                            tools:ignore="UnusedAttribute">
+
+                            <TextView
+                                android:id="@+id/category"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="45dp"
+                                android:background="@null"
+                                android:fontFamily="@font/bold_roboto"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="20dp"
+                                android:paddingRight="20dp"
+                                android:text="@string/category"
+                                android:textColor="#8B8D93"
+                                android:textSize="18sp"
+                                tools:ignore="Autofill,TextFields" />
+
+                            <ImageView
+                                android:src="@drawable/ic_back"
+                                android:rotation="270"
+                                android:layout_marginEnd="5dp"
+                                android:padding="5dp"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                app:tint="?attr/texttwocolor"
+
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/btn_round"
+                            android:backgroundTint="#F0F2F6"
+                            tools:ignore="UnusedAttribute">
+
+                            <TextView
+                                android:id="@+id/condition"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="45dp"
+                                android:background="@null"
+                                android:fontFamily="@font/bold_roboto"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="20dp"
+                                android:paddingRight="20dp"
+                                android:text="@string/condition"
+                                android:textColor="#8B8D93"
+                                android:textSize="18sp"
+                                tools:ignore="Autofill,TextFields" />
+
+                            <ImageView
+                                android:src="@drawable/ic_back"
+                                android:rotation="270"
+                                android:layout_marginEnd="5dp"
+                                android:padding="5dp"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                app:tint="?attr/texttwocolor"
+
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/btn_round"
+                            android:backgroundTint="#F0F2F6"
+                            tools:ignore="UnusedAttribute">
+
+                            <EditText
+                                android:id="@+id/des"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:background="@null"
+                                android:fontFamily="@font/bold_roboto"
+                                android:gravity="center_vertical"
+                                android:hint="@string/description"
+                                android:inputType="text"
+                                android:paddingLeft="20dp"
+                                android:paddingRight="20dp"
+                                android:textColorHint="?attr/texttwocolor"
+                                android:textColor="?attr/textcolor"
+                                android:textSize="18sp"
+                                tools:ignore="Autofill,TextFields" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/btn_round"
+                            android:backgroundTint="#F0F2F6"
+                            tools:ignore="UnusedAttribute">
+
+                            <EditText
+                                android:id="@+id/loc"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="45dp"
+                                android:background="@null"
+                                android:fontFamily="@font/bold_roboto"
+                                android:gravity="center_vertical"
+                                android:hint="@string/location"
+                                android:inputType="text"
+                                android:paddingLeft="20dp"
+                                android:paddingRight="20dp"
+                                android:textColorHint="?attr/texttwocolor"
+                                android:textColor="?attr/textcolor"
+                                android:textSize="18sp"
+                                tools:ignore="Autofill,TextFields" />
+
+                            <ImageView
+                                android:id="@+id/locate"
+                                android:src="@drawable/ic_locate"
+                                android:layout_marginEnd="5dp"
+                                android:padding="10dp"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                app:tint="?attr/texttwocolor"
+
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/login"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginEnd="24dp"
+                        android:background="@drawable/btn_round"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:fontFamily="@font/bold_roboto"
+                        android:gravity="center"
+                        android:textAllCaps="false"
+                        android:stateListAnimator="@null"
+                        android:text="@string/post"
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
+                        tools:ignore="UnusedAttribute" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                
+            </LinearLayout>
+            
+        </androidx.core.widget.NestedScrollView>
+        
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

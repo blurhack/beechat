@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+    <string name="msg_connection_error">연결 오류, 네트워크 설정을 확인하거나 채널 이름/액세스 토큰이 유효한지 확인하십시오</string>
+    <string name="verification_about">인증 배지는 해당 계정이 해당 계정이 대표하는 유명 공인, 유명인, 글로벌 브랜드 또는 법인의 실제 존재임을 나타내기 위해 계정에 표시되는 수표입니다. 요청을 제출한다고 해서 계정이 확인되는 것은 아닙니다.</string>
+    <string name="add_members">회원 추가</string>
+    <string name="post">게시하다</string>
+    <string name="analysis">분석</string>
+    <string name="online">온라인</string>
+    <string name="products">제품</string>
+    <string name="messages">메시지</string>
+    <string name="dashboard">계기반</string>
+    <string name="reported_users">보고된 사용자</string>
+    <string name="reported_groups">보고된 그룹</string>
+    <string name="reported_posts">신고된 게시물</string>
+    <string name="reported_reels">보고된 릴</string>
+    <string name="verification_requests">확인 요청</string>
+    <string name="remove_verified_users">인증된 사용자 제거</string>
+    <string name="warned_users">경고 사용자</string>
+    <string name="warned_groups">경고 그룹</string>
+    <string name="ads">광고</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">포스트 영상, 이미지</string>
+    <string name="comments">코멘트</string>
+    <string name="like">좋다</string>
+    <string name="share">공유하다</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">댓글을 입력하세요...</string>
+    <string name="create_post">게시물 작성</string>
+    <string name="everyone">모든 사람</string>
+    <string name="add_location">위치 추가</string>
+    <string name="add_to_your_post">게시물에 추가</string>
+    <string name="edit_your_email">이메일 수정</string>
+    <string name="new_email">새 이메일</string>
+    <string name="password">비밀번호</string>
+    <string name="bio">바이오</string>
+    <string name="privatetext">사적인</string>
+    <string name="save">구하다</string>
+    <string name="phone_no">전화 번호.</string>
+    <string name="edit_your_phone_no">전화번호를 수정하세요.</string>
+    <string name="new_phone_no">새 전화번호</string>
+    <string name="edit_your_password">비밀번호 수정</string>
+    <string name="current_password">현재 비밀번호</string>
+    <string name="new_password">새 비밀번호</string>
+    <string name="change">변화</string>
+    <string name="hold_for_video_tap_for_photo">동영상은 길게, 사진은 탭</string>
+    <string name="masks">마스크</string>
+    <string name="effects">효과</string>
+    <string name="filters">필터</string>
+    <string name="feelings">감정</string>
+    <string name="travelling">여행</string>
+    <string name="watching">보고있다</string>
+    <string name="listening">청취</string>
+    <string name="thinking_about">에 대해 생각</string>
+    <string name="celebration">축하</string>
+    <string name="looking_for">찾고있는</string>
+    <string name="playing">놀이</string>
+    <string name="happy">행복하다</string>
+    <string name="loved">사랑받는</string>
+    <string name="sad">슬퍼</string>
+    <string name="crying">울음 소리</string>
+    <string name="angry">화난</string>
+    <string name="confused">혼란스러운</string>
+    <string name="broken">고장난</string>
+    <string name="cool">시원한</string>
+    <string name="funny">재미있는</string>
+    <string name="tired">피곤한</string>
+    <string name="shock">충격</string>
+    <string name="lovely">사랑스러운</string>
+    <string name="sleepy">졸린</string>
+    <string name="expressionless">무표정</string>
+    <string name="blessed">축복 받은</string>
+    <string name="forgot_password">비밀번호를 잊으 셨나요</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">비밀번호를 재설정하려면 등록된 이메일을 입력하세요. 비밀번호를 재설정할 수 있는 링크가 이 이메일로 전송됩니다.</string>
+    <string name="send_link">링크 보내기</string>
+    <string name="type_your_phone_number">전화번호를 입력하세요</string>
+    <string name="generate_otp">OTP 생성</string>
+    <string name="continue_with_email_instead">대신 이메일로 계속</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">메세지를 보내다...</string>
+    <string name="my_groups">내 그룹</string>
+    <string name="members">회원</string>
+    <string name="edit_profile">프로필 편집</string>
+    <string name="join_request">가입신청</string>
+    <string name="cancel_request">요청 취소</string>
+    <string name="what_s_on_your_mind">무슨 생각을 하고 있니?</string>
+    <string name="image">영상</string>
+    <string name="audio">오디오</string>
+    <string name="invite_members">회원 초대</string>
+    <string name="set_a_location">위치 설정</string>
+    <string name="login_in_to_continue">계속하려면 로그인하세요.</string>
+    <string name="login">로그인</string>
+    <string name="create_new_account">새 계정을 만들</string>
+    <string name="join">가입하다</string>
+    <string name="menu">메뉴</string>
+    <string name="marketplace">시장</string>
+    <string name="night_mode">야간 모드</string>
+    <string name="photo_editor">사진 편집기</string>
+    <string name="video_editor">동영상 편집기</string>
+    <string name="verification">확인</string>
+    <string name="policy">정책</string>
+    <string name="edit_password">비밀번호 수정</string>
+    <string name="edit_number">번호 수정</string>
+    <string name="edit_mail">메일 수정</string>
+    <string name="invite">추천 초대</string>
+    <string name="near_by">가까운</string>
+    <string name="log_out">로그 아웃</string>
+    <string name="admin_panel">관리자 패널</string>
+    <string name="notifications">알림</string>
+    <string name="party_post">파티 포스트</string>
+    <string name="post_about_your_watch_party">시계 파티에 대한 게시물</string>
+    <string name="what_s_on_your_mind_mention_hashtag">당신의 마음은 무엇입니까? @언급하다</string>
+    <string name="set_watch_party_privacy">시계 파티 개인 정보 보호 설정</string>
+    <string name="private_watch_party">프라이빗 워치 파티</string>
+    <string name="public_watch_party">공개 감시 파티</string>
+    <string name="next">다음</string>
+    <string name="sell_product">제품 판매</string>
+    <string name="title">제목</string>
+    <string name="price">가격</string>
+    <string name="category">범주</string>
+    <string name="condition">질환</string>
+    <string name="description">설명</string>
+    <string name="location">위치</string>
+    <string name="post_reel">포스트 릴</string>
+    <string name="describe_you_video_mention_hashtag">/@Mention 동영상 설명</string>
+    <string name="privacy">은둔</string>
+    <string name="allow_comments">댓글 허용</string>
+    <string name="remove">제거하다</string>
+    <string name="known_as">로 알려진</string>
+    <string name="accept">수용하다</string>
+    <string name="government_id">정부 아이디</string>
+    <string name="message">메세지</string>
+    <string name="poke">찌름</string>
+    <string name="block">블록</string>
+    <string name="reject">거부하다</string>
+    <string name="apps">앱</string>
+    <string name="download">다운로드</string>
+    <string name="copy">복사</string>
+    <string name="delete">삭제</string>
+    <string name="liked_by">좋아하는 사람</string>
+    <string name="rainy_shoes">비오는 신발</string>
+    <string name="camera">카메라</string>
+    <string name="add_audio">오디오 추가</string>
+    <string name="background_colour">배경색</string>
+    <string name="add_gif">GIF 추가</string>
+    <string name="feeling_activity">느낌 /활동</string>
+    <string name="add_reels">릴 추가</string>
+    <string name="go_live">생중계</string>
+    <string name="create_podcast">팟캐스트 만들기</string>
+    <string name="add_stories">스토리 추가</string>
+    <string name="views">견해</string>
+    <string name="podcast">팟캐스트</string>
+    <string name="paste_video_link_from_web">웹에서 비디오 링크 붙여넣기</string>
+    <string name="supports_youtube_amp_dailymotion">유튜브 지원</string>
+    <string name="link">링크</string>
+    <string name="upload_any_video_you_want">원하는 동영상 업로드</string>
+    <string name="textview">텍스트뷰</string>
+    <string name="paste_the_meeting_id">회의 ID 붙여넣기</string>
+    <string name="meeting_id">회의 ID</string>
+    <string name="edit">편집하다</string>
+    <string name="leave">떠나다</string>
+    <string name="add_post">게시물 추가</string>
+    <string name="report">보고서</string>
+    <string name="document">문서</string>
+    <string name="for_you">당신을위한</string>
+    <string name="following">수행원</string>
+    <string name="no_reels">릴 없음</string>
+    <string name="followers">팔로워</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">의견을 보내...</string>
+    <string name="video">동영상</string>
+    <string name="live">살다</string>
+    <string name="chat">채팅</string>
+    <string name="delete_photo">사진 삭제</string>
+    <string name="create_a_new_meeting">새 회의 만들기</string>
+    <string name="create">만들다</string>
+    <string name="upload_photo">사진 업로드</string>
+    <string name="upload_video">비디오 업로드</string>
+    <string name="gif">GIF</string>
+    <string name="liked">좋아요</string>
+    <string name="likes">좋아요</string>
+    <string name="add_image">이미지 추가</string>
+    <string name="add_video">비디오 추가</string>
+    <string name="sent_stickers_gif">보낸 스티커</string>
+    <string name="add_recorder">녹음기 추가</string>
+    <string name="create_room_meeting">방 만들기 /회의</string>
+    <string name="send_location">전송 위치</string>
+    <string name="add_document">문서 추가</string>
+    <string name="time">시간 -</string>
+    <string name="full_screen">전체 화면</string>
+    <string name="post_background">포스트 배경</string>
+    <string name="announcement">발표</string>
+    <string name="send">보내다</string>
+    <string name="create_reel">릴 만들기</string>
+    <string name="sell_something">뭔가를 팔다</string>
+    <string name="video_paused">동영상이 일시중지됨</string>
+    <string name="muted">음소거</string>
+    <string name="type_6_digit_otp">유형 6자리 OTP</string>
+    <string name="enter_otp">OTP 입력</string>
+    <string name="verify_otp">OTP 확인</string>
+    <string name="try_again">다시 시도하십시오</string>
+    <string name="full_name">성명</string>
+    <string name="government_issued_photo_id_link">정부에서 발행한 사진이 부착된 신분증 링크</string>
+    <string name="follow">따르다</string>
+    <string name="unfollow">언팔로우</string>
+    <string name="search" tools:ignore="TypographyEllipsis">찾다...</string>
+    <string name="trending">트렌드</string>
+    <string name="music">음악</string>
+    <string name="sports">스포츠</string>
+    <string name="memes">밈</string>
+    <string name="vines">덩굴</string>
+    <string name="tv_amp_movies">TV</string>
+    <string name="animals">동물</string>
+    <string name="diy">DIY</string>
+    <string name="beauty">아름다움</string>
+    <string name="art">미술</string>
+    <string name="food">음식</string>
+    <string name="style">스타일</string>
+    <string name="decor">장식</string>
+    <string name="politics">정치</string>
+    <string name="highlight">가장 밝은 부분</string>
+    <string name="profile_photo">프로필 사진</string>
+    <string name="upload_group_photo">단체 사진 업로드</string>
+    <string name="upload">업로드</string>
+    <string name="skip">건너 뛰다</string>
+    <string name="cover_photo">표지 사진</string>
+    <string name="upload_group_cover">그룹 표지 업로드</string>
+    <string name="create_group">그룹 생성</string>
+    <string name="fill_details_to_continue">계속하려면 세부정보를 입력하세요.</string>
+    <string name="watch_party">시계 파티</string>
+    <string name="web">편물</string>
+    <string name="sign_up_to_continue">계속하려면 가입하세요</string>
+    <string name="email">이메일</string>
+    <string name="already_have_an_account_login">이미 계정이 있습니까? 로그인</string>
+    <string name="send_to">보내기</string>
+    <string name="add_to_reels">릴에 추가</string>
+    <string name="add_to_story">스토리에 추가</string>
+    <string name="add_to_post">게시물에 추가</string>
+    <string name="send_to_user">사용자에게 보내기</string>
+    <string name="send_to_group">그룹으로 보내기</string>
+    <string name="add_to_product">제품에 추가</string>
+    <string name="edit_video">영상을 편집하다</string>
+    <string name="edit_image">이미지 편집</string>
+    <string name="users">사용자</string>
+    <string name="posts">게시물</string>
+    <string name="groups">여러 떼</string>
+    <string name="market">시장</string>
+    <string name="nearby">가까운</string>
+    <string name="load_more">더 찾아보기</string>
+    <string name="saved">저장됨</string>
+    <string name="reels">릴</string>
+    <string name="nothing_found">아무것도 찾을 수 없음</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">부름...</string>
+    <string name="new_account">새 계정</string>
+    <string name="name">이름</string>
+    <string name="type_profile_details">프로필 세부정보 입력</string>
+    <string name="username">사용자 이름</string>
+    <string name="sign_up">가입하기</string>
+    <string name="contact">연락하다</string>
+    <string name="meetings">회의</string>
+    <string name="terms_amp_condtitions">자귀</string>
+    <string name="change_theme">테마 변경</string>
+    <string name="send_gif">GIF 보내기</string>
+    <string name="dim_mode">흐릿한 모드</string>
+
+</resources>

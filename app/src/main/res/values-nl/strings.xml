@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+    <string name="msg_connection_error">Verbindingsfout, controleer de netwerkinstellingen of zorg ervoor dat de kanaalnaam/toegangstoken geldig zijn</string>
+    <string name="verification_about">Een geverifieerde badge is een vinkje dat op een account wordt weergegeven om aan te geven dat het account de authentieke aanwezigheid is van een opmerkelijke publieke figuur, beroemdheid, wereldwijd merk of entiteit die het vertegenwoordigt. Als u een verzoek indient, is dit geen garantie dat uw account wordt geverifieerd.</string>
+    <string name="add_members">Leden toevoegen</string>
+    <string name="post">Na</string>
+    <string name="analysis">Analyse</string>
+    <string name="online">Online</string>
+    <string name="products">Producten</string>
+    <string name="messages">Berichten</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="reported_users">Gerapporteerde gebruikers</string>
+    <string name="reported_groups">Gerapporteerde groepen</string>
+    <string name="reported_posts">Gerapporteerde berichten</string>
+    <string name="reported_reels">Gerapporteerde rollen</string>
+    <string name="verification_requests">Verificatieverzoeken</string>
+    <string name="remove_verified_users">Geverifieerde gebruikers verwijderen</string>
+    <string name="warned_users">Gewaarschuwde gebruikers</string>
+    <string name="warned_groups">Gewaarschuwde groepen</string>
+    <string name="ads">Advertenties</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">Plaats video, afbeelding</string>
+    <string name="comments">Opmerkingen</string>
+    <string name="like">Leuk vinden</string>
+    <string name="share">Deel</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">Typ een opmerking...</string>
+    <string name="create_post">Bericht maken</string>
+    <string name="everyone">Iedereen</string>
+    <string name="add_location">Voeg locatie toe</string>
+    <string name="add_to_your_post">Voeg toe aan je bericht</string>
+    <string name="edit_your_email">Bewerk je e-mail</string>
+    <string name="new_email">nieuwe e-mail</string>
+    <string name="password">Wachtwoord</string>
+    <string name="bio">Bio</string>
+    <string name="privatetext">Privaat</string>
+    <string name="save">Sparen</string>
+    <string name="phone_no">Telefoon nr.</string>
+    <string name="edit_your_phone_no">Bewerk je telefoonnr.</string>
+    <string name="new_phone_no">Nieuw tel.nr.</string>
+    <string name="edit_your_password">Bewerk je wachtwoord</string>
+    <string name="current_password">huidig ​​wachtwoord</string>
+    <string name="new_password">nieuw paswoord</string>
+    <string name="change">Wijziging</string>
+    <string name="hold_for_video_tap_for_photo">Houd vast voor video, tik voor foto</string>
+    <string name="masks">Maskers</string>
+    <string name="effects">Effecten</string>
+    <string name="filters">Filters</string>
+    <string name="feelings">Gevoelens</string>
+    <string name="travelling">Reizend</string>
+    <string name="watching">Aan het kijken</string>
+    <string name="listening">Luisteren</string>
+    <string name="thinking_about">Denken aan</string>
+    <string name="celebration">Viering</string>
+    <string name="looking_for">Zoeken naar</string>
+    <string name="playing">Spelen</string>
+    <string name="happy">Gelukkig</string>
+    <string name="loved">hield van</string>
+    <string name="sad">verdrietig</string>
+    <string name="crying">huilen</string>
+    <string name="angry">Boos</string>
+    <string name="confused">In de war</string>
+    <string name="broken">Gebroken</string>
+    <string name="cool">Koel</string>
+    <string name="funny">Grappig</string>
+    <string name="tired">Moe</string>
+    <string name="shock">Schok</string>
+    <string name="lovely">Lief</string>
+    <string name="sleepy">Slaperig</string>
+    <string name="expressionless">uitdrukkingsloos</string>
+    <string name="blessed">Gezegend</string>
+    <string name="forgot_password">Wachtwoord vergeten</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">Voer het geregistreerde e-mailadres in om uw wachtwoord opnieuw in te stellen. Er wordt een link naar deze e-mail verzonden om uw wachtwoord opnieuw in te stellen</string>
+    <string name="send_link">Stuur link</string>
+    <string name="type_your_phone_number">Typ je telefoonnummer</string>
+    <string name="generate_otp">OTP genereren</string>
+    <string name="continue_with_email_instead">Ga in plaats daarvan verder met e-mail</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">Stuur een bericht...</string>
+    <string name="my_groups">Mijn groepen</string>
+    <string name="members">Leden</string>
+    <string name="edit_profile">Bewerk profiel</string>
+    <string name="join_request">Deelnameverzoek</string>
+    <string name="cancel_request">Annuleringsaanvraag</string>
+    <string name="what_s_on_your_mind">Waar denk je aan ?</string>
+    <string name="image">Afbeelding</string>
+    <string name="audio">Audio</string>
+    <string name="invite_members">Nodig leden uit</string>
+    <string name="set_a_location">Stel een locatie in</string>
+    <string name="login_in_to_continue">Log in om door te gaan</string>
+    <string name="login">Log in</string>
+    <string name="create_new_account">Creëer een nieuw account</string>
+    <string name="join">Meedoen</string>
+    <string name="menu">Menu</string>
+    <string name="marketplace">Marktplaats</string>
+    <string name="night_mode">Nachtstand</string>
+    <string name="photo_editor">Fotobewerker</string>
+    <string name="video_editor">Video bewerker</string>
+    <string name="verification">Verificatie</string>
+    <string name="policy">Het beleid</string>
+    <string name="edit_password">Wachtwoord bewerken</string>
+    <string name="edit_number">Nummer bewerken</string>
+    <string name="edit_mail">E-mail bewerken</string>
+    <string name="invite">Verwijzingsuitnodiging</string>
+    <string name="near_by">In de buurt</string>
+    <string name="log_out">Uitloggen</string>
+    <string name="admin_panel">Administratie Paneel</string>
+    <string name="notifications">Meldingen</string>
+    <string name="party_post">Feestbericht</string>
+    <string name="post_about_your_watch_party">Post over je kijkfeestje</string>
+    <string name="what_s_on_your_mind_mention_hashtag">Waar denk je aan ? @vermelden</string>
+    <string name="set_watch_party_privacy">Privacy van kijkfeest instellen</string>
+    <string name="private_watch_party">Private Watch Party</string>
+    <string name="public_watch_party">Openbare kijkpartij</string>
+    <string name="next">Volgende</string>
+    <string name="sell_product">Product verkopen</string>
+    <string name="title">Titel</string>
+    <string name="price">Prijs</string>
+    <string name="category">Categorie</string>
+    <string name="condition">Voorwaarde</string>
+    <string name="description">Beschrijving</string>
+    <string name="location">Plaats</string>
+    <string name="post_reel">Post Reel</string>
+    <string name="describe_you_video_mention_hashtag">Beschrijf je video @Mention</string>
+    <string name="privacy">Privacy</string>
+    <string name="allow_comments">Sta reacties toe</string>
+    <string name="remove">Verwijderen</string>
+    <string name="known_as">Bekend als</string>
+    <string name="accept">Aanvaarden</string>
+    <string name="government_id">Overheids-ID</string>
+    <string name="message">Bericht</string>
+    <string name="poke">Por</string>
+    <string name="block">Blok</string>
+    <string name="reject">Afwijzen</string>
+    <string name="apps">Apps</string>
+    <string name="download">Downloaden</string>
+    <string name="copy">Kopiëren</string>
+    <string name="delete">Verwijderen</string>
+    <string name="liked_by">Interessant gevonden door</string>
+    <string name="rainy_shoes">Regenachtige schoenen</string>
+    <string name="camera">Camera</string>
+    <string name="add_audio">Audio toevoegen</string>
+    <string name="background_colour">Achtergrond kleur</string>
+    <string name="add_gif">GIF toevoegen</string>
+    <string name="feeling_activity">Gevoel /Activiteit</string>
+    <string name="add_reels">Rollen toevoegen</string>
+    <string name="go_live">Ga leven</string>
+    <string name="create_podcast">Podcast maken</string>
+    <string name="add_stories">Verhalen toevoegen</string>
+    <string name="views">Keer bekeken</string>
+    <string name="podcast">Podcast</string>
+    <string name="paste_video_link_from_web">Videolink van internet plakken</string>
+    <string name="supports_youtube_amp_dailymotion">Ondersteunt YouTube</string>
+    <string name="link">Koppeling</string>
+    <string name="upload_any_video_you_want">Upload elke gewenste video</string>
+    <string name="textview">Tekstweergave</string>
+    <string name="paste_the_meeting_id">Plak de vergadering-ID</string>
+    <string name="meeting_id">Vergaderings-ID</string>
+    <string name="edit">Bewerk</string>
+    <string name="leave">Het verlof</string>
+    <string name="add_post">Bericht toevoegen</string>
+    <string name="report">Verslag doen van</string>
+    <string name="document">Document</string>
+    <string name="for_you">Voor jou</string>
+    <string name="following">Volgend</string>
+    <string name="no_reels">Geen rollen</string>
+    <string name="followers">Volgers</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">Stuur een reactie...</string>
+    <string name="video">Video</string>
+    <string name="live">Live</string>
+    <string name="chat">Chatten</string>
+    <string name="delete_photo">Verwijder foto</string>
+    <string name="create_a_new_meeting">Een nieuwe vergadering maken</string>
+    <string name="create">Creëren</string>
+    <string name="upload_photo">Upload foto</string>
+    <string name="upload_video">Upload video</string>
+    <string name="gif">GIF</string>
+    <string name="liked">Leuk gevonden</string>
+    <string name="likes">Vind ik leuk</string>
+    <string name="add_image">Voeg afbeelding toe</string>
+    <string name="add_video">Voeg video toe</string>
+    <string name="sent_stickers_gif">Verzonden stickers</string>
+    <string name="add_recorder">Recorder toevoegen</string>
+    <string name="create_room_meeting">Ruimte /vergadering maken</string>
+    <string name="send_location">Stuur locatie</string>
+    <string name="add_document">Document toevoegen</string>
+    <string name="time">Tijd -</string>
+    <string name="full_screen">Volledig scherm</string>
+    <string name="post_background">Achtergrond posten</string>
+    <string name="announcement">Aankondiging</string>
+    <string name="send">Versturen</string>
+    <string name="create_reel">Maak een rol</string>
+    <string name="sell_something">iets verkopen</string>
+    <string name="video_paused">Video onderbroken</string>
+    <string name="muted">Gedempt</string>
+    <string name="type_6_digit_otp">Typ 6-cijferige OTP</string>
+    <string name="enter_otp">Voer OTP in</string>
+    <string name="verify_otp">Verifieer OTP</string>
+    <string name="try_again">Probeer opnieuw</string>
+    <string name="full_name">Voor-en achternaam</string>
+    <string name="government_issued_photo_id_link">Door de overheid uitgegeven link voor identiteitsbewijs met foto</string>
+    <string name="follow">Volgen</string>
+    <string name="unfollow">Niet meer volgen</string>
+    <string name="search" tools:ignore="TypographyEllipsis">Zoekopdracht...</string>
+    <string name="trending">Trending</string>
+    <string name="music">Muziek</string>
+    <string name="sports">Sport</string>
+    <string name="memes">Memes</string>
+    <string name="vines">wijnstokken</string>
+    <string name="tv_amp_movies">TV</string>
+    <string name="animals">Dieren</string>
+    <string name="diy">doe-het-zelf</string>
+    <string name="beauty">Schoonheid</string>
+    <string name="art">Kunst</string>
+    <string name="food">Voedsel</string>
+    <string name="style">Stijl</string>
+    <string name="decor">Decor</string>
+    <string name="politics">Politiek</string>
+    <string name="highlight">Markeer</string>
+    <string name="profile_photo">Profielfoto</string>
+    <string name="upload_group_photo">Groepsfoto uploaden</string>
+    <string name="upload">Uploaden</string>
+    <string name="skip">Overslaan</string>
+    <string name="cover_photo">Omslagfoto</string>
+    <string name="upload_group_cover">Groepsomslag uploaden</string>
+    <string name="create_group">Groep maken</string>
+    <string name="fill_details_to_continue">Vul details in om door te gaan</string>
+    <string name="watch_party">Kijk feest</string>
+    <string name="web">Web</string>
+    <string name="sign_up_to_continue">Meld je aan om door te gaan</string>
+    <string name="email">E-mail</string>
+    <string name="already_have_an_account_login">Heb je al een account? Log in</string>
+    <string name="send_to">Verzenden naar</string>
+    <string name="add_to_reels">Toevoegen aan rollen</string>
+    <string name="add_to_story">Toevoegen aan verhaal</string>
+    <string name="add_to_post">Toevoegen aan bericht</string>
+    <string name="send_to_user">Verzenden naar gebruiker</string>
+    <string name="send_to_group">Stuur naar groep</string>
+    <string name="add_to_product">Toevoegen aan product</string>
+    <string name="edit_video">Bewerk video</string>
+    <string name="edit_image">Bewerk afbeelding</string>
+    <string name="users">Gebruikers</string>
+    <string name="posts">Berichten</string>
+    <string name="groups">Groepen</string>
+    <string name="market">Markt</string>
+    <string name="nearby">Dichtbij</string>
+    <string name="load_more">Meer laden</string>
+    <string name="saved">Opgeslagen</string>
+    <string name="reels">Rollen</string>
+    <string name="nothing_found">niets gevonden</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">Roeping...</string>
+    <string name="new_account">Nieuw account</string>
+    <string name="name">Naam</string>
+    <string name="type_profile_details">Typ profieldetails</string>
+    <string name="username">gebruikersnaam</string>
+    <string name="sign_up">Inschrijven</string>
+    <string name="contact">Contact</string>
+    <string name="meetings">Vergaderingen</string>
+    <string name="terms_amp_condtitions">voorwaarden</string>
+    <string name="change_theme">Thema veranderen</string>
+    <string name="send_gif">GIF verzenden</string>
+    <string name="dim_mode">Dim modus</string>
+
+</resources>

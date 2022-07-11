@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+
+    <string name="msg_connection_error">Ошибка подключения. Проверьте настройки сети или убедитесь, что имя канала /токен доступа действительны.</string>
+    <string name="verification_about">Подтвержденный значок - это проверка, которая появляется в учетной записи, чтобы указать, что учетная запись является подлинным присутствием известного общественного деятеля, знаменитости, глобального бренда или организации, которую он представляет. Отправка запроса не гарантирует, что ваша учетная запись будет проверена.</string>
+    <string name="add_members">Добавить участников</string>
+    <string name="post">Почта</string>
+    <string name="analysis">Анализ</string>
+    <string name="online">онлайн</string>
+    <string name="products">Продукты</string>
+    <string name="messages">Сообщения</string>
+    <string name="dashboard">Приборная доска</string>
+    <string name="reported_users">Зарегистрированные пользователи</string>
+    <string name="reported_groups">Сообщенные группы</string>
+    <string name="reported_posts">Сообщенные сообщения</string>
+    <string name="reported_reels">Сообщенные катушки</string>
+    <string name="verification_requests">Запросы на подтверждение</string>
+    <string name="remove_verified_users">Удалить проверенных пользователей</string>
+    <string name="warned_users">Предупрежденные пользователи</string>
+    <string name="warned_groups">Предупрежденные группы</string>
+    <string name="ads">Объявления</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">Опубликовать видео, изображение</string>
+    <string name="comments">Комментарии</string>
+    <string name="like">Нравится</string>
+    <string name="share">доля</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">Введите комментарий ...</string>
+    <string name="create_post">Создать сообщение</string>
+    <string name="everyone">Все</string>
+    <string name="add_location">Добавить местоположение</string>
+    <string name="add_to_your_post">Добавить в свой пост</string>
+    <string name="edit_your_email">Отредактируйте свой адрес электронной почты</string>
+    <string name="new_email">Новый email-адрес</string>
+    <string name="password">Пароль</string>
+    <string name="bio">Био</string>
+    <string name="privatetext">Частный</string>
+    <string name="save">Сохранять</string>
+    <string name="phone_no">Номер телефона.</string>
+    <string name="edit_your_phone_no">Отредактируйте свой номер телефона.</string>
+    <string name="new_phone_no">Нового телефона нет.</string>
+    <string name="edit_your_password">Измените свой пароль</string>
+    <string name="current_password">текущий пароль</string>
+    <string name="new_password">новый пароль</string>
+    <string name="change">Изменять</string>
+    <string name="hold_for_video_tap_for_photo">Удерживайте для видео, нажмите для фото</string>
+    <string name="masks">Маски</string>
+    <string name="effects">Последствия</string>
+    <string name="filters">Фильтры</string>
+    <string name="feelings">Чувства</string>
+    <string name="travelling">Путешествие</string>
+    <string name="watching">Смотреть</string>
+    <string name="listening">Прослушивание</string>
+    <string name="thinking_about">Думать о</string>
+    <string name="celebration">Празднование</string>
+    <string name="looking_for">Находясь в поиске</string>
+    <string name="playing">Играет</string>
+    <string name="happy">Счастливый</string>
+    <string name="loved">Любил</string>
+    <string name="sad">Грустный</string>
+    <string name="crying">Плач</string>
+    <string name="angry">Злой</string>
+    <string name="confused">Смущенный</string>
+    <string name="broken">Сломанный</string>
+    <string name="cool">Прохладный</string>
+    <string name="funny">Смешной</string>
+    <string name="tired">Усталый</string>
+    <string name="shock">Шок</string>
+    <string name="lovely">Прекрасный</string>
+    <string name="sleepy">Сонный</string>
+    <string name="expressionless">Невыразительный</string>
+    <string name="blessed">Благословенный</string>
+    <string name="forgot_password">Забыли пароль</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">Для сброса пароля введите зарегистрированный адрес электронной почты. На это письмо будет отправлена ​​ссылка для сброса пароля.</string>
+    <string name="send_link">Отправить ссылку</string>
+    <string name="type_your_phone_number">Введите свой номер телефона</string>
+    <string name="generate_otp">Создать одноразовый пароль</string>
+    <string name="continue_with_email_instead">Продолжить с электронной почтой вместо этого</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">Отправить сообщение...</string>
+    <string name="my_groups">Мои группы</string>
+    <string name="members">Члены</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="join_request">Запрос на присоединение</string>
+    <string name="cancel_request">Отменить запрос</string>
+    <string name="what_s_on_your_mind">Что у тебя на уме ?</string>
+    <string name="image">Изображение</string>
+    <string name="audio">Аудио</string>
+    <string name="invite_members">Пригласить участников</string>
+    <string name="set_a_location">Установить местоположение</string>
+    <string name="login_in_to_continue">Войдите, чтобы продолжить</string>
+    <string name="login">Авторизоваться</string>
+    <string name="create_new_account">Создать новый аккаунт</string>
+    <string name="join">Присоединиться</string>
+    <string name="menu">Меню</string>
+    <string name="marketplace">MarketPlace</string>
+    <string name="night_mode">Ночной режим</string>
+    <string name="photo_editor">Редактор фото</string>
+    <string name="video_editor">Видео редактор</string>
+    <string name="verification">Проверка</string>
+    <string name="policy">Политика</string>
+    <string name="edit_password">Изменить пароль</string>
+    <string name="edit_number">Изменить номер</string>
+    <string name="edit_mail">Редактировать почту</string>
+    <string name="invite">Реферальное приглашение</string>
+    <string name="near_by">Рядом, поблизости</string>
+    <string name="log_out">Выйти</string>
+    <string name="admin_panel">Панель администратора</string>
+    <string name="notifications">Уведомления</string>
+    <string name="party_post">Party Post</string>
+    <string name="post_about_your_watch_party">Напишите о своей часовой вечеринке</string>
+    <string name="what_s_on_your_mind_mention_hashtag">Что у тебя на уме ? @упомянуть</string>
+    <string name="set_watch_party_privacy">Установить конфиденциальность вечеринки для просмотра</string>
+    <string name="private_watch_party">Частная вечеринка с часами</string>
+    <string name="public_watch_party">Вечеринка Public Watch</string>
+    <string name="next">Следующий</string>
+    <string name="sell_product">Продать продукт</string>
+    <string name="title">Заголовок</string>
+    <string name="price">Цена</string>
+    <string name="category">Категория</string>
+    <string name="condition">Состояние</string>
+    <string name="description">Описание</string>
+    <string name="location">Место расположения</string>
+    <string name="post_reel">Почтовый барабан</string>
+    <string name="describe_you_video_mention_hashtag">Опишите ваше видео @Mention</string>
+    <string name="privacy">Конфиденциальность</string>
+    <string name="allow_comments">Разрешить комментарии</string>
+    <string name="remove">Удалять</string>
+    <string name="known_as">Известный как</string>
+    <string name="accept">Принимать</string>
+    <string name="government_id">ИД правительства</string>
+    <string name="message">Сообщение</string>
+    <string name="poke">Тыкать</string>
+    <string name="block">Блокировать</string>
+    <string name="reject">Отклонять</string>
+    <string name="apps">Программы</string>
+    <string name="download">Скачать</string>
+    <string name="copy">Копировать</string>
+    <string name="delete">Удалить</string>
+    <string name="liked_by">Понравилось</string>
+    <string name="rainy_shoes">Дождливая обувь</string>
+    <string name="camera">Камера</string>
+    <string name="add_audio">Добавить аудио</string>
+    <string name="background_colour">Цвет фона</string>
+    <string name="add_gif">Добавить GIF</string>
+    <string name="feeling_activity">Чувство /активность</string>
+    <string name="add_reels">Добавить барабаны</string>
+    <string name="go_live">Go Live</string>
+    <string name="create_podcast">Создать подкаст</string>
+    <string name="add_stories">Добавить истории</string>
+    <string name="views">Взгляды</string>
+    <string name="podcast">Подкаст</string>
+    <string name="paste_video_link_from_web">Вставить ссылку на видео из Интернета</string>
+    <string name="supports_youtube_amp_dailymotion">Поддерживает YouTube</string>
+    <string name="link">Ссылка на сайт</string>
+    <string name="upload_any_video_you_want">Загрузите любое видео, которое хотите</string>
+    <string name="textview">TextView</string>
+    <string name="paste_the_meeting_id">Вставьте идентификатор встречи</string>
+    <string name="meeting_id">ID встречи</string>
+    <string name="edit">Редактировать</string>
+    <string name="leave">Уехать</string>
+    <string name="add_post">Добавить сообщение</string>
+    <string name="report">Отчет</string>
+    <string name="document">Документ</string>
+    <string name="for_you">Для тебя</string>
+    <string name="following">Следующий</string>
+    <string name="no_reels">Без катушек</string>
+    <string name="followers">Подписчики</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">Отправить комментарий ...</string>
+    <string name="video">видео</string>
+    <string name="live">Реальный</string>
+    <string name="chat">Чат</string>
+    <string name="delete_photo">Удалить фото</string>
+    <string name="create_a_new_meeting">Создать новую встречу</string>
+    <string name="create">Создавать</string>
+    <string name="upload_photo">Загрузить фото</string>
+    <string name="upload_video">Загрузить видео</string>
+    <string name="gif">Гифка</string>
+    <string name="liked">Понравилось</string>
+    <string name="likes">Нравится</string>
+    <string name="add_image">Добавить изображение</string>
+    <string name="add_video">Добавить видео</string>
+    <string name="sent_stickers_gif">Отправленные стикеры</string>
+    <string name="add_recorder">Добавить рекордер</string>
+    <string name="create_room_meeting">Создать комнату /собрание</string>
+    <string name="send_location">Отправить местоположение</string>
+    <string name="add_document">Добавить документ</string>
+    <string name="time">Время -</string>
+    <string name="full_screen">Полноэкранный</string>
+    <string name="post_background">Фон сообщения</string>
+    <string name="announcement">Объявление</string>
+    <string name="send">Отправлять</string>
+    <string name="create_reel">Создать барабан</string>
+    <string name="sell_something">Продать что-нибудь</string>
+    <string name="video_paused">Видео приостановлено</string>
+    <string name="muted">Приглушенный</string>
+    <string name="type_6_digit_otp">Введите 6-значный OTP</string>
+    <string name="enter_otp">Введите одноразовый код</string>
+    <string name="verify_otp">Проверить OTP</string>
+    <string name="try_again">Попробуй снова</string>
+    <string name="full_name">Полное имя</string>
+    <string name="government_issued_photo_id_link">Ссылка на удостоверение личности государственного образца с фотографией</string>
+    <string name="follow">Следовать</string>
+    <string name="unfollow">Отписаться</string>
+    <string name="search" tools:ignore="TypographyEllipsis">Поиск...</string>
+    <string name="trending">В тренде</string>
+    <string name="music">Музыка</string>
+    <string name="sports">Виды спорта</string>
+    <string name="memes">Мемы</string>
+    <string name="vines">Лозы</string>
+    <string name="tv_amp_movies">ТВ</string>
+    <string name="animals">Животные</string>
+    <string name="diy">сделай сам</string>
+    <string name="beauty">Красота</string>
+    <string name="art">Искусство</string>
+    <string name="food">Еда</string>
+    <string name="style">Стиль</string>
+    <string name="decor">Декор</string>
+    <string name="politics">Политика</string>
+    <string name="highlight">Выделять</string>
+    <string name="profile_photo">Аватар</string>
+    <string name="upload_group_photo">Загрузить групповое фото</string>
+    <string name="upload">Загрузить</string>
+    <string name="skip">Пропускать</string>
+    <string name="cover_photo">Фото на обложке</string>
+    <string name="upload_group_cover">Загрузить обложку группы</string>
+    <string name="create_group">Создать группу</string>
+    <string name="fill_details_to_continue">Заполните данные, чтобы продолжить</string>
+    <string name="watch_party">Смотреть вечеринку</string>
+    <string name="web">Интернет</string>
+    <string name="sign_up_to_continue">Зарегистрируйтесь, чтобы продолжить</string>
+    <string name="email">Электронное письмо</string>
+    <string name="already_have_an_account_login">Уже есть аккаунт? Авторизоваться</string>
+    <string name="send_to">Отправить</string>
+    <string name="add_to_reels">Добавить на барабаны</string>
+    <string name="add_to_story">Добавить в историю</string>
+    <string name="add_to_post">Добавить в пост</string>
+    <string name="send_to_user">Отправить пользователю</string>
+    <string name="send_to_group">Отправить в группу</string>
+    <string name="add_to_product">Добавить к продукту</string>
+    <string name="edit_video">Редактировать видео</string>
+    <string name="edit_image">Редактировать изображение</string>
+    <string name="users">Пользователи</string>
+    <string name="posts">Сообщения</string>
+    <string name="groups">Группы</string>
+    <string name="market">Рынок</string>
+    <string name="nearby">Рядом, поблизости</string>
+    <string name="load_more">Загрузи больше</string>
+    <string name="saved">Сохранено</string>
+    <string name="reels">Катушки</string>
+    <string name="nothing_found">Ничего не найдено</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">Звонок...</string>
+    <string name="new_account">Новый аккаунт</string>
+    <string name="name">Имя</string>
+    <string name="type_profile_details">Введите данные профиля</string>
+    <string name="username">Имя пользователя</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="contact">Контакт</string>
+    <string name="meetings">Встречи</string>
+    <string name="terms_amp_condtitions">Условия</string>
+    <string name="change_theme">Менять тему</string>
+    <string name="send_gif">Отправить гифку</string>
+    <string name="dim_mode">Тусклый режим</string>
+
+</resources>

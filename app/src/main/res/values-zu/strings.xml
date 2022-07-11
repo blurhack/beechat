@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+    <string name="msg_connection_error">Iphutha lokuxhumana, sicela uhlole izilungiselelo zenethiwekhi noma uqinisekise ukuthi igama lesiteshi/ithokheni yokufinyelela zivumelekile</string>
+    <string name="verification_about">Ibheji eliqinisekisiwe isheke elivela ku-akhawunti ukuze libonise ukuthi i-akhawunti iwubukhona bangempela bomuntu ophawulekayo emphakathini, usaziwayo, umkhiqizo womhlaba wonke noma ibhizinisi elimelelayo. Ukuhambisa isicelo akuqinisekisi ukuthi i-akhawunti yakho izoqinisekiswa.</string>
+    <string name="add_members">Engeza Amalungu</string>
+    <string name="post">Thumela</string>
+    <string name="analysis">Ukuhlaziya</string>
+    <string name="online">Ku-inthanethi</string>
+    <string name="products">Imikhiqizo</string>
+    <string name="messages">Imilayezo</string>
+    <string name="dashboard">Ideshibhodi</string>
+    <string name="reported_users">Abasebenzisi ababikiwe</string>
+    <string name="reported_groups">Amaqembu abikiwe</string>
+    <string name="reported_posts">Okuthunyelwe okubikiwe</string>
+    <string name="reported_reels">Ama-Reels abikiwe</string>
+    <string name="verification_requests">Izicelo zokuqinisekisa</string>
+    <string name="remove_verified_users">Susa abasebenzisi abaqinisekisiwe</string>
+    <string name="warned_users">Abasebenzisi abaxwayisile</string>
+    <string name="warned_groups">Amaqembu axwayisiwe</string>
+    <string name="ads">Izikhangiso</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">Thumela ividiyo, isithombe</string>
+    <string name="comments">Amazwana</string>
+    <string name="like">Thanda</string>
+    <string name="share">Yabelana</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">Thayipha amazwana...</string>
+    <string name="create_post">Dala Okuthunyelwe</string>
+    <string name="everyone">Wonke umuntu</string>
+    <string name="add_location">Engeza Indawo</string>
+    <string name="add_to_your_post">Engeza kokuthunyelwe kwakho</string>
+    <string name="edit_your_email">Hlela i-imeyili yakho</string>
+    <string name="new_email">I-imeyili Entsha</string>
+    <string name="password">Iphasiwedi</string>
+    <string name="bio">I-Bio</string>
+    <string name="privatetext">Okuyimfihlo</string>
+    <string name="save">Londoloza</string>
+    <string name="phone_no">Inombolo yocingo.</string>
+    <string name="edit_your_phone_no">Hlela inombolo yefoni yakho.</string>
+    <string name="new_phone_no">Inombolo yefoni entsha.</string>
+    <string name="edit_your_password">Hlela iphasiwedi yakho</string>
+    <string name="current_password">I-password Yamanje</string>
+    <string name="new_password">Iphasiwedi Entsha</string>
+    <string name="change">Shintsha</string>
+    <string name="hold_for_video_tap_for_photo">Bambela ividiyo, Thepha ukuze uthole isithombe</string>
+    <string name="masks">Izifihlabuso</string>
+    <string name="effects">Imiphumela</string>
+    <string name="filters">Izihlungi</string>
+    <string name="feelings">Imizwa</string>
+    <string name="travelling">Ukuhamba</string>
+    <string name="watching">Ukubuka</string>
+    <string name="listening">Ukulalela</string>
+    <string name="thinking_about">Ukucabanga</string>
+    <string name="celebration">Umgubho</string>
+    <string name="looking_for">Ufuna</string>
+    <string name="playing">Iyadlala</string>
+    <string name="happy">Jabulile</string>
+    <string name="loved">Kuthandiwe</string>
+    <string name="sad">Kuyadabukisa</string>
+    <string name="crying">Ekhala</string>
+    <string name="angry">Ethukuthele</string>
+    <string name="confused">Edidekile</string>
+    <string name="broken">Iphukile</string>
+    <string name="cool">Kuhle</string>
+    <string name="funny">Kuyahlekisa</string>
+    <string name="tired">Ukhathele</string>
+    <string name="shock">Ukwethuka</string>
+    <string name="lovely">Kuyathandeka</string>
+    <string name="sleepy">Elele</string>
+    <string name="expressionless">Expressionless</string>
+    <string name="blessed">Ubusisiwe</string>
+    <string name="forgot_password">Ukhohlwe iphasiwedi</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">Ukusetha kabusha iphasiwedi yakho faka i-imeyili ebhalisiwe. Isixhumanisi sizothunyelwa kule imeyili ukuze kusethwe kabusha iphasiwedi yakho</string>
+    <string name="send_link">Thumela Isixhumanisi</string>
+    <string name="type_your_phone_number">Thayipha inombolo yakho yocingo</string>
+    <string name="generate_otp">Khiqiza i-OTP</string>
+    <string name="continue_with_email_instead">Qhubeka nge-imeyili esikhundleni salokho</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">Thumela umlayezo...</string>
+    <string name="my_groups">Amaqembu Ami</string>
+    <string name="members">Amalungu</string>
+    <string name="edit_profile">Hlela iphrofayela</string>
+    <string name="join_request">Isicelo sokujoyina</string>
+    <string name="cancel_request">Khansela Isicelo</string>
+    <string name="what_s_on_your_mind">Ucabangani ?</string>
+    <string name="image">Isithombe</string>
+    <string name="audio">Okulalelwayo</string>
+    <string name="invite_members">Mema Amalungu</string>
+    <string name="set_a_location">Setha indawo</string>
+    <string name="login_in_to_continue">Ngena ngemvume ukuze uqhubeke</string>
+    <string name="login">Ngena ngemvume</string>
+    <string name="create_new_account">Dala i-akhawunti entsha</string>
+    <string name="join">Joyina</string>
+    <string name="menu">Imenyu</string>
+    <string name="marketplace">I-Marketplace</string>
+    <string name="night_mode">Imodi Yasebusuku</string>
+    <string name="photo_editor">Umhleli Wezithombe</string>
+    <string name="video_editor">Isihleli Sevidiyo</string>
+    <string name="verification">Ukuqinisekisa</string>
+    <string name="policy">Inqubomgomo</string>
+    <string name="edit_password">Hlela Iphasiwedi</string>
+    <string name="edit_number">Hlela inombolo</string>
+    <string name="edit_mail">Hlela Imeyili</string>
+    <string name="invite">Isimemo Sokudluliswa</string>
+    <string name="near_by">Eduze</string>
+    <string name="log_out">Phuma</string>
+    <string name="admin_panel">Iphaneli yokuphatha</string>
+    <string name="notifications">Izaziso</string>
+    <string name="party_post">I-Party Post</string>
+    <string name="post_about_your_watch_party">Thumela mayelana nephathi yakho yokubuka</string>
+    <string name="what_s_on_your_mind_mention_hashtag">Ucabangani ? @sho</string>
+    <string name="set_watch_party_privacy">Setha ubumfihlo bephathi yewashi</string>
+    <string name="private_watch_party">Iphathi yokubuka yangasese</string>
+    <string name="public_watch_party">Public Watch Party</string>
+    <string name="next">Olandelayo</string>
+    <string name="sell_product">Thengisa Umkhiqizo</string>
+    <string name="title">Isihloko</string>
+    <string name="price">Inani</string>
+    <string name="category">Isigaba</string>
+    <string name="condition">Isimo</string>
+    <string name="description">Incazelo</string>
+    <string name="location">Indawo</string>
+    <string name="post_reel">Thumela i-Reel</string>
+    <string name="describe_you_video_mention_hashtag">Chaza ividiyo yakho @Mention</string>
+    <string name="privacy">Ubumfihlo</string>
+    <string name="allow_comments">Vumela Amazwana</string>
+    <string name="remove">Susa</string>
+    <string name="known_as">Waziwa ngo</string>
+    <string name="accept">Yamukela</string>
+    <string name="government_id">Umazisi kahulumeni</string>
+    <string name="message">Umlayezo</string>
+    <string name="poke">Gcoba</string>
+    <string name="block">Vimba</string>
+    <string name="reject">Yenqaba</string>
+    <string name="apps">Izinhlelo zokusebenza</string>
+    <string name="download">Landa</string>
+    <string name="copy">Kopisha</string>
+    <string name="delete">Susa</string>
+    <string name="liked_by">Ithandwe ngu</string>
+    <string name="rainy_shoes">Izicathulo zemvula</string>
+    <string name="camera">Ikhamera</string>
+    <string name="add_audio">Engeza Umsindo</string>
+    <string name="background_colour">Umbala wangemuva</string>
+    <string name="add_gif">Engeza i-GIF</string>
+    <string name="feeling_activity">Umuzwa /Umsebenzi</string>
+    <string name="add_reels">Engeza ama-reels</string>
+    <string name="go_live">Iya Bukhoma</string>
+    <string name="create_podcast">Dala iPodcast</string>
+    <string name="add_stories">Engeza izindaba</string>
+    <string name="views">Ukubuka</string>
+    <string name="podcast">Iphodikhasti</string>
+    <string name="paste_video_link_from_web">Namathisela isixhumanisi sevidiyo kusuka kuwebhu</string>
+    <string name="supports_youtube_amp_dailymotion">Isekela i-YouTube</string>
+    <string name="link">Isixhumanisi</string>
+    <string name="upload_any_video_you_want">Layisha noma iyiphi ividiyo oyifunayo</string>
+    <string name="textview">I-TextView</string>
+    <string name="paste_the_meeting_id">Namathisela i-Id yomhlangano</string>
+    <string name="meeting_id">I-ID Yomhlangano</string>
+    <string name="edit">Hlela</string>
+    <string name="leave">Hamba</string>
+    <string name="add_post">Engeza Okuthunyelwe</string>
+    <string name="report">Bika</string>
+    <string name="document">Idokhumenti</string>
+    <string name="for_you">Kwakho</string>
+    <string name="following">Ukulandela</string>
+    <string name="no_reels">Awekho ama-Reels</string>
+    <string name="followers">Abalandeli</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">Thumela amazwana...</string>
+    <string name="video">Ividiyo</string>
+    <string name="live">Phila</string>
+    <string name="chat">Xoxa</string>
+    <string name="delete_photo">Susa Isithombe</string>
+    <string name="create_a_new_meeting">Dala umhlangano omusha</string>
+    <string name="create">Dala</string>
+    <string name="upload_photo">Layisha Isithombe</string>
+    <string name="upload_video">Layisha ividiyo</string>
+    <string name="gif">I-GIF</string>
+    <string name="liked">Kuthandiwe</string>
+    <string name="likes">Ukuthandwa</string>
+    <string name="add_image">Engeza Isithombe</string>
+    <string name="add_video">Engeza ividiyo</string>
+    <string name="sent_stickers_gif">Izitika ezithunyelwe</string>
+    <string name="add_recorder">Engeza Isiqophi</string>
+    <string name="create_room_meeting">Dala Igumbi /Umhlangano</string>
+    <string name="send_location">Thumela Indawo</string>
+    <string name="add_document">Engeza Idokhumenti</string>
+    <string name="time">Isikhathi -</string>
+    <string name="full_screen">Iskrini esigcwele</string>
+    <string name="post_background">Thumela Ingemuva</string>
+    <string name="announcement">Isimemezelo</string>
+    <string name="send">Thumela</string>
+    <string name="create_reel">Dala i-Reel</string>
+    <string name="sell_something">Thengisa okuthile</string>
+    <string name="video_paused">Ividiyo Imisiwe</string>
+    <string name="muted">Ithulisiwe</string>
+    <string name="type_6_digit_otp">Thayipha i-OTP enamadijithi ayi-6</string>
+    <string name="enter_otp">Faka i-OTP</string>
+    <string name="verify_otp">Qinisekisa i-OTP</string>
+    <string name="try_again">Zama futhi</string>
+    <string name="full_name">Igama eligcwele</string>
+    <string name="government_issued_photo_id_link">Isixhumanisi se-ID yesithombe esikhishwe uhulumeni</string>
+    <string name="follow">Landela</string>
+    <string name="unfollow">Yekela ukulandela</string>
+    <string name="search" tools:ignore="TypographyEllipsis">Sesha...</string>
+    <string name="trending">Okuthrendayo</string>
+    <string name="music">Umculo</string>
+    <string name="sports">Ezemidlalo</string>
+    <string name="memes">Ama-Memes</string>
+    <string name="vines">Imivini</string>
+    <string name="tv_amp_movies">Umabonakude</string>
+    <string name="animals">Izilwane</string>
+    <string name="diy">I-DIY</string>
+    <string name="beauty">Ubuhle</string>
+    <string name="art">Art</string>
+    <string name="food">Ukudla</string>
+    <string name="style">Isitayela</string>
+    <string name="decor">Ukuhlobisa</string>
+    <string name="politics">Ezombusazwe</string>
+    <string name="highlight">Gqamisa</string>
+    <string name="profile_photo">Isithombe Sephrofayela</string>
+    <string name="upload_group_photo">Layisha isithombe seqembu</string>
+    <string name="upload">Layisha</string>
+    <string name="skip">Yeqa</string>
+    <string name="cover_photo">Isithombe sekhava</string>
+    <string name="upload_group_cover">Layisha ikhava yeqembu</string>
+    <string name="create_group">Dala Iqembu</string>
+    <string name="fill_details_to_continue">Gcwalisa imininingwane ukuze uqhubeke</string>
+    <string name="watch_party">Buka Iphathi</string>
+    <string name="web">Iwebhu</string>
+    <string name="sign_up_to_continue">Bhalisa ukuze uqhubeke</string>
+    <string name="email">I-imeyili</string>
+    <string name="already_have_an_account_login">Usuvele unayo i-akhawunti? Ngena ngemvume</string>
+    <string name="send_to">Thumela ku</string>
+    <string name="add_to_reels">Engeza kumareli</string>
+    <string name="add_to_story">Engeza endabeni</string>
+    <string name="add_to_post">Engeza kokuthunyelwe</string>
+    <string name="send_to_user">Thumela kumsebenzisi</string>
+    <string name="send_to_group">Thumela eqenjini</string>
+    <string name="add_to_product">Engeza kumkhiqizo</string>
+    <string name="edit_video">Hlela ividiyo</string>
+    <string name="edit_image">Hlela Isithombe</string>
+    <string name="users">Abasebenzisi</string>
+    <string name="posts">Okuthunyelwe</string>
+    <string name="groups">Amaqembu</string>
+    <string name="market">Imakethe</string>
+    <string name="nearby">Eduze</string>
+    <string name="load_more">Layisha Okuningi</string>
+    <string name="saved">Kulondoloziwe</string>
+    <string name="reels">Ama-Reels</string>
+    <string name="nothing_found">Akukho Okutholakele</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">Iyashaya...</string>
+    <string name="new_account">I-akhawunti entsha</string>
+    <string name="name">Igama</string>
+    <string name="type_profile_details">Thayipha imininingwane yephrofayela</string>
+    <string name="username">Igama lomsebenzisi</string>
+    <string name="sign_up">Bhalisela</string>
+    <string name="contact">Oxhumana naye</string>
+    <string name="meetings">Imihlangano</string>
+    <string name="terms_amp_condtitions">Imigomo</string>
+    <string name="change_theme">Shintsha Itimu</string>
+    <string name="send_gif">Thumela i-GIF</string>
+    <string name="dim_mode">Imodi yokufiphaza</string>
+
+</resources>

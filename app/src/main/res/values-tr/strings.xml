@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+    <string name="msg_connection_error">Bağlantı hatası, lütfen ağ ayarlarını kontrol edin veya kanal adının/erişim belirtecinin geçerli olduğundan emin olun</string>
+    <string name="verification_about">Doğrulanmış rozet, hesabın, temsil ettiği tanınmış bir tanınmış kişinin, ünlünün, küresel markanın veya varlığın gerçek varlığı olduğunu belirtmek için bir hesapta görünen bir çektir. Bir istek göndermek, hesabınızın doğrulanacağını garanti etmez.</string>
+    <string name="add_members">Üye ekle</string>
+    <string name="post">Postalamak</string>
+    <string name="analysis">analiz</string>
+    <string name="online">İnternet üzerinden</string>
+    <string name="products" tools:ignore="StringFormatCount">Ürün: %s</string>
+    <string name="messages">Mesajlar</string>
+    <string name="dashboard">Gösterge Paneli</string>
+    <string name="reported_users">Bildirilen Kullanıcılar</string>
+    <string name="reported_groups">Raporlanan Gruplar</string>
+    <string name="reported_posts">Bildirilen Gönderiler</string>
+    <string name="reported_reels">Raporlanan Makaralar</string>
+    <string name="verification_requests">Doğrulama istekleri</string>
+    <string name="remove_verified_users">Doğrulanmış kullanıcıları kaldır</string>
+    <string name="warned_users">Uyarılmış kullanıcılar</string>
+    <string name="warned_groups">Uyarılmış gruplar</string>
+    <string name="ads">Reklamlar</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">Video, resim yayınla</string>
+    <string name="comments">Yorumlar</string>
+    <string name="like">Beğenmek</string>
+    <string name="share">Paylaş</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">Yorum yazın...</string>
+    <string name="create_post">Gönderi Oluştur</string>
+    <string name="everyone">Herkes</string>
+    <string name="add_location">Konum ekle</string>
+    <string name="add_to_your_post">Gönderinize ekleyin</string>
+    <string name="edit_your_email">E-postanızı düzenleyin</string>
+    <string name="new_email">Yeni E-posta</string>
+    <string name="password">Parola</string>
+    <string name="bio">biyo</string>
+    <string name="privatetext">Özel</string>
+    <string name="save">Kayıt etmek</string>
+    <string name="phone_no">Telefon yok.</string>
+    <string name="edit_your_phone_no">Telefon numaranızı düzenleyiniz.</string>
+    <string name="new_phone_no">Yeni telefon numarası</string>
+    <string name="edit_your_password">Şifrenizi düzenleyin</string>
+    <string name="current_password">Mevcut Şifre</string>
+    <string name="new_password">Yeni Şifre</string>
+    <string name="change">Değişiklik</string>
+    <string name="hold_for_video_tap_for_photo">Video için basılı tutun, Fotoğraf için dokunun</string>
+    <string name="masks">maskeler</string>
+    <string name="effects">Etkileri</string>
+    <string name="filters">filtreler</string>
+    <string name="feelings">duygular</string>
+    <string name="travelling">Seyahat</string>
+    <string name="watching">Seyretme</string>
+    <string name="listening">Dinleme</string>
+    <string name="thinking_about">hakkında düşünmek</string>
+    <string name="celebration">Kutlama</string>
+    <string name="looking_for">Arıyor</string>
+    <string name="playing">oynamak</string>
+    <string name="happy">Mutlu</string>
+    <string name="loved">Sevilen</string>
+    <string name="sad">Üzgün</string>
+    <string name="crying">ağlıyor</string>
+    <string name="angry">Sinirli</string>
+    <string name="confused">Kafası karışmış</string>
+    <string name="broken">Bozuldu</string>
+    <string name="cool">Serin</string>
+    <string name="funny">Eğlenceli</string>
+    <string name="tired">Yorgun</string>
+    <string name="shock">Şok</string>
+    <string name="lovely">Sevimli</string>
+    <string name="sleepy">Uykulu</string>
+    <string name="expressionless">İfadesiz</string>
+    <string name="blessed">Mübarek</string>
+    <string name="forgot_password">Parolanızı mı unuttunuz</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">Parolanızı sıfırlamak için kayıtlı e-postayı girin. Şifrenizi sıfırlamak için bu e-postaya bir bağlantı gönderilecek</string>
+    <string name="send_link">Link gönder</string>
+    <string name="type_your_phone_number">telefon numaranızı yazın</string>
+    <string name="generate_otp">OTP oluştur</string>
+    <string name="continue_with_email_instead">Bunun yerine e-posta ile devam edin</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">Bir mesaj göndermek...</string>
+    <string name="my_groups">Gruplarım</string>
+    <string name="members">Üyeler</string>
+    <string name="edit_profile">Profili Düzenle</string>
+    <string name="join_request">Katılma Talebi</string>
+    <string name="cancel_request">İsteği iptal et</string>
+    <string name="what_s_on_your_mind">Aklınızdan ne geçiyor ?</string>
+    <string name="image">resim</string>
+    <string name="audio">Ses</string>
+    <string name="invite_members">Üyeleri davet et</string>
+    <string name="set_a_location">Bir konum belirleyin</string>
+    <string name="login_in_to_continue">Devam etmek için giriş yapın</string>
+    <string name="login">Giriş yapmak</string>
+    <string name="create_new_account">Yeni hesap oluştur</string>
+    <string name="join">Katılmak</string>
+    <string name="menu">Menü</string>
+    <string name="marketplace">Pazar Yeri</string>
+    <string name="night_mode">Gece modu</string>
+    <string name="photo_editor">Fotoğraf Editörü</string>
+    <string name="video_editor">Video Düzenleyici</string>
+    <string name="verification">Doğrulama</string>
+    <string name="policy">Politika</string>
+    <string name="edit_password">Şifreyi Düzenle</string>
+    <string name="edit_number">Numarayı Düzenle</string>
+    <string name="edit_mail">Postayı Düzenle</string>
+    <string name="invite">Tavsiye Daveti</string>
+    <string name="near_by">Yakında</string>
+    <string name="log_out">Çıkış Yap</string>
+    <string name="admin_panel">Admin Paneli</string>
+    <string name="notifications">Bildirimler</string>
+    <string name="party_post">Parti Postası</string>
+    <string name="post_about_your_watch_party">İzleme partiniz hakkında yayın yapın</string>
+    <string name="what_s_on_your_mind_mention_hashtag">Aklınızdan ne geçiyor ? @Anma</string>
+    <string name="set_watch_party_privacy">İzleme partisi gizliliğini ayarla</string>
+    <string name="private_watch_party">Özel İzleme Partisi</string>
+    <string name="public_watch_party">kamu izle parti</string>
+    <string name="next">Sonraki</string>
+    <string name="sell_product">Ürün Sat</string>
+    <string name="title">Başlık</string>
+    <string name="price">Fiyat</string>
+    <string name="category">Kategori</string>
+    <string name="condition">Şart</string>
+    <string name="description">Açıklama</string>
+    <string name="location">Konum</string>
+    <string name="post_reel">Mesaj makarası</string>
+    <string name="describe_you_video_mention_hashtag">Videonuzu tarif edin @Mention</string>
+    <string name="privacy">Mahremiyet</string>
+    <string name="allow_comments">Yorumlara izin ver</string>
+    <string name="remove">Kaldırmak</string>
+    <string name="known_as">olarak bilinir</string>
+    <string name="accept">Kabul</string>
+    <string name="government_id">Hükûmet Kimliği</string>
+    <string name="message">İleti</string>
+    <string name="poke">dürtmek</string>
+    <string name="block">Engellemek</string>
+    <string name="reject">Reddetmek</string>
+    <string name="apps">uygulamalar</string>
+    <string name="download">İndirmek</string>
+    <string name="copy">kopyala</string>
+    <string name="delete">Silmek</string>
+    <string name="liked_by">tarafından beğenildi</string>
+    <string name="rainy_shoes">yağmurlu ayakkabılar</string>
+    <string name="camera">Kamera</string>
+    <string name="add_audio">Ses Ekle</string>
+    <string name="background_colour">Arka plan rengi</string>
+    <string name="add_gif">GIF Ekle</string>
+    <string name="feeling_activity">Duygu /Aktivite</string>
+    <string name="add_reels">makara ekle</string>
+    <string name="go_live">Canlı Yayına Geç</string>
+    <string name="create_podcast">Podcast Oluştur</string>
+    <string name="add_stories">Hikaye ekle</string>
+    <string name="views">Görüntüleme</string>
+    <string name="podcast">Dijital ses dosyası</string>
+    <string name="paste_video_link_from_web">Web\'den video bağlantısını yapıştırın</string>
+    <string name="supports_youtube_amp_dailymotion">YouTube\'u destekler</string>
+    <string name="link">Bağlantı</string>
+    <string name="upload_any_video_you_want">İstediğiniz videoyu yükleyin</string>
+    <string name="textview">Metin görünümü</string>
+    <string name="paste_the_meeting_id">Toplantı kimliğini yapıştırın</string>
+    <string name="meeting_id">Toplantı kimliği</string>
+    <string name="edit">Düzenlemek</string>
+    <string name="leave">Çıkmak</string>
+    <string name="add_post">Gönderi Ekle</string>
+    <string name="report">Bildiri</string>
+    <string name="document">belge</string>
+    <string name="for_you">Senin için</string>
+    <string name="following">Takip etme</string>
+    <string name="no_reels">makara yok</string>
+    <string name="followers">Takipçiler</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">Yorum gönder...</string>
+    <string name="video">Video</string>
+    <string name="live">Canlı olarak</string>
+    <string name="chat">Sohbet etmek</string>
+    <string name="delete_photo">Fotoğrafı sil</string>
+    <string name="create_a_new_meeting">Yeni bir toplantı oluştur</string>
+    <string name="create">Yaratmak</string>
+    <string name="upload_photo">Fotoğraf yükle</string>
+    <string name="upload_video">Video yükle</string>
+    <string name="gif">GIF</string>
+    <string name="liked">beğenildi</string>
+    <string name="likes">Seviyor</string>
+    <string name="add_image">Resim eklemek</string>
+    <string name="add_video">Video ekle</string>
+    <string name="sent_stickers_gif">Gönderilen çıkartmalar</string>
+    <string name="add_recorder">Kaydedici Ekle</string>
+    <string name="create_room_meeting">Oda /Toplantı Oluştur</string>
+    <string name="send_location">Konum gönder</string>
+    <string name="add_document">Belge Ekle</string>
+    <string name="time">Zaman -</string>
+    <string name="full_screen">Tam ekran</string>
+    <string name="post_background">Arka Plan Gönderi</string>
+    <string name="announcement">Duyuru</string>
+    <string name="send">Göndermek</string>
+    <string name="create_reel">Makara Oluştur</string>
+    <string name="sell_something">bir şey sat</string>
+    <string name="video_paused">Video Duraklatıldı</string>
+    <string name="muted">sessiz</string>
+    <string name="type_6_digit_otp">6 haneli OTP yazın</string>
+    <string name="enter_otp">OTP\'yi girin</string>
+    <string name="verify_otp">OTP\'yi doğrulayın</string>
+    <string name="try_again">Tekrar deneyin</string>
+    <string name="full_name">Ad Soyad</string>
+    <string name="government_issued_photo_id_link">Devlet tarafından verilmiş fotoğraflı kimlik bağlantısı</string>
+    <string name="follow">Takip et</string>
+    <string name="unfollow">Takibi bırak</string>
+    <string name="search" tools:ignore="TypographyEllipsis">Aramak...</string>
+    <string name="trending">trend</string>
+    <string name="music">Müzik</string>
+    <string name="sports">Spor Dalları</string>
+    <string name="memes">Mizah</string>
+    <string name="vines">üzüm</string>
+    <string name="tv_amp_movies">televizyon</string>
+    <string name="animals">Hayvanlar</string>
+    <string name="diy">kendin yap</string>
+    <string name="beauty">Güzellik</string>
+    <string name="art">Sanat</string>
+    <string name="food">Gıda</string>
+    <string name="style">stil</string>
+    <string name="decor">Dekor</string>
+    <string name="politics">Siyaset</string>
+    <string name="highlight">Vurgulamak</string>
+    <string name="profile_photo">Profil resmi</string>
+    <string name="upload_group_photo">Grup fotoğrafı yükle</string>
+    <string name="upload">Yüklemek</string>
+    <string name="skip">Atlamak</string>
+    <string name="cover_photo">Kapak fotoğrafı</string>
+    <string name="upload_group_cover">Grup kapağını yükle</string>
+    <string name="create_group">Grup oluştur</string>
+    <string name="fill_details_to_continue">Devam etmek için ayrıntıları doldurun</string>
+    <string name="watch_party">Parti izle</string>
+    <string name="web">ağ</string>
+    <string name="sign_up_to_continue">Devam etmek için kaydolun</string>
+    <string name="email">E-posta</string>
+    <string name="already_have_an_account_login">Zaten hesabınız var mı ? Giriş yapmak</string>
+    <string name="send_to">Gönderildi</string>
+    <string name="add_to_reels">makaralara ekle</string>
+    <string name="add_to_story">hikayeye ekle</string>
+    <string name="add_to_post">yayına ekle</string>
+    <string name="send_to_user">kullanıcıya gönder</string>
+    <string name="send_to_group">gruba gönder</string>
+    <string name="add_to_product">Ürüne ekle</string>
+    <string name="edit_video">Videoyu düzenle</string>
+    <string name="edit_image">Resmi Düzenle</string>
+    <string name="users">Kullanıcılar</string>
+    <string name="posts">Gönderiler</string>
+    <string name="groups">Gruplar</string>
+    <string name="market">Market</string>
+    <string name="nearby">Yakında</string>
+    <string name="load_more">Daha fazla yükle</string>
+    <string name="saved">kaydedildi</string>
+    <string name="reels">makaralar</string>
+    <string name="nothing_found">Hiçbirşey Bulunamadı</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">arıyor...</string>
+    <string name="new_account">Yeni hesap</string>
+    <string name="name">İsim</string>
+    <string name="type_profile_details">Profil ayrıntılarını yazın</string>
+    <string name="username">Kullanıcı adı</string>
+    <string name="sign_up">Üye olmak</string>
+    <string name="contact">Temas</string>
+    <string name="meetings">Toplantılar</string>
+    <string name="terms_amp_condtitions">Şartlar</string>
+    <string name="change_theme">Temayı değiştir</string>
+    <string name="send_gif">GIF gönder</string>
+    <string name="dim_mode">Karartma Modu</string>
+
+</resources>

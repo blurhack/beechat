@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+    <string name="msg_connection_error">کنکشن کی خرابی، براہ کرم نیٹ ورک کی ترتیبات چیک کریں یا یقینی بنائیں کہ چینل کا نام/رسائی ٹوکن درست ہیں۔</string>
+    <string name="verification_about">تصدیق شدہ بیج ایک چیک ہوتا ہے جو اکاؤنٹ پر ظاہر ہوتا ہے جس کی نشاندہی کرتا ہے کہ اکاؤنٹ ایک قابل ذکر عوامی شخصیت، مشہور شخصیت، عالمی برانڈ یا ہستی کی مستند موجودگی ہے جس کی وہ نمائندگی کرتا ہے۔ درخواست جمع کرانا اس بات کی ضمانت نہیں دیتا کہ آپ کے اکاؤنٹ کی تصدیق ہو جائے گی۔</string>
+    <string name="add_members">ممبرز کو شامل کریں۔</string>
+    <string name="post">پوسٹ</string>
+    <string name="analysis">تجزیہ</string>
+    <string name="online">آن لائن</string>
+    <string name="products">مصنوعات</string>
+    <string name="messages">پیغامات</string>
+    <string name="dashboard">ڈیش بورڈ</string>
+    <string name="reported_users">رپورٹ کردہ صارفین</string>
+    <string name="reported_groups">رپورٹ شدہ گروپس</string>
+    <string name="reported_posts">رپورٹ شدہ پوسٹس</string>
+    <string name="reported_reels">رپورٹ شدہ ریلز</string>
+    <string name="verification_requests">تصدیق کی درخواستیں۔</string>
+    <string name="remove_verified_users">تصدیق شدہ صارفین کو ہٹا دیں۔</string>
+    <string name="warned_users">صارفین کو خبردار کیا۔</string>
+    <string name="warned_groups">متنبہ گروپس</string>
+    <string name="ads">اشتہارات</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">ویڈیو، تصویر پوسٹ کریں۔</string>
+    <string name="comments">تبصرے</string>
+    <string name="like">پسند</string>
+    <string name="share">بانٹیں</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">ایک تبصرہ ٹائپ کریں...</string>
+    <string name="create_post">پوسٹ بنائیں</string>
+    <string name="everyone">ہر کوئی</string>
+    <string name="add_location">مقام شامل کریں</string>
+    <string name="add_to_your_post">اپنی پوسٹ میں شامل کریں۔</string>
+    <string name="edit_your_email">اپنے ای میل میں ترمیم کریں۔</string>
+    <string name="new_email">نیا ای میل</string>
+    <string name="password">پاس ورڈ</string>
+    <string name="bio">بایو</string>
+    <string name="privatetext">نجی</string>
+    <string name="save">محفوظ کریں۔</string>
+    <string name="phone_no">فون نمبر.</string>
+    <string name="edit_your_phone_no">اپنے فون نمبر میں ترمیم کریں۔</string>
+    <string name="new_phone_no">نیا فون نمبر</string>
+    <string name="edit_your_password">اپنے پاس ورڈ میں ترمیم کریں۔</string>
+    <string name="current_password">موجودہ خفیہ لفظ</string>
+    <string name="new_password">نیا پاس ورڈ</string>
+    <string name="change">تبدیلی</string>
+    <string name="hold_for_video_tap_for_photo">ویڈیو کے لیے پکڑو، تصویر کے لیے تھپتھپائیں۔</string>
+    <string name="masks">ماسک</string>
+    <string name="effects">اثرات</string>
+    <string name="filters">فلٹرز</string>
+    <string name="feelings">احساسات</string>
+    <string name="travelling">سفر کرنا</string>
+    <string name="watching">دیکھ رہا ہے۔</string>
+    <string name="listening">سن رہا ہے۔</string>
+    <string name="thinking_about">بارے میں سوچ رہی</string>
+    <string name="celebration">جشن</string>
+    <string name="looking_for">تلاش</string>
+    <string name="playing">کھیلنا</string>
+    <string name="happy">خوش</string>
+    <string name="loved">پیار کیا۔</string>
+    <string name="sad">اداس</string>
+    <string name="crying">رونا</string>
+    <string name="angry">ناراض</string>
+    <string name="confused">کنفیوزڈ</string>
+    <string name="broken">ٹوٹاھوا</string>
+    <string name="cool">ٹھنڈا</string>
+    <string name="funny">مضحکہ خیز</string>
+    <string name="tired">تھکا ہوا</string>
+    <string name="shock">جھٹکا</string>
+    <string name="lovely">پیارا</string>
+    <string name="sleepy">اونگھنے والا</string>
+    <string name="expressionless">بے اظہار</string>
+    <string name="blessed">مبارک</string>
+    <string name="forgot_password">پاسورڈ بھول گے</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">اپنا پاس ورڈ دوبارہ ترتیب دینے کے لیے رجسٹرڈ ای میل درج کریں۔ آپ کا پاس ورڈ دوبارہ ترتیب دینے کے لیے اس ای میل پر ایک لنک بھیجا جائے گا۔</string>
+    <string name="send_link">لنک بھیجیں۔</string>
+    <string name="type_your_phone_number">اپنا فون نمبر ٹائپ کریں۔</string>
+    <string name="generate_otp">OTP بنائیں</string>
+    <string name="continue_with_email_instead">اس کے بجائے ای میل کے ساتھ جاری رکھیں</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">پیغام بھیجو...</string>
+    <string name="my_groups">میرے گروپس</string>
+    <string name="members">ممبران</string>
+    <string name="edit_profile">پروفائل میں ترمیم کریں</string>
+    <string name="join_request">درخواست میں شامل ہوں۔</string>
+    <string name="cancel_request">درخواست منسوخ</string>
+    <string name="what_s_on_your_mind">تمھارے دماغ میں کیا چل رہا ہے ؟</string>
+    <string name="image">تصویر</string>
+    <string name="audio">آڈیو</string>
+    <string name="invite_members">ممبران کو مدعو کریں۔</string>
+    <string name="set_a_location">ایک مقام متعین کریں۔</string>
+    <string name="login_in_to_continue">جاری رکھنے کے لیے لاگ ان کریں۔</string>
+    <string name="login">لاگ ان کریں</string>
+    <string name="create_new_account">نیا اکاؤنٹ بنانے</string>
+    <string name="join">شمولیت</string>
+    <string name="menu">مینو</string>
+    <string name="marketplace">مارکیٹ پلیس</string>
+    <string name="night_mode">نائٹ موڈ</string>
+    <string name="photo_editor">فوٹو ایڈیٹر</string>
+    <string name="video_editor">ویڈیو ایڈیٹر</string>
+    <string name="verification">تصدیق</string>
+    <string name="policy">پالیسی</string>
+    <string name="edit_password">پاس ورڈ میں ترمیم کریں۔</string>
+    <string name="edit_number">نمبر میں ترمیم کریں۔</string>
+    <string name="edit_mail">میل میں ترمیم کریں۔</string>
+    <string name="invite">ریفرل دعوت</string>
+    <string name="near_by">کے قریب</string>
+    <string name="log_out">لاگ آوٹ</string>
+    <string name="admin_panel">ایڈمن پینل</string>
+    <string name="notifications">اطلاعات</string>
+    <string name="party_post">پارٹی پوسٹ</string>
+    <string name="post_about_your_watch_party">اپنی واچ پارٹی کے بارے میں پوسٹ کریں۔</string>
+    <string name="what_s_on_your_mind_mention_hashtag">تمھارے دماغ میں کیا چل رہا ہے ؟ @ذکر</string>
+    <string name="set_watch_party_privacy">واچ پارٹی کی پرائیویسی سیٹ کریں۔</string>
+    <string name="private_watch_party">پرائیویٹ واچ پارٹی</string>
+    <string name="public_watch_party">پبلک واچ پارٹی</string>
+    <string name="next">اگلے</string>
+    <string name="sell_product">پروڈکٹ فروخت کریں۔</string>
+    <string name="title">عنوان</string>
+    <string name="price">قیمت</string>
+    <string name="category">قسم</string>
+    <string name="condition">حالت</string>
+    <string name="description">تفصیل</string>
+    <string name="location">مقام</string>
+    <string name="post_reel">پوسٹ ریل</string>
+    <string name="describe_you_video_mention_hashtag">اپنے ویڈیو کی وضاحت کریں @ ذکر کریں۔</string>
+    <string name="privacy">رازداری</string>
+    <string name="allow_comments">تبصرے کی اجازت دیں۔</string>
+    <string name="remove">دور</string>
+    <string name="known_as">جانا جاتا ہے</string>
+    <string name="accept">قبول کریں۔</string>
+    <string name="government_id">سرکاری ID</string>
+    <string name="message">پیغام</string>
+    <string name="poke">پوک</string>
+    <string name="block">بلاک</string>
+    <string name="reject">رد کرنا</string>
+    <string name="apps">ایپس</string>
+    <string name="download">ڈاؤن لوڈ کریں</string>
+    <string name="copy">کاپی کریں۔</string>
+    <string name="delete">حذف کریں۔</string>
+    <string name="liked_by">نے پسند کیا۔</string>
+    <string name="rainy_shoes">برساتی جوتے</string>
+    <string name="camera">کیمرہ</string>
+    <string name="add_audio">آڈیو شامل کریں۔</string>
+    <string name="background_colour">پس منظر کا رنگ</string>
+    <string name="add_gif">GIF شامل کریں۔</string>
+    <string name="feeling_activity">احساس /سرگرمی</string>
+    <string name="add_reels">ریلیں شامل کریں۔</string>
+    <string name="go_live">لائیو جاؤ</string>
+    <string name="create_podcast">پوڈ کاسٹ بنائیں</string>
+    <string name="add_stories">کہانیاں شامل کریں۔</string>
+    <string name="views">مناظر</string>
+    <string name="podcast">پوڈ کاسٹ</string>
+    <string name="paste_video_link_from_web">ویب سے ویڈیو لنک پیسٹ کریں۔</string>
+    <string name="supports_youtube_amp_dailymotion">یوٹیوب کو سپورٹ کرتا ہے۔</string>
+    <string name="link">لنک</string>
+    <string name="upload_any_video_you_want">آپ جو بھی ویڈیو چاہتے ہیں اپ لوڈ کریں۔</string>
+    <string name="textview">ٹیکسٹ ویو</string>
+    <string name="paste_the_meeting_id">میٹنگ آئی ڈی چسپاں کریں۔</string>
+    <string name="meeting_id">میٹنگ آئی ڈی</string>
+    <string name="edit">ترمیم</string>
+    <string name="leave">چھوڑو</string>
+    <string name="add_post">پوسٹ شامل کریں۔</string>
+    <string name="report">رپورٹ</string>
+    <string name="document">دستاویز</string>
+    <string name="for_you">آپ کے لیے</string>
+    <string name="following">درج ذیل</string>
+    <string name="no_reels">کوئی ریلز نہیں۔</string>
+    <string name="followers">پیروکار</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">ایک تبصرہ بھیجیں...</string>
+    <string name="video">ویڈیو</string>
+    <string name="live">جیو</string>
+    <string name="chat">گپ شپ</string>
+    <string name="delete_photo">تصویر حذف کریں۔</string>
+    <string name="create_a_new_meeting">ایک نئی میٹنگ بنائیں</string>
+    <string name="create">بنانا</string>
+    <string name="upload_photo">تصویر اپلوڈ کریں</string>
+    <string name="upload_video">ویڈیو اپ لوڈ کریں۔</string>
+    <string name="gif">GIF</string>
+    <string name="liked">پسند کیا۔</string>
+    <string name="likes">پسند کرتا ہے۔</string>
+    <string name="add_image">تصویر شامل کریں۔</string>
+    <string name="add_video">ویڈیو شامل کریں۔</string>
+    <string name="sent_stickers_gif">اسٹیکرز بھیجے۔</string>
+    <string name="add_recorder">ریکارڈر شامل کریں۔</string>
+    <string name="create_room_meeting">کمرہ /میٹنگ بنائیں</string>
+    <string name="send_location">مقام بھیجیں۔</string>
+    <string name="add_document">دستاویز شامل کریں۔</string>
+    <string name="time">وقت -</string>
+    <string name="full_screen">مکمل اسکرین یا بڑی اسکرین</string>
+    <string name="post_background">پوسٹ کا پس منظر</string>
+    <string name="announcement">اعلان</string>
+    <string name="send">بھیجیں</string>
+    <string name="create_reel">ریل بنائیں</string>
+    <string name="sell_something">کچھ بیچیں۔</string>
+    <string name="video_paused">ویڈیو روک دی گئی۔</string>
+    <string name="muted">خاموش</string>
+    <string name="type_6_digit_otp">6 ہندسوں کا OTP ٹائپ کریں۔</string>
+    <string name="enter_otp">OTP درج کریں۔</string>
+    <string name="verify_otp">OTP کی تصدیق کریں۔</string>
+    <string name="try_again">دوبارہ کوشش کریں</string>
+    <string name="full_name">پورا نام</string>
+    <string name="government_issued_photo_id_link">حکومت نے فوٹو آئی ڈی کا لنک جاری کیا۔</string>
+    <string name="follow">پیروی</string>
+    <string name="unfollow">پیروی ختم کریں۔</string>
+    <string name="search" tools:ignore="TypographyEllipsis">تلاش کریں...</string>
+    <string name="trending">ٹرینڈنگ</string>
+    <string name="music">موسیقی</string>
+    <string name="sports">کھیل</string>
+    <string name="memes">میمز</string>
+    <string name="vines">وائنز</string>
+    <string name="tv_amp_movies">ٹی وی</string>
+    <string name="animals">جانور</string>
+    <string name="diy">DIY</string>
+    <string name="beauty">خوبصورتی</string>
+    <string name="art">فن</string>
+    <string name="food">کھانا</string>
+    <string name="style">انداز</string>
+    <string name="decor">سجاوٹ</string>
+    <string name="politics">سیاست</string>
+    <string name="highlight">نمایاں کریں۔</string>
+    <string name="profile_photo">پروفائل فوٹو</string>
+    <string name="upload_group_photo">گروپ فوٹو اپ لوڈ کریں۔</string>
+    <string name="upload">اپ لوڈ کریں۔</string>
+    <string name="skip">چھوڑ دو</string>
+    <string name="cover_photo">کور فوٹو</string>
+    <string name="upload_group_cover">گروپ کور اپ لوڈ کریں۔</string>
+    <string name="create_group">گروپ بنائیں</string>
+    <string name="fill_details_to_continue">جاری رکھنے کے لیے تفصیلات بھریں۔</string>
+    <string name="watch_party">پارٹی دیکھیں</string>
+    <string name="web">ویب</string>
+    <string name="sign_up_to_continue">جاری رکھنے کے لیے سائن اپ کریں۔</string>
+    <string name="email">ای میل</string>
+    <string name="already_have_an_account_login">پہلے سے ہی اکاؤنٹ ہے؟ لاگ ان کریں</string>
+    <string name="send_to">کے لئے بھیج</string>
+    <string name="add_to_reels">ریلوں میں شامل کریں۔</string>
+    <string name="add_to_story">کہانی میں شامل کریں۔</string>
+    <string name="add_to_post">پوسٹ میں شامل کریں۔</string>
+    <string name="send_to_user">صارف کو بھیجیں۔</string>
+    <string name="send_to_group">گروپ میں بھیجیں۔</string>
+    <string name="add_to_product">پروڈکٹ میں شامل کریں۔</string>
+    <string name="edit_video">ویڈیو میں ترمیم کریں۔</string>
+    <string name="edit_image">تصویر میں ترمیم کریں۔</string>
+    <string name="users">صارفین</string>
+    <string name="posts">پوسٹس</string>
+    <string name="groups">گروپس</string>
+    <string name="market">مارکیٹ</string>
+    <string name="nearby">آس پاس</string>
+    <string name="load_more">مزید لوڈ کریں</string>
+    <string name="saved">محفوظ کیا گیا۔</string>
+    <string name="reels">ریلز</string>
+    <string name="nothing_found">کچھ نہیں ملا</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">کال کر رہا ہے...</string>
+    <string name="new_account">نیا کھاتہ</string>
+    <string name="name">نام</string>
+    <string name="type_profile_details">پروفائل کی تفصیلات ٹائپ کریں۔</string>
+    <string name="username">صارف نام</string>
+    <string name="sign_up">سائن اپ</string>
+    <string name="contact">رابطہ کریں۔</string>
+    <string name="meetings">ملاقاتیں</string>
+    <string name="terms_amp_condtitions">شرائط</string>
+    <string name="change_theme">تھیم تبدیل کریں۔</string>
+    <string name="send_gif">GIF بھیجیں۔</string>
+    <string name="dim_mode">مدھم موڈ</string>
+
+</resources>

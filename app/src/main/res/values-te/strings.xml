@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+    <string name="msg_connection_error">కనెక్షన్ లోపం, దయచేసి నెట్‌వర్క్ సెట్టింగ్‌లను తనిఖీ చేయండి లేదా ఛానెల్ పేరు/యాక్సెస్ టోకెన్ చెల్లుబాటు అయ్యేలా చూసుకోండి</string>
+    <string name="verification_about">ధృవీకరించబడిన బ్యాడ్జ్ అనేది ఖాతా అనేది ఒక ప్రముఖ పబ్లిక్ ఫిగర్, సెలబ్రిటీ, గ్లోబల్ బ్రాండ్ లేదా ఎంటిటీ యొక్క ప్రామాణికమైన ఉనికిని సూచించడానికి ఖాతాలో కనిపించే చెక్. అభ్యర్థనను సమర్పించడం వలన మీ ఖాతా ధృవీకరించబడుతుందని హామీ ఇవ్వదు.</string>
+    <string name="add_members">సభ్యులను జోడించండి</string>
+    <string name="post">పోస్ట్ చేయండి</string>
+    <string name="analysis">విశ్లేషణ</string>
+    <string name="online">ఆన్‌లైన్</string>
+    <string name="products">ఉత్పత్తులు</string>
+    <string name="messages">సందేశాలు</string>
+    <string name="dashboard">డాష్బోర్డ్</string>
+    <string name="reported_users">నివేదించబడిన వినియోగదారులు</string>
+    <string name="reported_groups">నివేదించబడిన గుంపులు</string>
+    <string name="reported_posts">నివేదించబడిన పోస్ట్‌లు</string>
+    <string name="reported_reels">నివేదించబడిన రీల్స్</string>
+    <string name="verification_requests">ధృవీకరణ అభ్యర్థనలు</string>
+    <string name="remove_verified_users">ధృవీకరించబడిన వినియోగదారులను తీసివేయండి</string>
+    <string name="warned_users">వినియోగదారులను హెచ్చరించింది</string>
+    <string name="warned_groups">హెచ్చరించిన సమూహాలు</string>
+    <string name="ads">ప్రకటనలు</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">వీడియో, చిత్రాన్ని పోస్ట్ చేయండి</string>
+    <string name="comments">వ్యాఖ్యలు</string>
+    <string name="like">ఇష్టం</string>
+    <string name="share">షేర్ చేయండి</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">వ్యాఖ్యను టైప్ చేయండి...</string>
+    <string name="create_post">పోస్ట్‌ని సృష్టించండి</string>
+    <string name="everyone">ప్రతి ఒక్కరూ</string>
+    <string name="add_location">స్థానాన్ని జోడించండి</string>
+    <string name="add_to_your_post">మీ పోస్ట్‌కి జోడించండి</string>
+    <string name="edit_your_email">మీ ఇమెయిల్‌ను సవరించండి</string>
+    <string name="new_email">కొత్త ఇమెయిల్</string>
+    <string name="password">పాస్వర్డ్</string>
+    <string name="bio">బయో</string>
+    <string name="privatetext">ప్రైవేట్</string>
+    <string name="save">సేవ్ చేయండి</string>
+    <string name="phone_no">చరవాణి సంఖ్య.</string>
+    <string name="edit_your_phone_no">మీ ఫోన్ నంబర్‌ని సవరించండి.</string>
+    <string name="new_phone_no">కొత్త ఫోన్ నెం.</string>
+    <string name="edit_your_password">మీ పాస్‌వర్డ్‌ని సవరించండి</string>
+    <string name="current_password">ప్రస్తుత పాస్వర్డ్</string>
+    <string name="new_password">కొత్త పాస్వర్డ్</string>
+    <string name="change">మార్చండి</string>
+    <string name="hold_for_video_tap_for_photo">వీడియో కోసం పట్టుకోండి, ఫోటో కోసం నొక్కండి</string>
+    <string name="masks">ముసుగులు</string>
+    <string name="effects">ప్రభావాలు</string>
+    <string name="filters">ఫిల్టర్లు</string>
+    <string name="feelings">భావాలు</string>
+    <string name="travelling">ప్రయాణిస్తున్నాను</string>
+    <string name="watching">చూస్తున్నారు</string>
+    <string name="listening">వింటూ</string>
+    <string name="thinking_about">గురించి ఆలోచిస్తున్నారు</string>
+    <string name="celebration">వేడుక</string>
+    <string name="looking_for">వెతుకుతున్నారు</string>
+    <string name="playing">ఆడుతున్నారు</string>
+    <string name="happy">సంతోషంగా</string>
+    <string name="loved">ప్రేమించాను</string>
+    <string name="sad">విచారంగా</string>
+    <string name="crying">ఏడుస్తోంది</string>
+    <string name="angry">కోపం</string>
+    <string name="confused">గందరగోళం</string>
+    <string name="broken">విరిగిపోయింది</string>
+    <string name="cool">కూల్</string>
+    <string name="funny">తమాషా</string>
+    <string name="tired">అలసిన</string>
+    <string name="shock">షాక్</string>
+    <string name="lovely">సుందరమైన</string>
+    <string name="sleepy">నిద్ర పోతున్నది</string>
+    <string name="expressionless">వ్యక్తీకరణ లేని</string>
+    <string name="blessed">ఆశీర్వదించారు</string>
+    <string name="forgot_password">పాస్‌వర్డ్ మర్చిపోయాను</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">మీ పాస్‌వర్డ్‌ని రీసెట్ చేయడానికి రిజిస్టర్డ్ ఇమెయిల్‌ను నమోదు చేయండి. మీ పాస్‌వర్డ్‌ని రీసెట్ చేయడానికి ఈ ఇమెయిల్‌లో లింక్ పంపబడుతుంది</string>
+    <string name="send_link">లింక్ పంపండి</string>
+    <string name="type_your_phone_number">మీ ఫోన్ నంబర్‌ని టైప్ చేయండి</string>
+    <string name="generate_otp">OTPని రూపొందించండి</string>
+    <string name="continue_with_email_instead">బదులుగా ఇమెయిల్‌తో కొనసాగించండి</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">సందేశం పంపండి...</string>
+    <string name="my_groups">నా గుంపులు</string>
+    <string name="members">సభ్యులు</string>
+    <string name="edit_profile">ప్రొఫైల్‌ని సవరించండి</string>
+    <string name="join_request">చేరడానికి అభ్యర్థన</string>
+    <string name="cancel_request">అభ్యర్ధన రద్దు చెయ్యండి</string>
+    <string name="what_s_on_your_mind">నిీ మనసులో ఏముంది ?</string>
+    <string name="image">చిత్రం</string>
+    <string name="audio">ఆడియో</string>
+    <string name="invite_members">సభ్యులను ఆహ్వానించండి</string>
+    <string name="set_a_location">స్థానాన్ని సెట్ చేయండి</string>
+    <string name="login_in_to_continue">కొనసాగించడానికి లాగిన్ చేయండి</string>
+    <string name="login">ప్రవేశించండి</string>
+    <string name="create_new_account">క్రొత్త ఖాతా తెరువుము</string>
+    <string name="join">చేరండి</string>
+    <string name="menu">మెను</string>
+    <string name="marketplace">మార్కెట్ ప్లేస్</string>
+    <string name="night_mode">రాత్రి మోడ్</string>
+    <string name="photo_editor">ఫోటో ఎడిటర్</string>
+    <string name="video_editor">వీడియో ఎడిటర్</string>
+    <string name="verification">ధృవీకరణ</string>
+    <string name="policy">విధానం</string>
+    <string name="edit_password">పాస్‌వర్డ్‌ని సవరించండి</string>
+    <string name="edit_number">సంఖ్యను సవరించండి</string>
+    <string name="edit_mail">మెయిల్‌ని సవరించండి</string>
+    <string name="invite">రెఫరల్ ఆహ్వానం</string>
+    <string name="near_by">సమీపంలో</string>
+    <string name="log_out">లాగ్ అవుట్ చేయండి</string>
+    <string name="admin_panel">పాలన విభాగం</string>
+    <string name="notifications">నోటిఫికేషన్‌లు</string>
+    <string name="party_post">పార్టీ పోస్ట్</string>
+    <string name="post_about_your_watch_party">మీ వాచ్ పార్టీ గురించి పోస్ట్ చేయండి</string>
+    <string name="what_s_on_your_mind_mention_hashtag">నిీ మనసులో ఏముంది ? @ప్రస్తావన</string>
+    <string name="set_watch_party_privacy">వాచ్ పార్టీ గోప్యతను సెట్ చేయండి</string>
+    <string name="private_watch_party">ప్రైవేట్ వాచ్ పార్టీ</string>
+    <string name="public_watch_party">పబ్లిక్ వాచ్ పార్టీ</string>
+    <string name="next">తరువాత</string>
+    <string name="sell_product">ఉత్పత్తిని అమ్మండి</string>
+    <string name="title">శీర్షిక</string>
+    <string name="price">ధర</string>
+    <string name="category">వర్గం</string>
+    <string name="condition">పరిస్థితి</string>
+    <string name="description">వివరణ</string>
+    <string name="location">స్థానం</string>
+    <string name="post_reel">పోస్ట్ రీల్</string>
+    <string name="describe_you_video_mention_hashtag">మీ వీడియో @మెన్షన్ గురించి వివరించండి</string>
+    <string name="privacy">గోప్యత</string>
+    <string name="allow_comments">వ్యాఖ్యలను అనుమతించండి</string>
+    <string name="remove">తొలగించు</string>
+    <string name="known_as">ప్రసిద్ధి</string>
+    <string name="accept">అంగీకరించు</string>
+    <string name="government_id">ప్రభుత్వ ID</string>
+    <string name="message">సందేశం</string>
+    <string name="poke">దూర్చు</string>
+    <string name="block">నిరోధించు</string>
+    <string name="reject">తిరస్కరించు</string>
+    <string name="apps">యాప్‌లు</string>
+    <string name="download">డౌన్‌లోడ్ చేయండి</string>
+    <string name="copy">కాపీ చేయండి</string>
+    <string name="delete">తొలగించు</string>
+    <string name="liked_by">ఇష్టపడ్డారు</string>
+    <string name="rainy_shoes">వర్షపు బూట్లు</string>
+    <string name="camera">కెమెరా</string>
+    <string name="add_audio">ఆడియోని జోడించండి</string>
+    <string name="background_colour">నేపథ్య రంగు</string>
+    <string name="add_gif">GIFని జోడించండి</string>
+    <string name="feeling_activity">అనుభూతి /కార్యాచరణ</string>
+    <string name="add_reels">రీల్స్ జోడించండి</string>
+    <string name="go_live">ప్రత్యక్ష ప్రసారం చేయి</string>
+    <string name="create_podcast">పోడ్‌కాస్ట్‌ని సృష్టించండి</string>
+    <string name="add_stories">కథనాలను జోడించండి</string>
+    <string name="views">వీక్షణలు</string>
+    <string name="podcast">పోడ్‌కాస్ట్</string>
+    <string name="paste_video_link_from_web">వెబ్ నుండి వీడియో లింక్‌ను అతికించండి</string>
+    <string name="supports_youtube_amp_dailymotion">YouTubeకు మద్దతు ఇస్తుంది</string>
+    <string name="link">లింక్</string>
+    <string name="upload_any_video_you_want">మీకు కావాల్సిన వీడియోను అప్‌లోడ్ చేయండి</string>
+    <string name="textview">టెక్స్ట్ వ్యూ</string>
+    <string name="paste_the_meeting_id">మీటింగ్ ఐడిని అతికించండి</string>
+    <string name="meeting_id">సమావేశ ID</string>
+    <string name="edit">సవరించు</string>
+    <string name="leave">వదిలేయండి</string>
+    <string name="add_post">పోస్ట్ జోడించండి</string>
+    <string name="report">నివేదించండి</string>
+    <string name="document">పత్రం</string>
+    <string name="for_you">మీ కోసం</string>
+    <string name="following">అనుసరిస్తోంది</string>
+    <string name="no_reels">రీల్స్ లేవు</string>
+    <string name="followers">అనుచరులు</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">వ్యాఖ్యను పంపండి...</string>
+    <string name="video">వీడియో</string>
+    <string name="live">లైవ్</string>
+    <string name="chat">చాట్</string>
+    <string name="delete_photo">ఫోటోను తొలగించండి</string>
+    <string name="create_a_new_meeting">కొత్త సమావేశాన్ని సృష్టించండి</string>
+    <string name="create">సృష్టించు</string>
+    <string name="upload_photo">ఫోటోను అప్‌లోడ్ చేయండి</string>
+    <string name="upload_video">వీడియోను అప్‌లోడ్ చేయండి</string>
+    <string name="gif">GIF</string>
+    <string name="liked">ఇష్టపడ్డారు</string>
+    <string name="likes">ఇష్టపడ్డారు</string>
+    <string name="add_image">చిత్రాన్ని జోడించండి</string>
+    <string name="add_video">వీడియోని జోడించండి</string>
+    <string name="sent_stickers_gif">స్టిక్కర్లు పంపారు</string>
+    <string name="add_recorder">రికార్డర్‌ని జోడించండి</string>
+    <string name="create_room_meeting">గది /సమావేశాన్ని సృష్టించండి</string>
+    <string name="send_location">స్థానాన్ని పంపండి</string>
+    <string name="add_document">పత్రాన్ని జోడించండి</string>
+    <string name="time">సమయం -</string>
+    <string name="full_screen">పూర్తి స్క్రీన్</string>
+    <string name="post_background">పోస్ట్ నేపథ్యం</string>
+    <string name="announcement">ప్రకటన</string>
+    <string name="send">పంపండి</string>
+    <string name="create_reel">రీల్ సృష్టించండి</string>
+    <string name="sell_something">ఏదైనా అమ్ము</string>
+    <string name="video_paused">వీడియో పాజ్ చేయబడింది</string>
+    <string name="muted">మ్యూట్ చేయబడింది</string>
+    <string name="type_6_digit_otp">6 అంకెల OTPని టైప్ చేయండి</string>
+    <string name="enter_otp">OTPని నమోదు చేయండి</string>
+    <string name="verify_otp">OTPని ధృవీకరించండి</string>
+    <string name="try_again">మళ్లీ ప్రయత్నించండి</string>
+    <string name="full_name">పూర్తి పేరు</string>
+    <string name="government_issued_photo_id_link">ప్రభుత్వం జారీ చేసిన ఫోటో ID లింక్</string>
+    <string name="follow">అనుసరించండి</string>
+    <string name="unfollow">అనుసరించవద్దు</string>
+    <string name="search" tools:ignore="TypographyEllipsis">వెతకండి...</string>
+    <string name="trending">ట్రెండింగ్‌లో ఉంది</string>
+    <string name="music">సంగీతం</string>
+    <string name="sports">క్రీడలు</string>
+    <string name="memes">మీమ్స్</string>
+    <string name="vines">తీగలు</string>
+    <string name="tv_amp_movies">టీవీ</string>
+    <string name="animals">జంతువులు</string>
+    <string name="diy">DIY</string>
+    <string name="beauty">అందం</string>
+    <string name="art">కళ</string>
+    <string name="food">ఆహారం</string>
+    <string name="style">శైలి</string>
+    <string name="decor">డెకర్</string>
+    <string name="politics">రాజకీయం</string>
+    <string name="highlight">హైలైట్ చేయండి</string>
+    <string name="profile_photo">ప్రొఫైల్ ఫోటో</string>
+    <string name="upload_group_photo">సమూహ ఫోటోను అప్‌లోడ్ చేయండి</string>
+    <string name="upload">అప్‌లోడ్ చేయండి</string>
+    <string name="skip">దాటవేయి</string>
+    <string name="cover_photo">ముఖచిత్రం</string>
+    <string name="upload_group_cover">సమూహ కవర్‌ను అప్‌లోడ్ చేయండి</string>
+    <string name="create_group">సమూహాన్ని సృష్టించండి</string>
+    <string name="fill_details_to_continue">కొనసాగించడానికి వివరాలను పూరించండి</string>
+    <string name="watch_party">పార్టీని చూడండి</string>
+    <string name="web">వెబ్</string>
+    <string name="sign_up_to_continue">కొనసాగడానికి సైన్ అప్ చేయండి</string>
+    <string name="email">ఇమెయిల్</string>
+    <string name="already_have_an_account_login">ఖాతా కలిగి ఉన్నారా ? ప్రవేశించండి</string>
+    <string name="send_to">పంపే</string>
+    <string name="add_to_reels">రీల్స్‌కు జోడించండి</string>
+    <string name="add_to_story">కథకు జోడించండి</string>
+    <string name="add_to_post">పోస్ట్‌కి జోడించండి</string>
+    <string name="send_to_user">వినియోగదారుకు పంపండి</string>
+    <string name="send_to_group">సమూహానికి పంపండి</string>
+    <string name="add_to_product">ఉత్పత్తికి జోడించండి</string>
+    <string name="edit_video">వీడియోను సవరించండి</string>
+    <string name="edit_image">చిత్రాన్ని సవరించండి</string>
+    <string name="users">వినియోగదారులు</string>
+    <string name="posts">పోస్ట్‌లు</string>
+    <string name="groups">గుంపులు</string>
+    <string name="market">సంత</string>
+    <string name="nearby">సమీపంలో</string>
+    <string name="load_more">మరింత లోడ్ చేయండి</string>
+    <string name="saved">సేవ్ చేయబడింది</string>
+    <string name="reels">రీల్స్</string>
+    <string name="nothing_found">ఏమీ దొరకలేదు</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">కాల్ చేస్తోంది...</string>
+    <string name="new_account">కొత్త ఖాతా</string>
+    <string name="name">పేరు</string>
+    <string name="type_profile_details">ప్రొఫైల్ వివరాలను టైప్ చేయండి</string>
+    <string name="username">వినియోగదారు పేరు</string>
+    <string name="sign_up">చేరడం</string>
+    <string name="contact">సంప్రదించండి</string>
+    <string name="meetings">సమావేశాలు</string>
+    <string name="terms_amp_condtitions">నిబంధనలు</string>
+    <string name="change_theme">థీమ్ మార్చండి</string>
+    <string name="send_gif">GIFని పంపండి</string>
+    <string name="dim_mode">డిమ్ మోడ్</string>
+
+</resources>

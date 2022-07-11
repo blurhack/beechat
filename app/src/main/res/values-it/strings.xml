@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+
+    <string name="msg_connection_error">Errore di connessione, controlla le impostazioni di rete o assicurati che il nome del canale/il token di accesso siano validi</string>
+    <string name="verification_about">Un badge verificato è un segno di spunta che appare su un account per indicare che l\'account è la presenza autentica di un personaggio pubblico, celebrità, marchio globale o entità che rappresenta. L\'invio di una richiesta non garantisce la verifica del tuo account.</string>
+    <string name="add_members">Aggiungi membri</string>
+    <string name="post">Inviare</string>
+    <string name="analysis">Analisi</string>
+    <string name="online">in linea</string>
+    <string name="products">Prodotti</string>
+    <string name="messages">Messaggi</string>
+    <string name="dashboard">Pannello di controllo</string>
+    <string name="reported_users">Utenti segnalati</string>
+    <string name="reported_groups">Gruppi segnalati</string>
+    <string name="reported_posts">Post segnalati</string>
+    <string name="reported_reels">Bobine segnalate</string>
+    <string name="verification_requests">Richieste di verifica</string>
+    <string name="remove_verified_users">Rimuovi utenti verificati</string>
+    <string name="warned_users">Utenti avvisati</string>
+    <string name="warned_groups">Gruppi avvisati</string>
+    <string name="ads">Annunci</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">Posta video, immagine</string>
+    <string name="comments">Commenti</string>
+    <string name="like">Piace</string>
+    <string name="share">Condividere</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">Scrivi un commento...</string>
+    <string name="create_post">Crea post</string>
+    <string name="everyone">Tutti</string>
+    <string name="add_location">Aggiungi luogo</string>
+    <string name="add_to_your_post">Aggiungi al tuo post</string>
+    <string name="edit_your_email">Modifica la tua email</string>
+    <string name="new_email">nuova email</string>
+    <string name="password">Parola d\'ordine</string>
+    <string name="bio">bio</string>
+    <string name="privatetext">Privato</string>
+    <string name="save">Salva</string>
+    <string name="phone_no">Telefono n.</string>
+    <string name="edit_your_phone_no">Modifica il tuo numero di telefono</string>
+    <string name="new_phone_no">Nuovo telefono n.</string>
+    <string name="edit_your_password">Modifica la tua password</string>
+    <string name="current_password">password attuale</string>
+    <string name="new_password">nuova password</string>
+    <string name="change">Modificare</string>
+    <string name="hold_for_video_tap_for_photo">Tieni premuto per il video, tocca per la foto</string>
+    <string name="masks">Maschere</string>
+    <string name="effects">Effetti</string>
+    <string name="filters">Filtri</string>
+    <string name="feelings">Sentimenti</string>
+    <string name="travelling">In viaggio</string>
+    <string name="watching">Guardando</string>
+    <string name="listening">Ascoltando</string>
+    <string name="thinking_about">Pensando a</string>
+    <string name="celebration">Celebrazione</string>
+    <string name="looking_for">Cercando</string>
+    <string name="playing">Giocando</string>
+    <string name="happy">Contento</string>
+    <string name="loved">amato</string>
+    <string name="sad">Triste</string>
+    <string name="crying">Pianto</string>
+    <string name="angry">Arrabbiato</string>
+    <string name="confused">Confuso</string>
+    <string name="broken">Rotte</string>
+    <string name="cool">fresco</string>
+    <string name="funny">Divertente</string>
+    <string name="tired">Stanco</string>
+    <string name="shock">Shock</string>
+    <string name="lovely">Amabile</string>
+    <string name="sleepy">Assonnato</string>
+    <string name="expressionless">inespressivo</string>
+    <string name="blessed">Benedetto</string>
+    <string name="forgot_password">Ha dimenticato la password</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">Per reimpostare la password inserisci l\'e-mail registrata. Verrà inviato un collegamento su questa e-mail per reimpostare la password</string>
+    <string name="send_link">Invia il link</string>
+    <string name="type_your_phone_number">Digita il tuo numero di telefono</string>
+    <string name="generate_otp">Genera OTP</string>
+    <string name="continue_with_email_instead">Continua invece con l\'email</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">Mandare un messaggio...</string>
+    <string name="my_groups">I miei gruppi</string>
+    <string name="members">Membri</string>
+    <string name="edit_profile">Modifica Profilo</string>
+    <string name="join_request">Richiesta di adesione</string>
+    <string name="cancel_request">Richiesta cancellata</string>
+    <string name="what_s_on_your_mind">Cos\'hai in mente ?</string>
+    <string name="image">Immagine</string>
+    <string name="audio">Audio</string>
+    <string name="invite_members">Invita membri</string>
+    <string name="set_a_location">Imposta una posizione</string>
+    <string name="login_in_to_continue">Accedi per continuare</string>
+    <string name="login">Login</string>
+    <string name="create_new_account">Crea un nuovo account</string>
+    <string name="join">Giuntura</string>
+    <string name="menu">Menù</string>
+    <string name="marketplace">Mercato</string>
+    <string name="night_mode">Modalità notturna</string>
+    <string name="photo_editor">Editor di foto</string>
+    <string name="video_editor">Editor video</string>
+    <string name="verification">Verifica</string>
+    <string name="policy">Politica</string>
+    <string name="edit_password">Modifica password</string>
+    <string name="edit_number">Modifica numero</string>
+    <string name="edit_mail">Modifica posta</string>
+    <string name="invite">Invito di riferimento</string>
+    <string name="near_by">Qui vicino</string>
+    <string name="log_out">Disconnettersi</string>
+    <string name="admin_panel">Pannello di Amministrazione</string>
+    <string name="notifications">Notifiche</string>
+    <string name="party_post">Posta per feste</string>
+    <string name="post_about_your_watch_party">Pubblica sulla tua festa dell\'orologio</string>
+    <string name="what_s_on_your_mind_mention_hashtag">Cos\'hai in mente ? @citare</string>
+    <string name="set_watch_party_privacy">Imposta la privacy della festa dell\'orologio</string>
+    <string name="private_watch_party">Festa di sorveglianza privata</string>
+    <string name="public_watch_party">Festa di sorveglianza pubblica</string>
+    <string name="next">Prossimo</string>
+    <string name="sell_product">Vendi prodotto</string>
+    <string name="title">Titolo</string>
+    <string name="price">Prezzo</string>
+    <string name="category">Categoria</string>
+    <string name="condition">Condizione</string>
+    <string name="description">Descrizione</string>
+    <string name="location">Posizione</string>
+    <string name="post_reel">Posta bobina</string>
+    <string name="describe_you_video_mention_hashtag">Descrivi il tuo video @Mention</string>
+    <string name="privacy">Privacy</string>
+    <string name="allow_comments">Consenti commenti</string>
+    <string name="remove">Rimuovere</string>
+    <string name="known_as">Conosciuto come</string>
+    <string name="accept">Accettare</string>
+    <string name="government_id">ID del governo</string>
+    <string name="message">Messaggio</string>
+    <string name="poke">poke</string>
+    <string name="block">Bloccare</string>
+    <string name="reject">Rifiutare</string>
+    <string name="apps">App</string>
+    <string name="download">Scarica</string>
+    <string name="copy">copia</string>
+    <string name="delete">Eliminare</string>
+    <string name="liked_by">Consigliato da</string>
+    <string name="rainy_shoes">Scarpe piovose</string>
+    <string name="camera">Telecamera</string>
+    <string name="add_audio">Aggiungi audio</string>
+    <string name="background_colour">Colore di sfondo</string>
+    <string name="add_gif">Aggiungi GIF</string>
+    <string name="feeling_activity">Sensazione /Attività</string>
+    <string name="add_reels">Aggiungi rulli</string>
+    <string name="go_live">Andare in diretta</string>
+    <string name="create_podcast">Crea podcast</string>
+    <string name="add_stories">Aggiungi storie</string>
+    <string name="views">Visualizzazioni</string>
+    <string name="podcast">Podcast</string>
+    <string name="paste_video_link_from_web">Incolla il collegamento video dal web</string>
+    <string name="supports_youtube_amp_dailymotion">Supporta YouTube</string>
+    <string name="link">Collegamento</string>
+    <string name="upload_any_video_you_want">Carica qualsiasi video desideri</string>
+    <string name="textview">TextView</string>
+    <string name="paste_the_meeting_id">Incolla l\'ID della riunione</string>
+    <string name="meeting_id">ID riunione</string>
+    <string name="edit">Modificare</string>
+    <string name="leave">Lasciare</string>
+    <string name="add_post">Aggiungi post</string>
+    <string name="report">Rapporto</string>
+    <string name="document">Documento</string>
+    <string name="for_you">Per te</string>
+    <string name="following">A seguire</string>
+    <string name="no_reels">Nessuna bobina</string>
+    <string name="followers">Seguaci</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">Invia un commento...</string>
+    <string name="video">video</string>
+    <string name="live">Abitare</string>
+    <string name="chat">Chiacchierata</string>
+    <string name="delete_photo">Elimina foto</string>
+    <string name="create_a_new_meeting">Crea un nuovo incontro</string>
+    <string name="create">Creare</string>
+    <string name="upload_photo">Carica una foto</string>
+    <string name="upload_video">Carica video</string>
+    <string name="gif">GIF</string>
+    <string name="liked">È piaciuto</string>
+    <string name="likes">Piace</string>
+    <string name="add_image">Aggiungi immagine</string>
+    <string name="add_video">Aggiungi video</string>
+    <string name="sent_stickers_gif">Adesivi inviati</string>
+    <string name="add_recorder">Aggiungi registratore</string>
+    <string name="create_room_meeting">Crea sala/riunione</string>
+    <string name="send_location">Invia posizione</string>
+    <string name="add_document">Aggiungi documento</string>
+    <string name="time">Volta -</string>
+    <string name="full_screen">A schermo intero</string>
+    <string name="post_background">Sfondo del post</string>
+    <string name="announcement">Annuncio</string>
+    <string name="send">Spedire</string>
+    <string name="create_reel">Crea bobina</string>
+    <string name="sell_something">vendere qualcosa</string>
+    <string name="video_paused">Video in pausa</string>
+    <string name="muted">disattivato</string>
+    <string name="type_6_digit_otp">Digitare OTP a 6 cifre</string>
+    <string name="enter_otp">Inserisci OTP</string>
+    <string name="verify_otp">Verifica OTP</string>
+    <string name="try_again">Riprova</string>
+    <string name="full_name">Nome e cognome</string>
+    <string name="government_issued_photo_id_link">Link documento d\'identità con foto rilasciato dal governo</string>
+    <string name="follow">Seguire</string>
+    <string name="unfollow">Non seguire più</string>
+    <string name="search" tools:ignore="TypographyEllipsis">Ricerca...</string>
+    <string name="trending">Tendenza</string>
+    <string name="music">Musica</string>
+    <string name="sports">Gli sport</string>
+    <string name="memes">Meme</string>
+    <string name="vines">viti</string>
+    <string name="tv_amp_movies">tv</string>
+    <string name="animals">Animali</string>
+    <string name="diy">Fai da te</string>
+    <string name="beauty">Bellezza</string>
+    <string name="art">Arte</string>
+    <string name="food">Cibo</string>
+    <string name="style">Stile</string>
+    <string name="decor">Decor</string>
+    <string name="politics">Politica</string>
+    <string name="highlight">Evidenziare</string>
+    <string name="profile_photo">Foto profilo</string>
+    <string name="upload_group_photo">Carica foto di gruppo</string>
+    <string name="upload">Caricamento</string>
+    <string name="skip">Saltare</string>
+    <string name="cover_photo">Foto di copertina</string>
+    <string name="upload_group_cover">Carica la copertina del gruppo</string>
+    <string name="create_group">Creare un gruppo</string>
+    <string name="fill_details_to_continue">Compila i dettagli per continuare</string>
+    <string name="watch_party">Guarda Festa</string>
+    <string name="web">ragnatela</string>
+    <string name="sign_up_to_continue">Iscriviti per continuare</string>
+    <string name="email">E-mail</string>
+    <string name="already_have_an_account_login">Hai già un account ? Login</string>
+    <string name="send_to">Inviare a</string>
+    <string name="add_to_reels">Aggiungi ai rulli</string>
+    <string name="add_to_story">Aggiungi alla storia</string>
+    <string name="add_to_post">Aggiungi al post</string>
+    <string name="send_to_user">Invia all\'utente</string>
+    <string name="send_to_group">Invia al gruppo</string>
+    <string name="add_to_product">Aggiungi al prodotto</string>
+    <string name="edit_video">Modifica video</string>
+    <string name="edit_image">Modifica immagine</string>
+    <string name="users">Utenti</string>
+    <string name="posts">Post</string>
+    <string name="groups">Gruppi</string>
+    <string name="market">Mercato</string>
+    <string name="nearby">Qui vicino</string>
+    <string name="load_more">Carica altro</string>
+    <string name="saved">Salvato</string>
+    <string name="reels">mulinelli</string>
+    <string name="nothing_found">Non abbiamo trovato nulla</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">Chiamando...</string>
+    <string name="new_account">Nuovo account</string>
+    <string name="name">Nome</string>
+    <string name="type_profile_details">Digita i dettagli del profilo</string>
+    <string name="username">Nome utente</string>
+    <string name="sign_up">Iscriviti</string>
+    <string name="contact">Contatto</string>
+    <string name="meetings">incontri</string>
+    <string name="terms_amp_condtitions">Termini</string>
+    <string name="change_theme">Cambia tema</string>
+    <string name="send_gif">Invia GIF</string>
+    <string name="dim_mode">Modalità Oscura</string>
+
+</resources>

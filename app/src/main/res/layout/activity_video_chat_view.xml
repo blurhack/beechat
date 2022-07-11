@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calling.VideoChatViewActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/remote_video_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/remoteBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/remote_back_icon_margin_bottom"
+            android:layout_alignParentBottom="true"
+            tools:ignore="UselessLeaf" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/local_video_view_container"
+        android:layout_width="@dimen/local_preview_width"
+        android:layout_height="@dimen/local_preview_height"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/local_preview_margin_top"
+        android:layout_marginEnd="@dimen/local_preview_margin_right"
+        android:background="@color/localBackground"
+        android:onClick="onLocalContainerClick"/>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="RelativeOverlap">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/pause"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="ObsoleteLayoutParam,UseCompoundDrawables">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/ic_video_off"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+
+               tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/bold_roboto"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:text="@string/video_paused"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginTop="8dp"
+            android:id="@+id/voice_pause"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="ObsoleteLayoutParam,UseCompoundDrawables">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/ic_mic_off"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/bold_roboto"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:text="@string/muted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/control_panel"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/control_bottom_margin">
+
+        <ImageView
+            android:layout_marginEnd="16dp"
+            android:layout_width="@dimen/other_button_size"
+            android:layout_height="@dimen/other_button_size"
+            android:onClick="onSwitchCameraClicked"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle"
+            android:backgroundTint="#25FFFFFF"
+            android:padding="15dp"
+            android:src="@drawable/ic_switch"
+            app:tint="#fff"
+
+           tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_marginEnd="16dp"
+            android:id="@+id/btn_camera"
+            android:layout_width="@dimen/other_button_size"
+            android:layout_height="@dimen/other_button_size"
+            android:onClick="onCameraClicked"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle"
+            android:backgroundTint="#25FFFFFF"
+            android:padding="15dp"
+            android:src="@drawable/ic_video_call"
+            app:tint="#fff"
+
+           tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_marginEnd="16dp"
+            android:id="@+id/btn_mute"
+            android:layout_width="@dimen/other_button_size"
+            android:layout_height="@dimen/other_button_size"
+            android:onClick="onLocalAudioMuteClicked"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle"
+            android:backgroundTint="#25FFFFFF"
+            android:padding="15dp"
+            android:src="@drawable/ic_mic"
+
+           tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:background="@drawable/circle"
+            android:backgroundTint="#F44336"
+            android:padding="15dp"
+            android:layout_width="@dimen/other_button_size"
+            android:layout_height="@dimen/other_button_size"
+            android:onClick="onCallClicked"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_end"
+            app:tint="#fff"
+
+           tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</RelativeLayout>

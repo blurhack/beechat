@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+    <string name="msg_connection_error">خطأ في الاتصال ، يرجى التحقق من إعدادات الشبكة أو التأكد من صلاحية اسم القناة /رمز الوصول</string>
+    <string name="verification_about">الشارة التي تم التحقق منها هي شيك يظهر على الحساب للإشارة إلى أن الحساب يمثل الحضور الحقيقي لشخصية عامة بارزة أو شخصية مشهورة أو علامة تجارية عالمية أو كيان يمثله. تقديم طلب لا يضمن أنه سيتم التحقق من حسابك.</string>
+    <string name="add_members">إضافة أعضاء</string>
+    <string name="post">بريد</string>
+    <string name="analysis">التحليلات</string>
+    <string name="online">متصل</string>
+    <string name="products">منتجات</string>
+    <string name="messages">رسائل</string>
+    <string name="dashboard">لوحة القيادة</string>
+    <string name="reported_users">المستخدمون المبلّغون</string>
+    <string name="reported_groups">المجموعات المبلغ عنها</string>
+    <string name="reported_posts">المشاركات المبلغ عنها</string>
+    <string name="reported_reels">ذكرت بكرات</string>
+    <string name="verification_requests">طلبات التحقق</string>
+    <string name="remove_verified_users">إزالة المستخدمين الذين تم التحقق منهم</string>
+    <string name="warned_users">المستخدمين المحذرين</string>
+    <string name="warned_groups">المجموعات المحذرة</string>
+    <string name="ads">إعلانات</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">بعد الفيديو والصورة</string>
+    <string name="comments">تعليقات</string>
+    <string name="like">مثل</string>
+    <string name="share">شارك</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">اكتب تعليق ...</string>
+    <string name="create_post">إنشاء منشور</string>
+    <string name="everyone">الجميع</string>
+    <string name="add_location">أضف الموقع</string>
+    <string name="add_to_your_post">أضف إلى منشورك</string>
+    <string name="edit_your_email">تحرير البريد الإلكتروني الخاص بك</string>
+    <string name="new_email">بريد إلكتروني جديد</string>
+    <string name="password">كلمة المرور</string>
+    <string name="bio">السيرة الذاتية</string>
+    <string name="privatetext">نشر</string>
+    <string name="save">يحفظ</string>
+    <string name="phone_no">رقم الهاتف.</string>
+    <string name="edit_your_phone_no">تحرير رقم هاتفك.</string>
+    <string name="new_phone_no">رقم الهاتف الجديد.</string>
+    <string name="edit_your_password">قم بتحرير كلمة المرور الخاصة بك</string>
+    <string name="current_password">كلمة المرور الحالية</string>
+    <string name="new_password">كلمة السر الجديدة</string>
+    <string name="change">يتغير</string>
+    <string name="hold_for_video_tap_for_photo">اضغط مع الاستمرار للفيديو ، اضغط للصورة</string>
+    <string name="masks">أقنعة</string>
+    <string name="effects">تأثيرات</string>
+    <string name="filters">المرشحات</string>
+    <string name="feelings">مشاعر</string>
+    <string name="travelling">سفر</string>
+    <string name="watching">مشاهدة</string>
+    <string name="listening">الاستماع</string>
+    <string name="thinking_about">التفكير</string>
+    <string name="celebration">احتفال</string>
+    <string name="looking_for">البحث عن</string>
+    <string name="playing">تلعب</string>
+    <string name="happy">سعيد</string>
+    <string name="loved">محبوب</string>
+    <string name="sad">حزين</string>
+    <string name="crying">بكاء</string>
+    <string name="angry">غاضب</string>
+    <string name="confused">خجول</string>
+    <string name="broken">مكسور</string>
+    <string name="cool">رائع</string>
+    <string name="funny">مضحك</string>
+    <string name="tired">مرهق</string>
+    <string name="shock">صدمة</string>
+    <string name="lovely">محبوب</string>
+    <string name="sleepy">نعسان</string>
+    <string name="expressionless">بلا تعبير</string>
+    <string name="blessed">مبروك</string>
+    <string name="forgot_password">هل نسيت كلمة السر</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">لإعادة تعيين كلمة المرور الخاصة بك أدخل البريد الإلكتروني المسجل. سيتم إرسال ارتباط على هذا البريد الإلكتروني لإعادة تعيين كلمة المرور الخاصة بك</string>
+    <string name="send_link">أرسل الرابط</string>
+    <string name="type_your_phone_number">اكتب رقم هاتفك</string>
+    <string name="generate_otp">توليد OTP</string>
+    <string name="continue_with_email_instead">تواصل مع البريد الإلكتروني بدلا من ذلك</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">ارسل رسالة...</string>
+    <string name="my_groups">مجموعاتي</string>
+    <string name="members">أعضاء</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="join_request">طلب الانضمام</string>
+    <string name="cancel_request">إلغاء الطلب</string>
+    <string name="what_s_on_your_mind">ماذا يدور بعقلك ؟</string>
+    <string name="image">صورة</string>
+    <string name="audio">صوتي</string>
+    <string name="invite_members">دعوة أعضاء</string>
+    <string name="set_a_location">حدد موقعًا</string>
+    <string name="login_in_to_continue">تسجيل الدخول للمتابعة</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="create_new_account">انشاء حساب جديد</string>
+    <string name="join">انضم</string>
+    <string name="menu">قائمة الطعام</string>
+    <string name="marketplace">المتجر</string>
+    <string name="night_mode">وضع الليل</string>
+    <string name="photo_editor">معدل الصور</string>
+    <string name="video_editor">محرر الفيديو</string>
+    <string name="verification">تحقق</string>
+    <string name="policy">سياسة</string>
+    <string name="edit_password">تحرير كلمة المرور</string>
+    <string name="edit_number">تحرير الرقم</string>
+    <string name="edit_mail">تحرير البريد</string>
+    <string name="invite">دعوة الإحالة</string>
+    <string name="near_by">مجاور</string>
+    <string name="log_out">تسجيل خروج</string>
+    <string name="admin_panel">لوحة الادارة</string>
+    <string name="notifications">إشعارات</string>
+    <string name="party_post">حزب بوست</string>
+    <string name="post_about_your_watch_party">انشر عن حفلة ساعتك</string>
+    <string name="what_s_on_your_mind_mention_hashtag">ماذا يدور بعقلك ؟ @أشير</string>
+    <string name="set_watch_party_privacy">ضبط خصوصية حفلة المشاهدة</string>
+    <string name="private_watch_party">حفلة مشاهدة خاصة</string>
+    <string name="public_watch_party">حفلة مشاهدة عامة</string>
+    <string name="next">التالي</string>
+    <string name="sell_product">بيع المنتج</string>
+    <string name="title">عنوان</string>
+    <string name="price">السعر</string>
+    <string name="category">فئة</string>
+    <string name="condition">حالة</string>
+    <string name="description">وصف</string>
+    <string name="location">موقع</string>
+    <string name="post_reel">بكرة أخرى</string>
+    <string name="describe_you_video_mention_hashtag">صِف لك مقطع فيديوMention</string>
+    <string name="privacy">خصوصية</string>
+    <string name="allow_comments">السماح بالتعليقات</string>
+    <string name="remove">إزالة</string>
+    <string name="known_as">معروف ك</string>
+    <string name="accept">قبول</string>
+    <string name="government_id">معرف الحكومة</string>
+    <string name="message">رسالة</string>
+    <string name="poke">نكز</string>
+    <string name="block">منع</string>
+    <string name="reject">يرفض</string>
+    <string name="apps">تطبيقات</string>
+    <string name="download">تحميل</string>
+    <string name="copy">ينسخ</string>
+    <string name="delete">حذف</string>
+    <string name="liked_by">اعجب به</string>
+    <string name="rainy_shoes">أحذية ممطرة</string>
+    <string name="camera">الة تصوير</string>
+    <string name="add_audio">أضف الصوت</string>
+    <string name="background_colour">لون الخلفية</string>
+    <string name="add_gif">أضف GIF</string>
+    <string name="feeling_activity">الشعور /النشاط</string>
+    <string name="add_reels">أضف بكرات</string>
+    <string name="go_live">انطلق مباشرة</string>
+    <string name="create_podcast">إنشاء بودكاست</string>
+    <string name="add_stories">أضف القصص</string>
+    <string name="views">الآراء</string>
+    <string name="podcast">تدوين صوتي</string>
+    <string name="paste_video_link_from_web">لصق رابط الفيديو من الويب</string>
+    <string name="supports_youtube_amp_dailymotion">يدعم يوتيوب</string>
+    <string name="link">وصلة</string>
+    <string name="upload_any_video_you_want">قم بتحميل أي فيديو تريده</string>
+    <string name="textview">عرض النص</string>
+    <string name="paste_the_meeting_id">الصق معرف الاجتماع</string>
+    <string name="meeting_id">معرف الاجتماع</string>
+    <string name="edit">تعديل</string>
+    <string name="leave">يترك</string>
+    <string name="add_post">أضف منشورا</string>
+    <string name="report">نقل</string>
+    <string name="document">وثيقة</string>
+    <string name="for_you">لك</string>
+    <string name="following">التالية</string>
+    <string name="no_reels">لا بكرات</string>
+    <string name="followers">متابعون</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">إرسال تعليق ...</string>
+    <string name="video">فيديو</string>
+    <string name="live">حي</string>
+    <string name="chat">محادثة</string>
+    <string name="delete_photo">حذف الصورة</string>
+    <string name="create_a_new_meeting">أنشئ اجتماعًا جديدًا</string>
+    <string name="create">يخلق</string>
+    <string name="upload_photo">حمل الصورة</string>
+    <string name="upload_video">رفع فيديو</string>
+    <string name="gif">GIF</string>
+    <string name="liked">احب</string>
+    <string name="likes">الإعجابات</string>
+    <string name="add_image">إضافة صورة</string>
+    <string name="add_video">أضف فيديو</string>
+    <string name="sent_stickers_gif">الملصقات المرسلة</string>
+    <string name="add_recorder">إضافة مسجل</string>
+    <string name="create_room_meeting">إنشاء غرفة /اجتماع</string>
+    <string name="send_location">إرسال موقع</string>
+    <string name="add_document">أضف وثيقة</string>
+    <string name="time">زمن -</string>
+    <string name="full_screen">شاشة كاملة</string>
+    <string name="post_background">خلفية المشاركة</string>
+    <string name="announcement">إعلان</string>
+    <string name="send">إرسال</string>
+    <string name="create_reel">إنشاء بكرة</string>
+    <string name="sell_something">بيع شيء</string>
+    <string name="video_paused">توقف الفيديو مؤقتًا</string>
+    <string name="muted">كتم الصوت</string>
+    <string name="type_6_digit_otp">اكتب OTP المكون من 6 أرقام</string>
+    <string name="enter_otp">أدخل OTP</string>
+    <string name="verify_otp">تحقق من OTP</string>
+    <string name="try_again">حاول مجددا</string>
+    <string name="full_name">الاسم الكامل</string>
+    <string name="government_issued_photo_id_link">رابط بطاقة هوية تحمل صورة صادرة عن الحكومة</string>
+    <string name="follow">يتبع</string>
+    <string name="unfollow">الغاء المتابعة</string>
+    <string name="search" tools:ignore="TypographyEllipsis">بحث...</string>
+    <string name="trending">الشائع</string>
+    <string name="music">موسيقى</string>
+    <string name="sports">رياضات</string>
+    <string name="memes">الميمات</string>
+    <string name="vines">فاينز</string>
+    <string name="tv_amp_movies">تلفزيون</string>
+    <string name="animals">الحيوانات</string>
+    <string name="diy">افعلها بنفسك</string>
+    <string name="beauty">جمال</string>
+    <string name="art">فن</string>
+    <string name="food">طعام</string>
+    <string name="style">نمط</string>
+    <string name="decor">ديكور</string>
+    <string name="politics">سياسة</string>
+    <string name="highlight">تسليط الضوء</string>
+    <string name="profile_photo">صورة الملف الشخصي</string>
+    <string name="upload_group_photo">تحميل صورة المجموعة</string>
+    <string name="upload">تحميل</string>
+    <string name="skip">يتخطى</string>
+    <string name="cover_photo">صورة الغلاف</string>
+    <string name="upload_group_cover">تحميل غلاف المجموعة</string>
+    <string name="create_group">إنشاء مجموعة</string>
+    <string name="fill_details_to_continue">املأ التفاصيل للمتابعة</string>
+    <string name="watch_party">مشاهدة الحفلة</string>
+    <string name="web">الويب</string>
+    <string name="sign_up_to_continue">اشترك للمتابعة</string>
+    <string name="email">بريد الالكتروني</string>
+    <string name="already_have_an_account_login">هل لديك حساب ؟ تسجيل الدخول</string>
+    <string name="send_to">ارسل إلى</string>
+    <string name="add_to_reels">أضف إلى بكرات</string>
+    <string name="add_to_story">أضف إلى القصة</string>
+    <string name="add_to_post">أضف للنشر</string>
+    <string name="send_to_user">أرسل إلى المستخدم</string>
+    <string name="send_to_group">أرسل إلى المجموعة</string>
+    <string name="add_to_product">أضف إلى المنتج</string>
+    <string name="edit_video">تحرير الفيديو</string>
+    <string name="edit_image">تعديل الصورة</string>
+    <string name="users">المستخدمون</string>
+    <string name="posts">دعامات</string>
+    <string name="groups">مجموعات</string>
+    <string name="market">سوق</string>
+    <string name="nearby">مجاور</string>
+    <string name="load_more">تحميل المزيد</string>
+    <string name="saved">أنقذ</string>
+    <string name="reels">بكرات</string>
+    <string name="nothing_found">لم يتم العثور على شيء</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">جارٍ الاتصال ...</string>
+    <string name="new_account">حساب جديد</string>
+    <string name="name">اسم</string>
+    <string name="type_profile_details">اكتب تفاصيل ملف التعريف</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="sign_up">اشتراك</string>
+    <string name="contact">اتصل</string>
+    <string name="meetings">الاجتماعات</string>
+    <string name="terms_amp_condtitions">شروط</string>
+    <string name="change_theme">غير الخلفية</string>
+    <string name="send_gif">أرسل GIF</string>
+    <string name="dim_mode">الوضع الخافت</string>
+
+</resources>

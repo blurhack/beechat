@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/layoutcolor"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:trackThickness="2dp"
+            app:trackColor="#FF7CB6FF"
+            app:indicatorColor="#1877F2"
+            app:trackCornerRadius="2dp"
+            android:indeterminate="true" />
+
+        <LinearLayout
+            android:background="@drawable/btn_round"
+            android:backgroundTint="?attr/backgroundcolor"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:padding="9dp"
+                android:src="@drawable/ic_search"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                app:tint="#596C84"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/searchPost"
+                android:textColor="?attr/textcolor"
+                android:layout_gravity="center"
+                android:hint="@string/search"
+                android:background="@null"
+                android:textSize="16sp"
+                android:fontFamily="@font/bold_roboto"
+                android:textColorHint="?attr/texttwocolor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="Autofill,TextFields" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/post_rv"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:stateListAnimator="@null"
+            android:background="@drawable/btn_round"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/load_more"
+            android:fontFamily="@font/black"
+            android:textColor="#fff"
+            android:visibility="gone"
+            android:id="@+id/more"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+           tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

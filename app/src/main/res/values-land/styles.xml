@@ -1,0 +1,246 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Day application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="layoutcolor">#fff</item>
+        <item name="selectedcolor">@color/colorPrimary</item>
+        <item name="defaultcolor">#7F0047AB</item>
+        <item name="backgroundcolor">#F0F2F6</item>
+        <item name="texttwocolor">#5B5B5E</item>
+        <item name="textcolor">#040404</item>
+        <item name="menucolor">#fff</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#fff</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <!-- Night application theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#212121</item>
+        <item name="colorAccent">#929292</item>
+        <item name="backgroundcolor">#000</item>
+        <item name="layoutcolor">#212121</item>
+        <item name="textcolor">#fff</item>
+        <item name="selectedcolor">#fff</item>
+        <item name="defaultcolor">#9C9C9C</item>
+        <item name="menucolor">#000</item>
+        <item name="texttwocolor">#9C9C9C</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#000</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
+    </style>
+
+    <!-- ProgressBar -->
+
+    <!-- SplashScreen theme. -->
+    <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- SplashScreen theme. -->
+    <style name="SplashScreenDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#212121</item>
+        <item name="colorAccent">#929292</item>
+    </style>
+
+    <!-- Reel theme. -->
+    <style name="ReelTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor" tools:ignore="NewApi">#000</item>
+    </style>
+
+    <!-- Dialog Day theme. -->
+    <style name="FullScreenDialogTheme" parent="Theme.AppCompat.Light.DialogWhenLarge">
+        <item name="android:statusBarColor" tools:ignore="NewApi">#fff</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="layoutcolor">#fff</item>
+        <item name="textcolor">#040404</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
+    </style>
+
+    <!-- Dialog Night theme. -->
+
+    <!-- Tab theme. -->
+    <style name="TabAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/bold_roboto</item>
+        <item name="textcolor">?attr/texttwocolor</item>
+        <item name="colorAccent"> @color/colorPrimary</item>
+        <item name="tabIndicatorColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- Popup theme. -->
+    <style name="popupMenuStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">?attr/texttwocolor</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:listPreferredItemHeightSmall">40dp</item>
+        <item name="android:fontFamily">@font/bold_roboto</item>
+        <item name="android:background">?attr/layoutcolor</item>
+    </style>
+
+    <!-- FullScreenVideoTheme. -->
+    <style name="FullScreenVideoTheme" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Party theme. -->
+    <style name="Party" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0f0f0f</item>
+        <item name="colorPrimaryDark">#0f0f0f</item>
+        <item name="colorAccent">#fff</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#0f0f0f</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
+        <item name="android:navigationBarColor" tools:ignore="NewApi">#0f0f0f</item>
+    </style>
+
+
+    <style name="DayChatTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="layoutcolor">#F3F7FA</item>
+        <item name="selectedcolor">@color/colorPrimary</item>
+        <item name="defaultcolor">#7F0047AB</item>
+        <item name="backgroundcolor">#F0F2F6</item>
+        <item name="texttwocolor">#5B5B5E</item>
+        <item name="textcolor">#040404</item>
+        <item name="menucolor">#fff</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#fff</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="DarkChatTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#212121</item>
+        <item name="colorAccent">#929292</item>
+        <item name="backgroundcolor">#000</item>
+        <item name="layoutcolor">#212121</item>
+        <item name="textcolor">#fff</item>
+        <item name="selectedcolor">#fff</item>
+        <item name="defaultcolor">#9C9C9C</item>
+        <item name="menucolor">#000</item>
+        <item name="texttwocolor">#9C9C9C</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#000</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
+    </style>
+
+    <style name="RedChatTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF0000</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#FF0000</item>
+        <item name="layoutcolor">#F3F7FA</item>
+        <item name="backgroundcolor">#F0F2F6</item>
+        <item name="texttwocolor">#5B5B5E</item>
+        <item name="textcolor">#040404</item>
+        <item name="menucolor">#fff</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#FF0000</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="PurpleChatTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#800080</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#800080</item>
+        <item name="layoutcolor">#F3F7FA</item>
+        <item name="backgroundcolor">#F0F2F6</item>
+        <item name="texttwocolor">#5B5B5E</item>
+        <item name="textcolor">#040404</item>
+        <item name="menucolor">#fff</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#800080</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="GreenChatTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#008000</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#008000</item>
+        <item name="layoutcolor">#F3F7FA</item>
+        <item name="backgroundcolor">#F0F2F6</item>
+        <item name="texttwocolor">#5B5B5E</item>
+        <item name="textcolor">#040404</item>
+        <item name="menucolor">#fff</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#008000</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="MarronChatTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#800000</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#800000</item>
+        <item name="layoutcolor">#F3F7FA</item>
+        <item name="backgroundcolor">#F0F2F6</item>
+        <item name="texttwocolor">#5B5B5E</item>
+        <item name="textcolor">#040404</item>
+        <item name="menucolor">#fff</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#800000</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="NavyChatTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000080</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#000080</item>
+        <item name="layoutcolor">#F3F7FA</item>
+        <item name="backgroundcolor">#F0F2F6</item>
+        <item name="texttwocolor">#5B5B5E</item>
+        <item name="textcolor">#040404</item>
+        <item name="menucolor">#fff</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#000080</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="OrangeChatTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/c_f34539</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">@color/c_f34539</item>
+        <item name="layoutcolor">#F3F7FA</item>
+        <item name="backgroundcolor">#F0F2F6</item>
+        <item name="texttwocolor">#5B5B5E</item>
+        <item name="textcolor">#040404</item>
+        <item name="menucolor">#fff</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/c_f34539</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="YellowChatTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFBF00</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#FFBF00</item>
+        <item name="layoutcolor">#F3F7FA</item>
+        <item name="backgroundcolor">#F0F2F6</item>
+        <item name="texttwocolor">#5B5B5E</item>
+        <item name="textcolor">#040404</item>
+        <item name="menucolor">#fff</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#FFBF00</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+    </style>
+
+
+</resources>

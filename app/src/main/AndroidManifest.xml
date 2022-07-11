@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.beesec.beechat2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:name="com.beesec.beechat2.live.AgoraApplication" android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme">
+        <activity android:name="com.beesec.beechat2.admin.DeleteUserActivity" />
+        <activity android:name="com.beesec.beechat2.admin.ReportedProductActivity" />
+        <activity
+            android:name="com.beesec.beechat2.podcast.PodcastActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.post.ReplyActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.podcast.GoPodacstAudienceActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.podcast.GoPodcastBroadcastActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.podcast.PodcastBroadcasterActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.podcast.PodcastAudienceActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.menu.TranslationActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.menu.InviteActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.menu.WithdrawActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.menu.TermsActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.admin.RemoveVerifiedActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.group.JoinRequestActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.live.activities.AudienceActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.live.activities.GoAudienceActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.live.activities.GoBroadcastActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.live.activities.BroadcasterActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.live.activities.LiveActivity"
+            
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.beesec.beechat2.StickersPost"
+             />
+        <activity
+            android:name="com.beesec.beechat2.SendStickerActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.Stickers"
+             />
+        <activity
+            android:name="com.beesec.beechat2.admin.WarnGroupActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.admin.WarnUserActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.admin.VerificationRequestActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.admin.ReportedPostActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.admin.ReportedReelsActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.admin.ReportedGroupsActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.admin.ReportedUserActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.admin.AdminActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.menu.PrivacyActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.group.AddGroupActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.group.GroupMembersActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.menu.EditNumberActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.menu.EditEmailActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.menu.EditPasswordActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.menu.VerificationActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.menu.SavedActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.menu.MenuActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.who.FollowersActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.who.FollowingActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.notifications.NotificationScreen"
+             />
+        <activity
+            android:name="com.beesec.beechat2.who.ReelLikedActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.who.ViewedActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.story.ChatStoryViewActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.story.HighViewActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.search.LocationActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.who.LikedActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.story.StoryViewActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.story.AddStoryActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.reel.ViewReelActivity"
+            
+            android:theme="@style/ReelTheme" />
+        <activity
+            android:name="com.beesec.beechat2.reel.ReelCommentActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.reel.ReelActivity"
+            
+            android:theme="@style/ReelTheme" />
+        <activity
+            android:name="com.beesec.beechat2.send.ImageEditingActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.send.VideoEditingActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.reel.PostReelActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.reel.VideoEditActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.send.SendToGroupActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.send.SendToUserActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.send.SendMediaActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.send.MediaSelectActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.faceFilters.FaceFilters"
+             />
+        <activity
+            android:name="com.beesec.beechat2.marketPlace.ProductDetailsActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.marketPlace.MarketPlaceActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.marketPlace.PostProductActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.watchParty.StartYouTubeActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.watchParty.StartPartyActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.watchParty.YouTubePartyActivity"
+            
+            android:theme="@style/Party" />
+        <activity
+            android:name="com.beesec.beechat2.watchParty.InviteMoreActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.watchParty.ChangeWatchPartyActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.watchParty.WatchPartyActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|screenSize"
+            
+            android:theme="@style/Party" />
+        <activity
+            android:name="com.beesec.beechat2.watchParty.PartyPostActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.watchParty.PartyPrivacyActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.watchParty.InviteActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.watchParty.StartWatchPartyActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.meeting.MeetingActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.groupVideoCall.openvcall.ui.VideoGroupCallActivity"
+            
+            android:theme="@style/FullScreenVideoTheme" />
+        <activity
+            android:name="com.beesec.beechat2.groupVideoCall.CallingGroupVideoActivity"
+            
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.beesec.beechat2.groupVideoCall.RingingGroupVideoActivity"
+            
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.beesec.beechat2.groupVoiceCall.RingingGroupVoiceActivity"
+            
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.beesec.beechat2.groupVoiceCall.CallingGroupVoiceActivity"
+            
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.beesec.beechat2.groupVoiceCall.openacall.ui.VoiceCallGroupActivity"
+            
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/SplashScreen"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.beesec.beechat2.group.GroupChatActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.group.CommentGroupActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.group.CreateGroupPostActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.group.EditGroupActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.group.GroupFragment"
+             />
+        <activity
+            android:name="com.beesec.beechat2.group.GroupProfileActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.group.AddMemberActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.group.StepThreeActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.group.StepTwoActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.group.StepOneActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.calling.VoiceChatViewActivity"
+            
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/SplashScreen"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.beesec.beechat2.calling.VideoChatViewActivity"
+            
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/FullScreenVideoTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.beesec.beechat2.calling.RingingActivity"
+            
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.beesec.beechat2.calling.CallingActivity"
+            
+            android:theme="@style/SplashScreen" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDF9NisUWrgCiRYUI3hSUThTVKLttUzK18" />
+
+        <activity
+            android:name="com.beesec.beechat2.chat.ChatActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.chat.CreateChatActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.MediaViewActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.post.CommentActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.search.SearchActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.search.TrendingActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.post.CreatePostActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.profile.UserProfileActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.profile.EditProfileActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.emailAuth.ForgotPasswordActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.Check"
+             />
+        <activity
+            android:name="com.beesec.beechat2.phoneAuth.RegisterActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.phoneAuth.VerifyOTPActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.phoneAuth.GenerateOTPActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.emailAuth.SignUpActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.emailAuth.LoginActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.welcome.IntroLast"
+             />
+        <activity
+            android:name="com.beesec.beechat2.welcome.IntroActivity"
+             />
+        <activity
+            android:name="com.beesec.beechat2.welcome.SplashScreenActivity"
+            
+            android:theme="@style/SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.beesec.beechat2.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.app.myfriend.com"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.app.myfriend.com"
+                    android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.app.myfriend.com"
+                    android:scheme="app" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4559616394716126~9142902745" />
+
+        <service
+            android:name="com.beesec.beechat2.notifications.FirebaseMessaging"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

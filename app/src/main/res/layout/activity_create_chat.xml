@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="?attr/backgroundcolor"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".chat.CreateChatActivity"
+    tools:ignore="Overdraw">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?attr/layoutcolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/progressBar"
+            app:trackColor="#FF7CB6FF"
+            app:indicatorColor="#1877F2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:trackThickness="2dp"
+            app:trackCornerRadius="2dp"
+            android:indeterminate="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/back"
+                android:padding="5dp"
+                android:background="@drawable/circle"
+                android:backgroundTint="?attr/backgroundcolor"
+                android:src="@drawable/ic_back"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                app:tint="#596C84"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:background="@drawable/btn_round"
+                android:backgroundTint="?attr/backgroundcolor"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp">
+
+                <ImageView
+                    android:padding="9dp"
+                    android:src="@drawable/ic_search"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    app:tint="#596C84"
+                    tools:ignore="ContentDescription" />
+
+                <EditText
+                    android:textColor="?attr/textcolor"
+                    android:hint="@string/search"
+                    android:imeOptions="actionSearch"
+                    android:id="@+id/editText"
+                    android:background="@null"
+                    android:inputType="textNoSuggestions"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColorHint="?attr/texttwocolor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="Autofill,TextFields" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/users"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:textSize="20sp"
+            android:visibility="gone"
+            android:id="@+id/nothing"
+            android:textColor="?attr/texttwocolor"
+            android:alpha="0.5"
+            android:fontFamily="@font/bold_roboto"
+            android:text="@string/nothing_found"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+    <string name="msg_connection_error">የግንኙነት ስህተት፣ እባክዎ የአውታረ መረብ ቅንብሮችን ያረጋግጡ ወይም የሰርጥ ስም/የመግባት ማስመሰያ ትክክለኛ መሆኑን ያረጋግጡ</string>
+    <string name="verification_about">የተረጋገጠ ባጅ ሂሳቡ የታዋቂ የህዝብ ሰው፣ ታዋቂ ሰው፣ አለምአቀፍ ብራንድ ወይም የሚወክለው አካል ትክክለኛ መገኘት መሆኑን ለማመልከት በመለያው ላይ የሚታየው ቼክ ነው። ጥያቄ ማስገባት መለያዎ ለመረጋገጡ ዋስትና አይሆንም።</string>
+    <string name="add_members">አባላትን ያክሉ</string>
+    <string name="post">ለጥፍ</string>
+    <string name="analysis">ትንተና</string>
+    <string name="online">መስመር ላይ</string>
+    <string name="products">ምርቶች</string>
+    <string name="messages">መልዕክቶች</string>
+    <string name="dashboard">ዳሽቦርድ</string>
+    <string name="reported_users">ሪፖርት የተደረጉ ተጠቃሚዎች</string>
+    <string name="reported_groups">ሪፖርት የተደረጉ ቡድኖች</string>
+    <string name="reported_posts">ሪፖርት የተደረጉ ልጥፎች</string>
+    <string name="reported_reels">ሪፖርት የተደረገ ሪልስ</string>
+    <string name="verification_requests">የማረጋገጫ ጥያቄዎች</string>
+    <string name="remove_verified_users">የተረጋገጡ ተጠቃሚዎችን ያስወግዱ</string>
+    <string name="warned_users">ተጠቃሚዎች አስጠንቅቀዋል</string>
+    <string name="warned_groups">የማስጠንቀቂያ ቡድኖች</string>
+    <string name="ads">ማስታወቂያዎች</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">ቪዲዮ, ምስል ይለጥፉ</string>
+    <string name="comments">አስተያየቶች</string>
+    <string name="like">እንደ</string>
+    <string name="share">አጋራ</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">አስተያየት ይተይቡ...</string>
+    <string name="create_post">ልጥፍ ይፍጠሩ</string>
+    <string name="everyone">ሁሉም ሰው</string>
+    <string name="add_location">አካባቢ ጨምር</string>
+    <string name="add_to_your_post">ወደ ልጥፍዎ ያክሉ</string>
+    <string name="edit_your_email">ኢሜልዎን ያርትዑ</string>
+    <string name="new_email">አዲስ ኢሜል</string>
+    <string name="password">ፕስወርድ</string>
+    <string name="bio">ባዮ</string>
+    <string name="privatetext">የግል</string>
+    <string name="save">አስቀምጥ</string>
+    <string name="phone_no">ስልክ ቁጥር.</string>
+    <string name="edit_your_phone_no">የስልክ ቁጥርዎን ያርትዑ።</string>
+    <string name="new_phone_no">አዲስ ስልክ ቁጥር.</string>
+    <string name="edit_your_password">የይለፍ ቃልዎን ያርትዑ</string>
+    <string name="current_password">የአሁኑ ሚስጥራዊ ማለፊያ ቁልፍ</string>
+    <string name="new_password">አዲስ የይለፍ ቃል</string>
+    <string name="change">ለውጥ</string>
+    <string name="hold_for_video_tap_for_photo">ለቪዲዮ ይያዙ፣ ለፎቶ ነካ ያድርጉ</string>
+    <string name="masks">ጭንብል</string>
+    <string name="effects">ተፅዕኖዎች</string>
+    <string name="filters">ማጣሪያዎች</string>
+    <string name="feelings">ስሜቶች</string>
+    <string name="travelling">በጉዞ ላይ</string>
+    <string name="watching">በመመልከት ላይ</string>
+    <string name="listening">ማዳመጥ</string>
+    <string name="thinking_about" tools:ignore="TypographyEllipsis">ስለ ... ማሰብ</string>
+    <string name="celebration">አከባበር</string>
+    <string name="looking_for">እጠብቃለሁ</string>
+    <string name="playing">በመጫወት ላይ</string>
+    <string name="happy">ደስተኛ</string>
+    <string name="loved">የተወደደ</string>
+    <string name="sad">የተከፋ</string>
+    <string name="crying">ማልቀስ</string>
+    <string name="angry">የተናደደ</string>
+    <string name="confused">ግራ ተጋባ</string>
+    <string name="broken">የተሰበረ</string>
+    <string name="cool">ጥሩ</string>
+    <string name="funny">አስቂኝ</string>
+    <string name="tired">ደክሞኝል</string>
+    <string name="shock">ድንጋጤ</string>
+    <string name="lovely">ቆንጆ</string>
+    <string name="sleepy">ተኝቷል</string>
+    <string name="expressionless">መግለጫ የለሽ</string>
+    <string name="blessed">ተባረክ</string>
+    <string name="forgot_password">መክፈቻ ቁልፉን ረሳኽው</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">የይለፍ ቃልዎን እንደገና ለማስጀመር የተመዘገበውን ኢሜል ያስገቡ። የይለፍ ቃልዎን እንደገና ለማስጀመር አገናኝ በዚህ ኢሜይል ላይ ይላካል</string>
+    <string name="send_link">አገናኝ ላክ</string>
+    <string name="type_your_phone_number">ስልክ ቁጥርህን ተይብ</string>
+    <string name="generate_otp">OTP ፍጠር</string>
+    <string name="continue_with_email_instead">በምትኩ በኢሜል ይቀጥሉ</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">መልእክት ላክ...</string>
+    <string name="my_groups">የእኔ ቡድኖች</string>
+    <string name="members">አባላት</string>
+    <string name="edit_profile">መገለጫ አርትዕ</string>
+    <string name="join_request">የመቀላቀል ጥያቄ</string>
+    <string name="cancel_request">ጥያቄ ሰርዝ</string>
+    <string name="what_s_on_your_mind">ምን እያሰብክ ነው ?</string>
+    <string name="image">ምስል</string>
+    <string name="audio">ኦዲዮ</string>
+    <string name="invite_members">አባላትን ይጋብዙ</string>
+    <string name="set_a_location">ቦታ ያዘጋጁ</string>
+    <string name="login_in_to_continue">ለመቀጠል ይግቡ</string>
+    <string name="login">ግባ</string>
+    <string name="create_new_account">አዲስ መለያ ይፍጠሩ</string>
+    <string name="join">ተቀላቀል</string>
+    <string name="menu">ምናሌ</string>
+    <string name="marketplace">የገበያ ቦታ</string>
+    <string name="night_mode">የምሽት ሁነታ</string>
+    <string name="photo_editor">ፎቶ አርታዒ</string>
+    <string name="video_editor">የቪዲዮ አርታዒ</string>
+    <string name="verification">ማረጋገጥ</string>
+    <string name="policy">ፖሊሲ</string>
+    <string name="edit_password">የይለፍ ቃል አርትዕ</string>
+    <string name="edit_number">ቁጥር አርትዕ</string>
+    <string name="edit_mail">ደብዳቤ ያርትዑ</string>
+    <string name="invite">ሪፈራል ግብዣ</string>
+    <string name="near_by">አቅራቢያ</string>
+    <string name="log_out">ውጣ</string>
+    <string name="admin_panel">የአስተዳዳሪ ፓነል</string>
+    <string name="notifications">ማሳወቂያዎች</string>
+    <string name="party_post">የድግስ ፖስት</string>
+    <string name="post_about_your_watch_party">ስለ የሰዓት ፓርቲዎ ይለጥፉ</string>
+    <string name="what_s_on_your_mind_mention_hashtag">ምን እያሰብክ ነው ? @ መጥቀስ</string>
+    <string name="set_watch_party_privacy">የሰዓት ፓርቲ ግላዊነትን አዘጋጅ</string>
+    <string name="private_watch_party">የግል ሰዓት ፓርቲ</string>
+    <string name="public_watch_party">የህዝብ እይታ ፓርቲ</string>
+    <string name="next">ቀጥሎ</string>
+    <string name="sell_product">ምርት ይሽጡ</string>
+    <string name="title">ርዕስ</string>
+    <string name="price">ዋጋ</string>
+    <string name="category">ምድብ</string>
+    <string name="condition">ሁኔታ</string>
+    <string name="description">መግለጫ</string>
+    <string name="location">አካባቢ</string>
+    <string name="post_reel">Reel ልጥፍ</string>
+    <string name="describe_you_video_mention_hashtag">ቪዲዮ @ሜንሽን ይግለጹ</string>
+    <string name="privacy">ግላዊነት</string>
+    <string name="allow_comments">አስተያየቶችን ፍቀድ</string>
+    <string name="remove">አስወግድ</string>
+    <string name="known_as">በመባል የሚታወቅ</string>
+    <string name="accept">ተቀበል</string>
+    <string name="government_id">የመንግስት መታወቂያ</string>
+    <string name="message">መልእክት</string>
+    <string name="poke">ፖክ</string>
+    <string name="block">አግድ</string>
+    <string name="reject">እምቢ</string>
+    <string name="apps">መተግበሪያዎች</string>
+    <string name="download">አውርድ</string>
+    <string name="copy">ቅዳ</string>
+    <string name="delete">ሰርዝ</string>
+    <string name="liked_by">የተወደደ በ</string>
+    <string name="rainy_shoes">ዝናባማ ጫማዎች</string>
+    <string name="camera">ካሜራ</string>
+    <string name="add_audio">ኦዲዮ ያክሉ</string>
+    <string name="background_colour">የበስተጀርባ ቀለም</string>
+    <string name="add_gif">GIF ያክሉ</string>
+    <string name="feeling_activity">ስሜት /እንቅስቃሴ</string>
+    <string name="add_reels">ሪልሎችን ያክሉ</string>
+    <string name="go_live">በቀጥታ ስርጭት ይሂዱ</string>
+    <string name="create_podcast">ፖድካስት ፍጠር</string>
+    <string name="add_stories">ታሪኮችን ያክሉ</string>
+    <string name="views">እይታዎች</string>
+    <string name="podcast">ፖድካስት</string>
+    <string name="paste_video_link_from_web">የቪዲዮ ማገናኛን ከድር ላይ ለጥፍ</string>
+    <string name="supports_youtube_amp_dailymotion">YouTubeን ይደግፋል</string>
+    <string name="link">አገናኝ</string>
+    <string name="upload_any_video_you_want">የሚፈልጉትን ማንኛውንም ቪዲዮ ይስቀሉ።</string>
+    <string name="textview">የጽሑፍ እይታ</string>
+    <string name="paste_the_meeting_id">የስብሰባ መታወቂያውን ለጥፍ</string>
+    <string name="meeting_id">የስብሰባ መታወቂያ</string>
+    <string name="edit">አርትዕ</string>
+    <string name="leave">ተወው</string>
+    <string name="add_post">ፖስት አክል</string>
+    <string name="report">ሪፖርት አድርግ</string>
+    <string name="document">ሰነድ</string>
+    <string name="for_you">ለእርስዎ</string>
+    <string name="following">በመከተል ላይ</string>
+    <string name="no_reels">ሪልስ የለም</string>
+    <string name="followers">ተከታዮች</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">አስተያየት ላክ...</string>
+    <string name="video">ቪዲዮ</string>
+    <string name="live">ቀጥታ</string>
+    <string name="chat">ተወያይ</string>
+    <string name="delete_photo">ፎቶ ሰርዝ</string>
+    <string name="create_a_new_meeting">አዲስ ስብሰባ ይፍጠሩ</string>
+    <string name="create">ፍጠር</string>
+    <string name="upload_photo">ፎቶ ስቀል</string>
+    <string name="upload_video">ቪዲዮ ስቀል</string>
+    <string name="gif">GIF</string>
+    <string name="liked">ወደውታል</string>
+    <string name="likes">መውደዶች</string>
+    <string name="add_image">ምስል አክል</string>
+    <string name="add_video">ቪዲዮ ጨምር</string>
+    <string name="sent_stickers_gif">ተለጣፊዎች ተልከዋል</string>
+    <string name="add_recorder">መቅጃ ያክሉ</string>
+    <string name="create_room_meeting">ክፍል/ስብሰባ ይፍጠሩ</string>
+    <string name="send_location">አካባቢ ላክ</string>
+    <string name="add_document">ሰነድ አክል</string>
+    <string name="time">ጊዜ -</string>
+    <string name="full_screen">ሙሉ ማያ</string>
+    <string name="post_background">ዳራ ይለጥፉ</string>
+    <string name="announcement">ማስታወቂያ</string>
+    <string name="send">ላክ</string>
+    <string name="create_reel">ሪል ይፍጠሩ</string>
+    <string name="sell_something">የሆነ ነገር ይሽጡ</string>
+    <string name="video_paused">ቪዲዮ ባለበት ቆሟል</string>
+    <string name="muted">ድምጸ-ከል ተደርጓል</string>
+    <string name="type_6_digit_otp">ባለ 6 አሃዝ ኦቲፒ ይተይቡ</string>
+    <string name="enter_otp">OTP ያስገቡ</string>
+    <string name="verify_otp">ኦቲፒን ያረጋግጡ</string>
+    <string name="try_again">እንደገና ሞክር</string>
+    <string name="full_name">ሙሉ ስም</string>
+    <string name="government_issued_photo_id_link">የመንግስት የፎቶ መታወቂያ አገናኝ</string>
+    <string name="follow">ተከተል</string>
+    <string name="unfollow">አትከተል</string>
+    <string name="search" tools:ignore="TypographyEllipsis">ፈልግ...</string>
+    <string name="trending">በመታየት ላይ ያለ</string>
+    <string name="music">ሙዚቃ</string>
+    <string name="sports">ስፖርት</string>
+    <string name="memes">ሚምስ</string>
+    <string name="vines">ወይን</string>
+    <string name="tv_amp_movies">ቲቪ</string>
+    <string name="animals">እንስሳት</string>
+    <string name="diy">DIY</string>
+    <string name="beauty">ውበት</string>
+    <string name="art">ስነ ጥበብ</string>
+    <string name="food">ምግብ</string>
+    <string name="style">ቅጥ</string>
+    <string name="decor">ማስጌጥ</string>
+    <string name="politics">ፖለቲካ</string>
+    <string name="highlight">አድምቅ</string>
+    <string name="profile_photo">የመገለጫ ፎቶ</string>
+    <string name="upload_group_photo">የቡድን ፎቶ ስቀል</string>
+    <string name="upload">ስቀል</string>
+    <string name="skip">ዝለል</string>
+    <string name="cover_photo">የሽፋን ፎቶ</string>
+    <string name="upload_group_cover">የቡድን ሽፋን ይስቀሉ</string>
+    <string name="create_group">ቡድን ይፍጠሩ</string>
+    <string name="fill_details_to_continue">ለመቀጠል ዝርዝሮችን ይሙሉ</string>
+    <string name="watch_party">ድግስ ይመልከቱ</string>
+    <string name="web">ድር</string>
+    <string name="sign_up_to_continue">ለመቀጠል ይመዝገቡ</string>
+    <string name="email">ኢሜይል</string>
+    <string name="already_have_an_account_login">መለያ አለህ? ግባ</string>
+    <string name="send_to">ላክ ወደ</string>
+    <string name="add_to_reels">ወደ ሪልስ አክል</string>
+    <string name="add_to_story">ወደ ታሪክ ጨምር</string>
+    <string name="add_to_post">ወደ ልጥፍ ያክሉ</string>
+    <string name="send_to_user">ወደ ተጠቃሚ ላክ</string>
+    <string name="send_to_group">ወደ ቡድን ላክ</string>
+    <string name="add_to_product">ወደ ምርት ያክሉ</string>
+    <string name="edit_video">ቪዲዮ አርትዕ</string>
+    <string name="edit_image">ምስል አርትዕ</string>
+    <string name="users">ተጠቃሚዎች</string>
+    <string name="posts">ልጥፎች</string>
+    <string name="groups">ቡድኖች</string>
+    <string name="market">ገበያ</string>
+    <string name="nearby">አቅራቢያ</string>
+    <string name="load_more">ተጨማሪ ይጫኑ</string>
+    <string name="saved">ተቀምጧል</string>
+    <string name="reels">ሪልስ</string>
+    <string name="nothing_found">ምንም አልተገኘም።</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">በመደወል ላይ...</string>
+    <string name="new_account">አዲስ መለያ</string>
+    <string name="name">ስም</string>
+    <string name="type_profile_details">የመገለጫ ዝርዝሮችን ይተይቡ</string>
+    <string name="username">የተጠቃሚ ስም</string>
+    <string name="sign_up">ክፈት</string>
+    <string name="contact">ተገናኝ</string>
+    <string name="meetings">ስብሰባዎች</string>
+    <string name="terms_amp_condtitions">ውሎች</string>
+    <string name="change_theme">ገጽታ ቀይር</string>
+    <string name="send_gif">GIF ላክ</string>
+    <string name="dim_mode">ዲም ሞድ</string>
+
+</resources>

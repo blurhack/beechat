@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+    <string name="msg_connection_error">कनेक्शन त्रुटी, कृपया नेटवर्क सेटिंग्ज तपासा किंवा चॅनेलचे नाव/अॅक्सेस टोकन वैध असल्याची खात्री करा</string>
+    <string name="verification_about">पडताळणी केलेला बॅज हा एक चेक आहे जो खात्यावर दिसणारा चेक आहे की हे खाते प्रसिद्ध सार्वजनिक व्यक्ती, सेलिब्रिटी, जागतिक ब्रँड किंवा ते प्रतिनिधित्व करत असलेल्या घटकाची अस्सल उपस्थिती आहे. विनंती सबमिट केल्याने तुमचे खाते सत्यापित केले जाईल याची हमी मिळत नाही.</string>
+    <string name="add_members">सदस्य जोडा</string>
+    <string name="post">पोस्ट</string>
+    <string name="analysis">विश्लेषण</string>
+    <string name="online">ऑनलाइन</string>
+    <string name="products">उत्पादने</string>
+    <string name="messages">संदेश</string>
+    <string name="dashboard">डॅशबोर्ड</string>
+    <string name="reported_users">वापरकर्ते नोंदवले</string>
+    <string name="reported_groups">अहवाल दिलेले गट</string>
+    <string name="reported_posts">नोंदवलेले पोस्ट</string>
+    <string name="reported_reels">अहवाल Reels</string>
+    <string name="verification_requests">पडताळणी विनंत्या</string>
+    <string name="remove_verified_users">सत्यापित वापरकर्ते काढा</string>
+    <string name="warned_users">वापरकर्त्यांना चेतावणी दिली</string>
+    <string name="warned_groups">चेतावणी गट</string>
+    <string name="ads">जाहिराती</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">व्हिडिओ, प्रतिमा पोस्ट करा</string>
+    <string name="comments">टिप्पण्या</string>
+    <string name="like">आवडले</string>
+    <string name="share">शेअर करा</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">टिप्पणी टाइप करा...</string>
+    <string name="create_post">पोस्ट तयार करा</string>
+    <string name="everyone">प्रत्येकजण</string>
+    <string name="add_location">स्थान जोडा</string>
+    <string name="add_to_your_post">तुमच्या पोस्टमध्ये जोडा</string>
+    <string name="edit_your_email">तुमचा ईमेल संपादित करा</string>
+    <string name="new_email">नवीन ई - मेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="bio">जैव</string>
+    <string name="privatetext">खाजगी</string>
+    <string name="save">जतन करा</string>
+    <string name="phone_no">दूरध्वनी क्रमांक.</string>
+    <string name="edit_your_phone_no">तुमचा फोन नंबर संपादित करा.</string>
+    <string name="new_phone_no">नवीन फोन क्र.</string>
+    <string name="edit_your_password">तुमचा पासवर्ड संपादित करा</string>
+    <string name="current_password">सध्याचा गुप्त शब्द</string>
+    <string name="new_password">नवीन पासवर्ड</string>
+    <string name="change">बदला</string>
+    <string name="hold_for_video_tap_for_photo">व्हिडिओसाठी होल्ड करा, फोटोसाठी टॅप करा</string>
+    <string name="masks">मुखवटे</string>
+    <string name="effects">परिणाम</string>
+    <string name="filters">फिल्टर</string>
+    <string name="feelings">भावना</string>
+    <string name="travelling">प्रवास</string>
+    <string name="watching">पाहत आहे</string>
+    <string name="listening">ऐकत आहे</string>
+    <string name="thinking_about">बद्दल विचार करत आहे</string>
+    <string name="celebration">उत्सव</string>
+    <string name="looking_for">शोधत आहे</string>
+    <string name="playing">खेळत आहे</string>
+    <string name="happy">आनंदी</string>
+    <string name="loved">आवडले</string>
+    <string name="sad">उदास</string>
+    <string name="crying">रडत आहे</string>
+    <string name="angry">रागावला</string>
+    <string name="confused">गोंधळले</string>
+    <string name="broken">तुटलेली</string>
+    <string name="cool">मस्त</string>
+    <string name="funny">मजेदार</string>
+    <string name="tired">थकले</string>
+    <string name="shock">धक्का</string>
+    <string name="lovely">लवली</string>
+    <string name="sleepy">निवांत</string>
+    <string name="expressionless">अभिव्यक्तीहीन</string>
+    <string name="blessed">धन्य</string>
+    <string name="forgot_password">पासवर्ड विसरलात</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">तुमचा पासवर्ड रीसेट करण्यासाठी नोंदणीकृत ईमेल प्रविष्ट करा. तुमचा पासवर्ड रीसेट करण्यासाठी या ईमेलवर एक लिंक पाठवली जाईल</string>
+    <string name="send_link">लिंक पाठवा</string>
+    <string name="type_your_phone_number">तुमचा फोन नंबर टाइप करा</string>
+    <string name="generate_otp">OTP जनरेट करा</string>
+    <string name="continue_with_email_instead">त्याऐवजी ईमेलसह सुरू ठेवा</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">संदेश पाठवा...</string>
+    <string name="my_groups">माझे गट</string>
+    <string name="members">सदस्य</string>
+    <string name="edit_profile">प्रोफाईल संपादित करा</string>
+    <string name="join_request">सामील होण्याची विनंती</string>
+    <string name="cancel_request">विनंती रद्द</string>
+    <string name="what_s_on_your_mind">तुमच्या मनात काय आहे?</string>
+    <string name="image">प्रतिमा</string>
+    <string name="audio">ऑडिओ</string>
+    <string name="invite_members">सदस्यांना आमंत्रित करा</string>
+    <string name="set_a_location">एक स्थान सेट करा</string>
+    <string name="login_in_to_continue">सुरू ठेवण्यासाठी लॉग इन करा</string>
+    <string name="login">लॉगिन करा</string>
+    <string name="create_new_account">नवीन खाते तयार करा</string>
+    <string name="join">सामील व्हा</string>
+    <string name="menu">मेनू</string>
+    <string name="marketplace">मार्केटप्लेस</string>
+    <string name="night_mode">नाईट मोड</string>
+    <string name="photo_editor">छायाचित्र संपादक</string>
+    <string name="video_editor">व्हिडिओ संपादक</string>
+    <string name="verification">पडताळणी</string>
+    <string name="policy">धोरण</string>
+    <string name="edit_password">पासवर्ड संपादित करा</string>
+    <string name="edit_number">क्रमांक संपादित करा</string>
+    <string name="edit_mail">मेल संपादित करा</string>
+    <string name="invite">रेफरल आमंत्रण</string>
+    <string name="near_by">जवळ</string>
+    <string name="log_out">बाहेर पडणे</string>
+    <string name="admin_panel">प्रशासन पॅनेल</string>
+    <string name="notifications">अधिसूचना</string>
+    <string name="party_post">पार्टी पोस्ट</string>
+    <string name="post_about_your_watch_party">तुमच्या वॉच पार्टीबद्दल पोस्ट करा</string>
+    <string name="what_s_on_your_mind_mention_hashtag">तुमच्या मनात काय आहे? @उल्लेख</string>
+    <string name="set_watch_party_privacy">घड्याळ पार्टी गोपनीयता सेट करा</string>
+    <string name="private_watch_party">खाजगी वॉच पार्टी</string>
+    <string name="public_watch_party">सार्वजनिक वॉच पार्टी</string>
+    <string name="next">पुढे</string>
+    <string name="sell_product">उत्पादनाची विक्री करा</string>
+    <string name="title">शीर्षक</string>
+    <string name="price">किंमत</string>
+    <string name="category">श्रेणी</string>
+    <string name="condition">परिस्थिती</string>
+    <string name="description">वर्णन</string>
+    <string name="location">स्थान</string>
+    <string name="post_reel">पोस्ट रील</string>
+    <string name="describe_you_video_mention_hashtag">तुमच्या व्हिडिओचे वर्णन करा @उल्लेख करा</string>
+    <string name="privacy">गोपनीयता</string>
+    <string name="allow_comments">टिप्पण्यांना अनुमती द्या</string>
+    <string name="remove">काढा</string>
+    <string name="known_as">म्हणून ओळखले</string>
+    <string name="accept">स्वीकारा</string>
+    <string name="government_id">सरकारी आयडी</string>
+    <string name="message">संदेश</string>
+    <string name="poke">पोक</string>
+    <string name="block">ब्लॉक करा</string>
+    <string name="reject">नकार द्या</string>
+    <string name="apps">अॅप्स</string>
+    <string name="download">डाउनलोड करा</string>
+    <string name="copy">कॉपी करा</string>
+    <string name="delete">हटवा</string>
+    <string name="liked_by">द्वारे आवडले</string>
+    <string name="rainy_shoes">पावसाळी शूज</string>
+    <string name="camera">कॅमेरा</string>
+    <string name="add_audio">ऑडिओ जोडा</string>
+    <string name="background_colour">पार्श्वभूमी रंग</string>
+    <string name="add_gif">GIF जोडा</string>
+    <string name="feeling_activity">भावना /क्रियाकलाप</string>
+    <string name="add_reels">रील जोडा</string>
+    <string name="go_live">थेट जा</string>
+    <string name="create_podcast">पॉडकास्ट तयार करा</string>
+    <string name="add_stories">कथा जोडा</string>
+    <string name="views">दृश्ये</string>
+    <string name="podcast">पॉडकास्ट</string>
+    <string name="paste_video_link_from_web">वेबवरून व्हिडिओ लिंक पेस्ट करा</string>
+    <string name="supports_youtube_amp_dailymotion">YouTube चे समर्थन करते</string>
+    <string name="link">दुवा</string>
+    <string name="upload_any_video_you_want">तुम्हाला हवा असलेला व्हिडिओ अपलोड करा</string>
+    <string name="textview">मजकूर दृश्य</string>
+    <string name="paste_the_meeting_id">मीटिंग आयडी पेस्ट करा</string>
+    <string name="meeting_id">मीटिंग आयडी</string>
+    <string name="edit">सुधारणे</string>
+    <string name="leave">सोडा</string>
+    <string name="add_post">पोस्ट जोडा</string>
+    <string name="report">अहवाल द्या</string>
+    <string name="document">दस्तऐवज</string>
+    <string name="for_you">तुमच्यासाठी</string>
+    <string name="following">खालील</string>
+    <string name="no_reels">Reels नाही</string>
+    <string name="followers">अनुयायी</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">एक टिप्पणी पाठवा...</string>
+    <string name="video">व्हिडिओ</string>
+    <string name="live">राहतात</string>
+    <string name="chat">गप्पा</string>
+    <string name="delete_photo">फोटो हटवा</string>
+    <string name="create_a_new_meeting">नवीन मीटिंग तयार करा</string>
+    <string name="create">तयार करा</string>
+    <string name="upload_photo">फोटो अपलोड करा</string>
+    <string name="upload_video">व्हिडिओ अपलोड करा</string>
+    <string name="gif">GIF</string>
+    <string name="liked">आवडले</string>
+    <string name="likes">आवडी</string>
+    <string name="add_image">प्रतिमा जोडा</string>
+    <string name="add_video">व्हिडिओ जोडा</string>
+    <string name="sent_stickers_gif">स्टिकर्स पाठवले</string>
+    <string name="add_recorder">रेकॉर्डर जोडा</string>
+    <string name="create_room_meeting">खोली/मीटिंग तयार करा</string>
+    <string name="send_location">स्थान पाठवा</string>
+    <string name="add_document">दस्तऐवज जोडा</string>
+    <string name="time">वेळ -</string>
+    <string name="full_screen">पूर्ण स्क्रीन</string>
+    <string name="post_background">पोस्ट पार्श्वभूमी</string>
+    <string name="announcement">घोषणा</string>
+    <string name="send">पाठवा</string>
+    <string name="create_reel">रील तयार करा</string>
+    <string name="sell_something">काहीतरी विका</string>
+    <string name="video_paused">व्हिडिओला विराम दिला</string>
+    <string name="muted">निःशब्द</string>
+    <string name="type_6_digit_otp">6 अंकी OTP टाइप करा</string>
+    <string name="enter_otp">OTP टाका</string>
+    <string name="verify_otp">OTP सत्यापित करा</string>
+    <string name="try_again">पुन्हा प्रयत्न करा</string>
+    <string name="full_name">पूर्ण नाव</string>
+    <string name="government_issued_photo_id_link">सरकारने जारी केलेला फोटो आयडी लिंक</string>
+    <string name="follow">अनुसरण करा</string>
+    <string name="unfollow">अनफॉलो करा</string>
+    <string name="search" tools:ignore="TypographyEllipsis">शोधा...</string>
+    <string name="trending">चर्चेत असलेला विषय</string>
+    <string name="music">संगीत</string>
+    <string name="sports">खेळ</string>
+    <string name="memes">मीम्स</string>
+    <string name="vines">वेली</string>
+    <string name="tv_amp_movies">टीव्ही</string>
+    <string name="animals">प्राणी</string>
+    <string name="diy">DIY</string>
+    <string name="beauty">सौंदर्य</string>
+    <string name="art">कला</string>
+    <string name="food">अन्न</string>
+    <string name="style">शैली</string>
+    <string name="decor">सजावट</string>
+    <string name="politics">राजकारण</string>
+    <string name="highlight">हायलाइट करा</string>
+    <string name="profile_photo">प्रोफाइल फोटो</string>
+    <string name="upload_group_photo">ग्रुप फोटो अपलोड करा</string>
+    <string name="upload">अपलोड करा</string>
+    <string name="skip">वगळा</string>
+    <string name="cover_photo">कव्हर फोटो</string>
+    <string name="upload_group_cover">ग्रुप कव्हर अपलोड करा</string>
+    <string name="create_group">गट तयार करा</string>
+    <string name="fill_details_to_continue">सुरू ठेवण्यासाठी तपशील भरा</string>
+    <string name="watch_party">पार्टी पहा</string>
+    <string name="web">वेब</string>
+    <string name="sign_up_to_continue">सुरू ठेवण्यासाठी साइन अप करा</string>
+    <string name="email">ईमेल</string>
+    <string name="already_have_an_account_login">आधीपासूनच एक खाते आहे ? लॉगिन करा</string>
+    <string name="send_to">पाठवा</string>
+    <string name="add_to_reels">रीलमध्ये जोडा</string>
+    <string name="add_to_story">कथेत जोडा</string>
+    <string name="add_to_post">पोस्टमध्ये जोडा</string>
+    <string name="send_to_user">वापरकर्त्याला पाठवा</string>
+    <string name="send_to_group">ग्रुपवर पाठवा</string>
+    <string name="add_to_product">उत्पादनात जोडा</string>
+    <string name="edit_video">व्हिडिओ संपादित करा</string>
+    <string name="edit_image">प्रतिमा संपादित करा</string>
+    <string name="users">वापरकर्ते</string>
+    <string name="posts">पोस्ट</string>
+    <string name="groups">गट</string>
+    <string name="market">बाजार</string>
+    <string name="nearby">जवळपास</string>
+    <string name="load_more">लादणे</string>
+    <string name="saved">जतन केले</string>
+    <string name="reels">रील</string>
+    <string name="nothing_found">काहीही सापडले नाही</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">कॉल करत आहे...</string>
+    <string name="new_account">नवीन खाते</string>
+    <string name="name">नाव</string>
+    <string name="type_profile_details">प्रोफाइल तपशील टाइप करा</string>
+    <string name="username">वापरकर्तानाव</string>
+    <string name="sign_up">साइन अप करा</string>
+    <string name="contact">संपर्क करा</string>
+    <string name="meetings">सभा</string>
+    <string name="terms_amp_condtitions">अटी</string>
+    <string name="change_theme">थीम बदला</string>
+    <string name="send_gif">GIF पाठवा</string>
+    <string name="dim_mode">मंद मोड</string>
+
+</resources>

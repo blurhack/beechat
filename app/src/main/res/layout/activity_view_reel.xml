@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".reel.ViewReelActivity">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/name"
+            android:fontFamily="@font/black"
+            android:textColor="#fff"
+            android:textSize="19sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.tylersuehr.socialtextview.SocialTextView
+            android:maxWidth="200dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/bold_roboto"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:id="@+id/description"
+            app:mentionColor="@color/colorPrimary"
+            app:emailColor="@color/colorPrimary"
+            app:phoneColor="@color/colorPrimary"
+            app:hashtagColor="@color/colorPrimary"
+            app:selectedColor="@color/colorPrimary"
+            app:urlColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/views"
+            android:fontFamily="@font/bold"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="45dp"
+            android:src="@drawable/avatar"
+            app:civ_border_color="#fff"
+            android:id="@+id/avatar"
+            app:civ_border_width="2dp"
+            android:layout_gravity="center"
+            android:layout_height="35dp"/>
+
+        <LinearLayout
+            android:id="@+id/like"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/like_img"
+                android:src="@drawable/ic_reel_like"
+                android:layout_gravity="center"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textLike"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="#fff"
+                android:fontFamily="@font/bold_roboto"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/comment"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:src="@drawable/ic_reel_comment"
+                android:layout_gravity="center"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+               tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textComment"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="#fff"
+                android:fontFamily="@font/bold_roboto"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_reel_share"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+           tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/more"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_more"
+            android:layout_gravity="center"
+            android:rotation="90"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+           tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/pb"
+        app:trackColor="#80FFFFFF"
+        app:indicatorColor="#fff"
+        android:layout_width="match_parent"
+        app:trackCornerRadius="2dp"
+        android:indeterminate="true"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

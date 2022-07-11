@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/layoutcolor"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:padding="5dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="?attr/backgroundcolor"
+        android:src="@drawable/ic_back"
+        android:id="@+id/button"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:tint="#596C84"
+
+       tools:ignore="ContentDescription" />
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/title"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/bold"
+        android:textColor="?attr/texttwocolor"
+        android:layout_marginStart="16dp"
+        android:textSize="25sp"
+        android:text="@string/post_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title">
+
+        <HorizontalScrollView
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/one"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="10dip" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/two"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="10dip" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/three"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="10dip" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/four"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="10dip" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/five"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="10dip" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/six"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="10dip" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/seven"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="10dip" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/eight"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="10dip" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/nine"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="10dip" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/ten"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="10dip" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/eleven"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="10dip" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/twelve"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="10dip" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/thirteen"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="10dip" />
+
+
+                <RelativeLayout
+                    android:id="@+id/upload"
+                    android:layout_marginStart="16dp"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp">
+                    <LinearLayout
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="UseCompoundDrawables,UselessParent">
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:alpha="0.5"
+                            android:src="@drawable/ic_upload"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            app:tint="?attr/texttwocolor"
+
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textColor="?attr/texttwocolor"
+                            android:alpha="0.5"
+                            android:textAlignment="center"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/bold"
+                            android:text="@string/upload"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                           tools:ignore="ContentDescription" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

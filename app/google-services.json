@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "359182464747",
+    "project_id": "beechat2-85c0b",
+    "storage_bucket": "beechat2-85c0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359182464747:android:aa1df07dba93ed53a230ae",
+        "android_client_info": {
+          "package_name": "com.beesec.beechat2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359182464747-gubjlcjsllol81n4hascpsdb7nut7af2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beesec.beechat2",
+            "certificate_hash": "b345bdf32bf48d42abe4fe81b537ba09b14c4d49"
+          }
+        },
+        {
+          "client_id": "359182464747-fg383fp2o5rg3trtg6ml1777f7qh29a8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOIaNiiKc0ASxl1VWp-4Q4nXUPgjqS5G4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359182464747-fg383fp2o5rg3trtg6ml1777f7qh29a8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

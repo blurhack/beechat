@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/layoutcolor"
+    android:id="@+id/main"
+    tools:context=".profile.EditProfileActivity"
+    tools:ignore="Overdraw">
+
+    <RelativeLayout
+        android:id="@+id/cover_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cover"
+            tools:ignore="ContentDescription" />
+
+        <VideoView
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:id="@+id/video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/progressBar"
+            app:trackColor="#FF7CB6FF"
+            app:indicatorColor="#1877F2"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:trackThickness="2dp"
+            app:trackCornerRadius="2dp"
+            android:indeterminate="true" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/editCover"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_aperture"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="#fff"
+        tools:ignore="ContentDescription,UnusedAttribute" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_back"
+        tools:ignore="ContentDescription,UnusedAttribute"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="#fff" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/avatar"
+        app:layout_constraintBottom_toBottomOf="@+id/cover_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cover_layout" />
+
+    <ImageView
+        android:id="@+id/editDp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/btn_round"
+        android:backgroundTint="#F0F2F6"
+        android:padding="6dp"
+        android:src="@drawable/ic_aperture"
+        app:layout_constraintBottom_toBottomOf="@+id/dp"
+        app:layout_constraintEnd_toEndOf="@+id/dp"
+        app:tint="#596C84"
+        tools:ignore="ContentDescription,UnusedAttribute" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:fontFamily="@font/black"
+                      android:text="@string/name"
+                      android:textColor="?attr/textcolor"
+                      android:textSize="20sp"
+                      tools:ignore="ContentDescription" />
+
+                  <EditText
+                      android:id="@+id/name"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="8dp"
+                      android:background="@null"
+                      android:fontFamily="@font/bold_roboto"
+                      android:hint="@string/name"
+                      android:inputType="text"
+                      android:textColor="?attr/texttwocolor"
+                      android:textColorHint="?attr/texttwocolor"
+                      android:textSize="17sp"
+                      tools:ignore="Autofill" />
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="16dp"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:fontFamily="@font/black"
+                      android:text="@string/username"
+                      android:textColor="?attr/textcolor"
+                      android:textSize="20sp"
+                      tools:ignore="ContentDescription" />
+
+                  <EditText
+                      android:id="@+id/username"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="8dp"
+                      android:background="@null"
+                      android:digits="abcdefghijklmnopqrstuvwxyz0123456789._"
+                      android:fontFamily="@font/bold_roboto"
+                      android:hint="@string/username"
+                      android:inputType="text"
+                      android:textColor="?attr/texttwocolor"
+                      android:textColorHint="?attr/texttwocolor"
+                      android:textSize="17sp"
+                      tools:ignore="Autofill" />
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="16dp"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:fontFamily="@font/black"
+                      android:text="@string/bio"
+                      android:textColor="?attr/textcolor"
+                      android:textSize="20sp"
+                      tools:ignore="ContentDescription" />
+
+                  <com.hendraanggrian.appcompat.widget.SocialEditText
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="8dp"
+                      android:background="@null"
+                      android:fontFamily="@font/bold_roboto"
+                      android:hint="@string/bio"
+                      android:textColor="?attr/texttwocolor"
+                      android:textColorHint="?attr/texttwocolor"
+                      android:textSize="17sp"
+                      android:autoLink="web"
+                      android:linksClickable="true"
+                      android:textColorLink="@color/colorPrimary"
+                      android:id="@+id/bio"
+                      app:socialFlags="hashtag|mention"
+                      app:hashtagColor="@color/colorPrimary"
+                      app:mentionColor="@color/colorPrimary"
+                      tools:ignore="ContentDescription" />
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="16dp"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:fontFamily="@font/black"
+                      android:text="@string/location"
+                      android:textColor="?attr/textcolor"
+                      android:textSize="20sp"
+                      tools:ignore="ContentDescription" />
+
+                  <EditText
+                      android:id="@+id/location"
+                      android:layout_weight="1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="0dp"
+                      android:background="@null"
+                      android:fontFamily="@font/bold_roboto"
+                      android:hint="@string/location"
+                      android:inputType="text"
+                      android:textColor="?attr/texttwocolor"
+                      android:textColorHint="?attr/texttwocolor"
+                      android:textSize="17sp"
+                      tools:ignore="Autofill" />
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="16dp"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:fontFamily="@font/black"
+                      android:text="@string/link"
+                      android:textColor="?attr/textcolor"
+                      android:textSize="20sp"
+                      tools:ignore="ContentDescription" />
+
+                  <EditText
+                      android:id="@+id/link"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="8dp"
+                      android:background="@null"
+                      android:textColorLink="@color/colorPrimary"
+                      android:fontFamily="@font/bold_roboto"
+                      android:hint="@string/link"
+                      android:autoLink="web"
+                      android:linksClickable="true"
+                      android:inputType="textWebEmailAddress"
+                      android:textColor="?attr/texttwocolor"
+                      android:textColorHint="?attr/texttwocolor"
+                      android:textSize="17sp"
+                      tools:ignore="Autofill" />
+
+              </LinearLayout>
+
+          </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:stateListAnimator="@null"
+        android:background="@drawable/btn_round"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/bold_roboto"
+        android:gravity="center"
+        android:text="@string/save"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+        tools:ignore="UnusedAttribute" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

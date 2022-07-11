@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/videoPager"
+        android:orientation="vertical"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/videoPagerOne"
+        android:visibility="gone"
+        android:orientation="vertical"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        app:tabTextAppearance="@style/TabAppearance"
+        app:tabIndicatorColor="#fff"
+        app:tabTextColor="#fff"
+        app:tabSelectedTextColor="#fff"
+        android:layout_height="wrap_content"
+        tools:ignore="UnknownIdInLayout">
+
+        <com.google.android.material.tabs.TabItem
+            android:text="@string/for_you"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription" />
+
+        <com.google.android.material.tabs.TabItem
+            android:text="@string/following"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <TextView
+        android:text="@string/no_reels"
+        android:alpha="0.5"
+        android:id="@+id/no"
+        android:visibility="gone"
+        android:fontFamily="@font/bold_roboto"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       tools:ignore="ContentDescription" />
+
+</RelativeLayout>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Myfriend</string>
+
+    <string-array name="privacy">
+        <item>Everyone</item>
+        <item>Followers</item>
+        <item>No one</item>
+    </string-array>
+
+    <!-- Email -->
+
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Used</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Autos &amp; Vehicles</item>
+        <item>Baby &amp; Children\s Products</item>
+        <item>Beauty Products &amp; Services</item>
+        <item>Computers</item>
+        <item>Electronics</item>
+        <item>Dating</item>
+        <item>Financial</item>
+        <item>Gift</item>
+        <item>Home</item>
+        <item>Others</item>
+    </string-array>
+
+      <!-- Paste Native Ad unit id here for admob -->
+      <!-- Paste Banner Ad unit id here for admob -->
+
+    <string name="msg_connection_error">Hitilafu ya muunganisho, tafadhali angalia mipangilio ya mtandao au uhakikishe kuwa jina la kituo/tokeni ya ufikiaji ni halali</string>
+    <string name="verification_about">Beji iliyothibitishwa ni hundi inayoonekana kwenye akaunti ili kuonyesha kwamba akaunti hiyo ni uwepo halisi wa mtu mashuhuri wa umma, mtu mashuhuri, chapa ya kimataifa au huluki inayowakilisha. Kutuma ombi si hakikisho kwamba akaunti yako itathibitishwa.</string>
+    <string name="add_members">Ongeza Wanachama</string>
+    <string name="post">Chapisha</string>
+    <string name="analysis">Uchambuzi</string>
+    <string name="online">Mtandaoni</string>
+    <string name="products">Bidhaa</string>
+    <string name="messages">Ujumbe</string>
+    <string name="dashboard">Dashibodi</string>
+    <string name="reported_users">Watumiaji Walioripotiwa</string>
+    <string name="reported_groups">Vikundi vilivyoripotiwa</string>
+    <string name="reported_posts">Machapisho Yaliyoripotiwa</string>
+    <string name="reported_reels">Reels zilizoripotiwa</string>
+    <string name="verification_requests">Maombi ya uthibitishaji</string>
+    <string name="remove_verified_users">Ondoa Watumiaji Waliothibitishwa</string>
+    <string name="warned_users">Watumiaji walioonya</string>
+    <string name="warned_groups">Vikundi vilivyoonywa</string>
+    <string name="ads">Matangazo</string>
+    <string name="post_video_image_amp_text_with_hashtag_and_mention_your_nfriends_shivanshu_wwe">Chapisha video, picha</string>
+    <string name="comments">Maoni</string>
+    <string name="like">Kama</string>
+    <string name="share">Shiriki</string>
+    <string name="type_a_comment" tools:ignore="TypographyEllipsis">Andika maoni...</string>
+    <string name="create_post">Tengeneza Chapisho</string>
+    <string name="everyone">Kila mtu</string>
+    <string name="add_location">Ongeza Mahali</string>
+    <string name="add_to_your_post">Ongeza kwenye chapisho lako</string>
+    <string name="edit_your_email">Hariri barua pepe yako</string>
+    <string name="new_email">Barua pepe Mpya</string>
+    <string name="password">Nenosiri</string>
+    <string name="bio">Wasifu</string>
+    <string name="privatetext">Privat</string>
+    <string name="save">Hifadhi</string>
+    <string name="phone_no">Namba ya simu.</string>
+    <string name="edit_your_phone_no">Hariri nambari yako ya simu.</string>
+    <string name="new_phone_no">Nambari ya simu mpya.</string>
+    <string name="edit_your_password">Hariri nenosiri lako</string>
+    <string name="current_password">Nenosiri la sasa</string>
+    <string name="new_password">Nenosiri Mpya</string>
+    <string name="change">Badilika</string>
+    <string name="hold_for_video_tap_for_photo">Shikilia video, Gusa ili upate picha</string>
+    <string name="masks">Vinyago</string>
+    <string name="effects">Madhara</string>
+    <string name="filters">Vichujio</string>
+    <string name="feelings">Hisia</string>
+    <string name="travelling">Safiri</string>
+    <string name="watching">Kutazama</string>
+    <string name="listening">Kusikiliza</string>
+    <string name="thinking_about">Kufikiria</string>
+    <string name="celebration">Sherehe</string>
+    <string name="looking_for">Tafuta</string>
+    <string name="playing">Inacheza</string>
+    <string name="happy">Furaha</string>
+    <string name="loved">Kupendwa</string>
+    <string name="sad">Inasikitisha</string>
+    <string name="crying">Kulia</string>
+    <string name="angry">Mwenye hasira</string>
+    <string name="confused">Changanyikiwa</string>
+    <string name="broken">Imevunjika</string>
+    <string name="cool">Baridi</string>
+    <string name="funny">Mapenzi</string>
+    <string name="tired">Uchovu</string>
+    <string name="shock">Mshtuko</string>
+    <string name="lovely">Inapendeza</string>
+    <string name="sleepy">Usingizi</string>
+    <string name="expressionless">Bila kujieleza</string>
+    <string name="blessed">Ubarikiwe</string>
+    <string name="forgot_password">Umesahau nywila</string>
+    <string name="to_reset_your_password_enter_the_registered_email_a_link_will_be_sent_on_this_email_to_reset_your_password">Ili kuweka upya nenosiri lako ingiza barua pepe iliyosajiliwa. Kiungo kitatumwa kwenye barua pepe hii ili kuweka upya nenosiri lako</string>
+    <string name="send_link">Tuma Kiungo</string>
+    <string name="type_your_phone_number">Andika nambari yako ya simu</string>
+    <string name="generate_otp">Tengeneza OTP</string>
+    <string name="continue_with_email_instead">Endelea na barua pepe badala yake</string>
+    <string name="send_a_message" tools:ignore="TypographyEllipsis">Tuma ujumbe...</string>
+    <string name="my_groups">Vikundi Vyangu</string>
+    <string name="members">Wanachama</string>
+    <string name="edit_profile">Hariri Wasifu</string>
+    <string name="join_request">Ombi la Kujiunga</string>
+    <string name="cancel_request">Ghairi Ombi</string>
+    <string name="what_s_on_your_mind">Unafikiria nini ?</string>
+    <string name="image">Picha</string>
+    <string name="audio">Sauti</string>
+    <string name="invite_members">Alika Wanachama</string>
+    <string name="set_a_location">Weka eneo</string>
+    <string name="login_in_to_continue">Ingia ili kuendelea</string>
+    <string name="login">Ingia</string>
+    <string name="create_new_account">Fungua akaunti mpya</string>
+    <string name="join">Jiunge</string>
+    <string name="menu">Menyu</string>
+    <string name="marketplace">Soko</string>
+    <string name="night_mode">Hali ya Usiku</string>
+    <string name="photo_editor">Mhariri wa Picha</string>
+    <string name="video_editor">Mhariri wa Video</string>
+    <string name="verification">Uthibitishaji</string>
+    <string name="policy">Sera</string>
+    <string name="edit_password">Badilisha Nenosiri</string>
+    <string name="edit_number">Badilisha Nambari</string>
+    <string name="edit_mail">Hariri Barua</string>
+    <string name="invite">Mwaliko wa Rufaa</string>
+    <string name="near_by">Karibu</string>
+    <string name="log_out">Toka nje</string>
+    <string name="admin_panel">Paneli ya Msimamizi</string>
+    <string name="notifications">Arifa</string>
+    <string name="party_post">Chapisho la Chama</string>
+    <string name="post_about_your_watch_party">Chapisha kuhusu sherehe yako ya saa</string>
+    <string name="what_s_on_your_mind_mention_hashtag">Unafikiria nini ? @taja</string>
+    <string name="set_watch_party_privacy">Weka faragha ya chama cha saa</string>
+    <string name="private_watch_party">Binafsi Watch Party</string>
+    <string name="public_watch_party">Public Watch Party</string>
+    <string name="next">Inayofuata</string>
+    <string name="sell_product">Uza Bidhaa</string>
+    <string name="title">Kichwa</string>
+    <string name="price">Bei</string>
+    <string name="category">Kategoria</string>
+    <string name="condition">Hali</string>
+    <string name="description">Maelezo</string>
+    <string name="location">Mahali</string>
+    <string name="post_reel">Chapisha Reel</string>
+    <string name="describe_you_video_mention_hashtag">Eleza video yako @Taja</string>
+    <string name="privacy">Faragha</string>
+    <string name="allow_comments">Ruhusu Maoni</string>
+    <string name="remove">Ondoa</string>
+    <string name="known_as">Inayojulikana kama</string>
+    <string name="accept">Kubali</string>
+    <string name="government_id">Kitambulisho cha Serikali</string>
+    <string name="message">Ujumbe</string>
+    <string name="poke">Poke</string>
+    <string name="block">Zuia</string>
+    <string name="reject">Kataa</string>
+    <string name="apps">Programu</string>
+    <string name="download">Pakua</string>
+    <string name="copy">Nakili</string>
+    <string name="delete">Futa</string>
+    <string name="liked_by">Imependwa na</string>
+    <string name="rainy_shoes">Viatu vya mvua</string>
+    <string name="camera">Kamera</string>
+    <string name="add_audio">Ongeza Sauti</string>
+    <string name="background_colour">Rangi ya usuli</string>
+    <string name="add_gif">Ongeza GIF</string>
+    <string name="feeling_activity">Hisia /Shughuli</string>
+    <string name="add_reels">Ongeza reels</string>
+    <string name="go_live">Nenda Moja kwa Moja</string>
+    <string name="create_podcast">Unda Podcast</string>
+    <string name="add_stories">Ongeza hadithi</string>
+    <string name="views">Maoni</string>
+    <string name="podcast">Podcast</string>
+    <string name="paste_video_link_from_web">Bandika kiungo cha video kutoka kwa wavuti</string>
+    <string name="supports_youtube_amp_dailymotion">Inaauni YouTube</string>
+    <string name="link">Kiungo</string>
+    <string name="upload_any_video_you_want">Pakia video yoyote unayotaka</string>
+    <string name="textview">TextView</string>
+    <string name="paste_the_meeting_id">Bandika kitambulisho cha mkutano</string>
+    <string name="meeting_id">Kitambulisho cha Mkutano</string>
+    <string name="edit">Hariri</string>
+    <string name="leave">Ondoka</string>
+    <string name="add_post">Ongeza Chapisho</string>
+    <string name="report">Ripoti</string>
+    <string name="document">Hati</string>
+    <string name="for_you">Kwa ajili yako</string>
+    <string name="following">Kufuatia</string>
+    <string name="no_reels">Hakuna Reels</string>
+    <string name="followers">Wafuasi</string>
+    <string name="send_a_comment" tools:ignore="TypographyEllipsis">Tuma maoni...</string>
+    <string name="video">Video</string>
+    <string name="live">Ishi</string>
+    <string name="chat">Soga</string>
+    <string name="delete_photo">Futa Picha</string>
+    <string name="create_a_new_meeting">Unda mkutano mpya</string>
+    <string name="create">Unda</string>
+    <string name="upload_photo">Pakia Picha</string>
+    <string name="upload_video">Pakia Video</string>
+    <string name="gif">GIF</string>
+    <string name="liked">Imependeza</string>
+    <string name="likes">Anapenda</string>
+    <string name="add_image">Ongeza Picha</string>
+    <string name="add_video">Ongeza Video</string>
+    <string name="sent_stickers_gif">Vibandiko vilivyotumwa</string>
+    <string name="add_recorder">Ongeza Kinasa sauti</string>
+    <string name="create_room_meeting">Unda Chumba /Mkutano</string>
+    <string name="send_location">Tuma Mahali</string>
+    <string name="add_document">Ongeza Hati</string>
+    <string name="time">Wakati -</string>
+    <string name="full_screen">Skrini Kamili</string>
+    <string name="post_background">Usuli wa Chapisho</string>
+    <string name="announcement">Tangazo</string>
+    <string name="send">Tuma</string>
+    <string name="create_reel">Unda Reel</string>
+    <string name="sell_something">Uza kitu</string>
+    <string name="video_paused">Video Imesitishwa</string>
+    <string name="muted">Imenyamazishwa</string>
+    <string name="type_6_digit_otp">Andika OTP ya tarakimu 6</string>
+    <string name="enter_otp">Ingiza OTP</string>
+    <string name="verify_otp">Thibitisha OTP</string>
+    <string name="try_again">Jaribu tena</string>
+    <string name="full_name">Jina kamili</string>
+    <string name="government_issued_photo_id_link">Kiungo cha kitambulisho cha picha kilichotolewa na serikali</string>
+    <string name="follow">Fuata</string>
+    <string name="unfollow">Acha kufuata</string>
+    <string name="search" tools:ignore="TypographyEllipsis">Tafuta...</string>
+    <string name="trending">Zinazovuma</string>
+    <string name="music">Muziki</string>
+    <string name="sports">Michezo</string>
+    <string name="memes">Memes</string>
+    <string name="vines">Mizabibu</string>
+    <string name="tv_amp_movies">TV</string>
+    <string name="animals">Wanyama</string>
+    <string name="diy">DIY</string>
+    <string name="beauty">Uzuri</string>
+    <string name="art">Sanaa</string>
+    <string name="food">Chakula</string>
+    <string name="style">Mtindo</string>
+    <string name="decor">Mapambo</string>
+    <string name="politics">Siasa</string>
+    <string name="highlight">Kuonyesha</string>
+    <string name="profile_photo">Picha ya Wasifu</string>
+    <string name="upload_group_photo">Pakia picha ya kikundi</string>
+    <string name="upload">Pakia</string>
+    <string name="skip">Ruka</string>
+    <string name="cover_photo">Picha ya Jalada</string>
+    <string name="upload_group_cover">Pakia jalada la kikundi</string>
+    <string name="create_group">Unda Kikundi</string>
+    <string name="fill_details_to_continue">Jaza maelezo ili kuendelea</string>
+    <string name="watch_party">Tazama Sherehe</string>
+    <string name="web">Mtandao</string>
+    <string name="sign_up_to_continue">Jisajili ili kuendelea</string>
+    <string name="email">Barua pepe</string>
+    <string name="already_have_an_account_login">Je, tayari una akaunti? Ingia</string>
+    <string name="send_to">Tuma kwa</string>
+    <string name="add_to_reels">Ongeza kwa reels</string>
+    <string name="add_to_story">Ongeza kwenye hadithi</string>
+    <string name="add_to_post">Ongeza kwenye chapisho</string>
+    <string name="send_to_user">Tuma kwa mtumiaji</string>
+    <string name="send_to_group">Tuma kwa kikundi</string>
+    <string name="add_to_product">Ongeza kwa bidhaa</string>
+    <string name="edit_video">Hariri Video</string>
+    <string name="edit_image">Hariri Picha</string>
+    <string name="users">Watumiaji</string>
+    <string name="posts">Machapisho</string>
+    <string name="groups">Vikundi</string>
+    <string name="market">Soko</string>
+    <string name="nearby">Karibu</string>
+    <string name="load_more">Pakia Zaidi</string>
+    <string name="saved">Imehifadhiwa</string>
+    <string name="reels">Reels</string>
+    <string name="nothing_found">Hakuna Kilichopatikana</string>
+    <string name="calling" tools:ignore="TypographyEllipsis">Inapiga...</string>
+    <string name="new_account">Akaunti mpya</string>
+    <string name="name">Jina</string>
+    <string name="type_profile_details">Andika maelezo ya wasifu</string>
+    <string name="username">Jina la mtumiaji</string>
+    <string name="sign_up">Jisajili</string>
+    <string name="contact">Wasiliana</string>
+    <string name="meetings">Mikutano</string>
+    <string name="terms_amp_condtitions">Masharti</string>
+    <string name="change_theme">Badilisha Mandhari</string>
+    <string name="send_gif">Tuma GIF</string>
+    <string name="dim_mode">Hali ya Dim</string>
+
+</resources>
